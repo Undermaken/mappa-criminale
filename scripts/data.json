@@ -1,0 +1,2440 @@
+{
+    "Pizze a Taglio Criminali": [
+        {
+            "name": "Agostino",
+            "description": "Corso Trieste 66/70",
+            "position_link": "https://tinyurl.com/y452rvur",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.508648,
+                "lon": 41.919841
+            }
+        },
+        {
+            "name": "Pizza dal 1960",
+            "description": "Via Arezzo 23",
+            "position_link": "https://tinyurl.com/yxnyolts",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.518437,
+                "lon": 41.911117
+            }
+        },
+        {
+            "name": "Pizzeria Ternana",
+            "description": "Via Alessandria 170",
+            "position_link": "https://tinyurl.com/y28gcovy",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.504834,
+                "lon": 41.91325
+            }
+        },
+        {
+            "name": "Rosticceria Pizzeria Al Buchetto",
+            "description": "Via Salaria 240",
+            "position_link": "https://tinyurl.com/y23bkzy7",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.498241,
+                "lon": 41.919171
+            }
+        },
+        {
+            "name": "Da Giustina",
+            "description": "Viale della Primavera 221",
+            "position_link": "https://tinyurl.com/y62voo52",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.560921,
+                "lon": 41.881619
+            }
+        },
+        {
+            "name": "Pizza e Fichi",
+            "description": "Via Veroli 31",
+            "position_link": "https://tinyurl.com/y4alpxu4",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.559001,
+                "lon": 41.891677
+            }
+        },
+        {
+            "name": "Angelo Pizza",
+            "description": "Viale della Serenissima 14",
+            "position_link": "https://tinyurl.com/y5uqwh88",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.559245,
+                "lon": 41.895326
+            }
+        },
+        {
+            "name": "Non Ci Resta Che Pizza",
+            "description": "Via delle Meduse 160, Fiumicino",
+            "position_link": "https://tinyurl.com/yxqu2aj7",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.230732,
+                "lon": 41.765423
+            }
+        },
+        {
+            "name": "Pizza al Porto",
+            "description": "Via della Torre Clementina 242",
+            "position_link": "https://tinyurl.com/y6j8b2xg",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.224559,
+                "lon": 41.771478
+            }
+        },
+        {
+            "name": "Sancho Dal 1969",
+            "description": "Via della Torre Clementina 142",
+            "position_link": "https://tinyurl.com/y2pxygrn",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.22911,
+                "lon": 41.77136
+            }
+        },
+        {
+            "name": "Il Ternano",
+            "description": "Via di Valle Melaina 137",
+            "position_link": "https://tinyurl.com/yxdrjc9e",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.526072,
+                "lon": 41.949898
+            }
+        },
+        {
+            "name": "Pizza Rustica Girarrosto e...",
+            "description": "Via di Valle Melaina 18",
+            "position_link": "https://tinyurl.com/y6ham7ma",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.525741,
+                "lon": 41.946991
+            }
+        },
+        {
+            "name": "Il Muretto",
+            "description": "Via Monte Canda 2",
+            "position_link": "https://tinyurl.com/yyrwovzp",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.533879,
+                "lon": 41.948068
+            }
+        },
+        {
+            "name": "Mattarello d'Oro",
+            "description": "Via della Bufalotta 292",
+            "position_link": "https://tinyurl.com/y465734y",
+            "evaluation": 8.25,
+            "coordinates": {
+                "lat": 12.543332,
+                "lon": 41.952221
+            }
+        },
+        {
+            "name": "Il Cacciatore",
+            "description": "Via Conca d'Oro 340",
+            "position_link": "https://tinyurl.com/y4l5bspx",
+            "evaluation": 4.5,
+            "coordinates": {
+                "lat": 12.517785,
+                "lon": 41.944706
+            }
+        },
+        {
+            "name": "I Gemelli",
+            "description": "Largo Beato Placido Riccardi 4",
+            "position_link": "https://tinyurl.com/y37sfwkl",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.476744,
+                "lon": 41.855565
+            }
+        },
+        {
+            "name": "Strapizzami",
+            "description": "Via Gaspare Gozzi 19",
+            "position_link": "https://tinyurl.com/y2gs8bdg",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.478794,
+                "lon": 41.856144
+            }
+        },
+        {
+            "name": "Quattro Stagioni",
+            "description": "Via Giuseppe Bagnera 65",
+            "position_link": "https://tinyurl.com/y25ne7et",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.4669,
+                "lon": 41.863561
+            }
+        },
+        {
+            "name": "Mondo Pizza",
+            "description": "Via Francesco Grimaldi 129/131",
+            "position_link": "https://tinyurl.com/y2msa8f9",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.466218,
+                "lon": 41.865008
+            }
+        },
+        {
+            "name": "Imperatori dal 1972",
+            "description": "Via Gerolamo Cardano 66",
+            "position_link": "https://tinyurl.com/y23wrr4v",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.467427,
+                "lon": 41.863304
+            }
+        },
+        {
+            "name": "Pizza Fantasy",
+            "description": "Via Enrico Fermi 42",
+            "position_link": "https://tinyurl.com/y6gbrrx7",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.470752,
+                "lon": 41.864222
+            }
+        },
+        {
+            "name": "Disneypizza",
+            "description": "Circovallazione Gianicolense 141/C",
+            "position_link": "https://tinyurl.com/y3ofmfye",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.447973,
+                "lon": 41.873359
+            }
+        },
+        {
+            "name": "Pizza Barrilli",
+            "description": "Via Anton Giulio Barrilli 50/L",
+            "position_link": "https://tinyurl.com/y2cy392y",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.46083,
+                "lon": 41.880299
+            }
+        },
+        {
+            "name": "Pizzeria da Simone",
+            "description": "Via Giacinto Carini 48",
+            "position_link": "https://tinyurl.com/y3ltqbjh",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.460765,
+                "lon": 41.884861
+            }
+        },
+        {
+            "name": "Pizzeria Eligio Fattori",
+            "description": "Viale di Villa Pamphili 46A",
+            "position_link": "https://tinyurl.com/y5e6qyrf",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.456646,
+                "lon": 41.882657
+            }
+        },
+        {
+            "name": "Squisipizza",
+            "description": "Via del Torraccio di Torrenova 225",
+            "position_link": "https://tinyurl.com/y5fg7kyu",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.619338,
+                "lon": 41.873392
+            }
+        },
+        {
+            "name": "Io e Valter",
+            "description": "Via Michele Buonori 19, Centro Commerciale Le Torri",
+            "position_link": "https://tinyurl.com/y6dbqsfr",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 12.631433,
+                "lon": 41.867824
+            }
+        },
+        {
+            "name": "Pizzeria al 136",
+            "description": "Via Paolo Ferdinando Quaglia 136",
+            "position_link": "https://tinyurl.com/y4jb7ouv",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.641835,
+                "lon": 41.868628
+            }
+        },
+        {
+            "name": "Pizza Grand Gourmet",
+            "description": "Circonvallazione Clodia 165/B",
+            "position_link": "https://tinyurl.com/y4yb2xpj",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.457496,
+                "lon": 41.920888
+            }
+        },
+        {
+            "name": "Popeye Pizza",
+            "description": "Via della Giuliana 53/55",
+            "position_link": "https://tinyurl.com/y4bkjej7",
+            "evaluation": 5.25,
+            "coordinates": {
+                "lat": 12.454164,
+                "lon": 41.912677
+            }
+        },
+        {
+            "name": "Eroi Della Pizza",
+            "description": "Piazzale degli Eroi 4",
+            "position_link": "https://tinyurl.com/y5vpquub",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.449339,
+                "lon": 41.908855
+            }
+        },
+        {
+            "name": "Mamma Pizza",
+            "description": "Viale Palmiro Togliatti 1489A",
+            "position_link": "https://tinyurl.com/y57pj9n6",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.570764,
+                "lon": 41.912559
+            }
+        },
+        {
+            "name": "Tiella",
+            "description": "Via Vito Giuseppe Galati 52",
+            "position_link": "https://tinyurl.com/y5pzmjra",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.569008,
+                "lon": 41.910768
+            }
+        },
+        {
+            "name": "Pezzo",
+            "description": "Via Collatina 84A",
+            "position_link": "https://tinyurl.com/y4tdmonb",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.563797,
+                "lon": 41.898648
+            }
+        },
+        {
+            "name": "Forno De Carolis",
+            "description": "Via del Trullo 280",
+            "position_link": "https://tinyurl.com/y4pwgv3f",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.436136,
+                "lon": 41.844306
+            }
+        },
+        {
+            "name": "Pizzeria Rosticceria Da Checco",
+            "description": "Via Monte delle Capre 10",
+            "position_link": "https://tinyurl.com/yxu7ndlw",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.435493,
+                "lon": 41.844747
+            }
+        },
+        {
+            "name": "Pizza Rustica di Giovanni Filomena",
+            "description": "Via Giovanni Porzio 66",
+            "position_link": "https://tinyurl.com/y6rnocx2",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.441762,
+                "lon": 41.843533
+            }
+        },
+        {
+            "name": "Colle del Sole Pizza Rustica",
+            "description": "Via Fulda 47",
+            "position_link": "https://tinyurl.com/yy97r7pz",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.430864,
+                "lon": 41.836667
+            }
+        },
+        {
+            "name": "Da Gianni al Mattone",
+            "description": "Via dei Monti di Primavalle 169",
+            "position_link": "https://tinyurl.com/y5mzll9u",
+            "evaluation": 10.0,
+            "coordinates": {
+                "lat": 12.413756,
+                "lon": 41.908564
+            }
+        },
+        {
+            "name": "Pizzeria da Pasquale",
+            "description": "Largo Pier Francesco Scarampi 8",
+            "position_link": "https://tinyurl.com/y6ke7tnr",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.42385,
+                "lon": 41.904732
+            }
+        },
+        {
+            "name": "Pizza Art",
+            "description": "Via dei Monti di Creta 9",
+            "position_link": "https://tinyurl.com/y37wxn4p",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.427372,
+                "lon": 41.901622
+            }
+        },
+        {
+            "name": "Pizzeria da Simone Malatesta",
+            "description": "Via Roberto Malatesta 2",
+            "position_link": "https://tinyurl.com/y574cxjf",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.53544,
+                "lon": 41.887378
+            }
+        },
+        {
+            "name": "La Teglia",
+            "description": "Via Gabrino Fondulo 119",
+            "position_link": "https://tinyurl.com/y44wa8dn",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.54011,
+                "lon": 41.886588
+            }
+        },
+        {
+            "name": "Pizzeria Daniela al Pigneto",
+            "description": "Via del Pigneto 171",
+            "position_link": "https://tinyurl.com/y4nrpmoy",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.529158,
+                "lon": 41.888426
+            }
+        },
+        {
+            "name": "Alberto dal 1968",
+            "description": "Circonvallazione Ostiense 225",
+            "position_link": "https://tinyurl.com/y6tsfkcg",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.490768,
+                "lon": 41.867445
+            }
+        },
+        {
+            "name": "Pizza Luigi",
+            "description": "Via Federico Nansen 6",
+            "position_link": "https://tinyurl.com/yy6d3bhb",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.481845,
+                "lon": 41.870965
+            }
+        },
+        {
+            "name": "Stellina Garbatella",
+            "description": "Piazza Augusto Albini 35/36",
+            "position_link": "https://tinyurl.com/y5nj8do2",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.483949,
+                "lon": 41.864406
+            }
+        },
+        {
+            "name": "Bottega Popolare",
+            "description": "Via di San Nicola de' Cesarini 5",
+            "position_link": "https://tinyurl.com/y4fs96lb",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.477389,
+                "lon": 41.895552
+            }
+        },
+        {
+            "name": "Bona - Pizza romana in teglia",
+            "description": "Corso Vittorio Emanuele II 8",
+            "position_link": "https://tinyurl.com/y6fxkh3y",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.478612,
+                "lon": 41.895844
+            }
+        },
+        {
+            "name": "Pizzeria Minerva",
+            "description": "Via della Minerva 4",
+            "position_link": "https://tinyurl.com/y2rrpx58",
+            "evaluation": 0.0,
+            "coordinates": {
+                "lat": 12.477364,
+                "lon": 41.898721
+            }
+        },
+        {
+            "name": "King's Sandwich",
+            "description": "Via di Torre Argentina 82",
+            "position_link": "https://tinyurl.com/y5ygm6ue",
+            "evaluation": 1.0,
+            "coordinates": {
+                "lat": 12.47635,
+                "lon": 41.897516
+            }
+        },
+        {
+            "name": "Pizza Florida",
+            "description": "Via Florida 25",
+            "position_link": "https://tinyurl.com/y5dgqyyx",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.476738,
+                "lon": 41.894775
+            }
+        },
+        {
+            "name": "Pizzeria da Santino",
+            "description": "Via Teodoro Mommsen 25",
+            "position_link": "https://tinyurl.com/y4tq6jmk",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.5271472,
+                "lon": 41.867603
+            }
+        },
+        {
+            "name": "Voglia di Pizza da Baffo Roma",
+            "description": "Via Mario Menghini 7",
+            "position_link": "https://tinyurl.com/y2npgmy5",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.5285683,
+                "lon": 41.869565
+            }
+        },
+        {
+            "name": "PizzaD\u00ec Roma",
+            "description": "Largo dei Colli Albani 21",
+            "position_link": "https://tinyurl.com/yxr6yfyc",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.5297655,
+                "lon": 41.8698163
+            }
+        },
+        {
+            "name": "Pizzeria Da Rufino",
+            "description": "Via Muzio Scevola 13",
+            "position_link": "https://tinyurl.com/y27fub5o",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.528842,
+                "lon": 41.8730142
+            }
+        },
+        {
+            "name": "Pizzeria Gabry di Mirasoli Remo Roma",
+            "description": "Via Santa Maria Ausiliatrice 13",
+            "position_link": "https://tinyurl.com/y62nyaxk",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.5293323,
+                "lon": 41.873668
+            }
+        },
+        {
+            "name": "Luciani Gabriele",
+            "description": "Via Lucio Mummio 9",
+            "position_link": "https://tinyurl.com/y6j5oa7n",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.563558,
+                "lon": 41.8620016
+            }
+        },
+        {
+            "name": "Alasia Pizzeria",
+            "description": "Via Tarquinio Collatino 193",
+            "position_link": "https://tinyurl.com/y5s5gmxz",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.5656628,
+                "lon": 41.8610107
+            }
+        },
+        {
+            "name": "Pizza a Domicilio | A Casa Mia",
+            "description": "Viale Marco Fulvio Nobiliore 15",
+            "position_link": "https://tinyurl.com/y6tf8oyb",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.5627822,
+                "lon": 41.8570988
+            }
+        },
+        {
+            "name": "La Bottega del Pizzolaio - Tuscolana",
+            "description": "Via Sestio Calvino 70/72",
+            "position_link": "https://tinyurl.com/y5fo7wrg",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.5647148,
+                "lon": 41.8534075
+            }
+        },
+        {
+            "name": "Pizzeria Pino E Nando",
+            "description": "Via Gasperina 176",
+            "position_link": "https://tinyurl.com/y4vjbvr3",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.5994207,
+                "lon": 41.8323505
+            }
+        },
+        {
+            "name": "Ippo Pizza",
+            "description": "Viale di Tor di Quinto 17",
+            "position_link": "https://tinyurl.com/y38tamz4",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.4672497,
+                "lon": 41.9372052
+            }
+        },
+        {
+            "name": "SEMENTI LA PIZZA",
+            "description": "Piazzale di Ponte Milvio 18",
+            "position_link": "https://tinyurl.com/y2pmctaq",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.4656372,
+                "lon": 41.9375679
+            }
+        },
+        {
+            "name": "Pizzeria il derby",
+            "description": "Piazza Antonio Mancini 1",
+            "position_link": "https://tinyurl.com/y3smoblh",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4653435,
+                "lon": 41.9309296
+            }
+        },
+        {
+            "name": "Pizza Rustica",
+            "description": "Via Flaminia 24",
+            "position_link": "https://tinyurl.com/yy6qjv74",
+            "evaluation": 8.25,
+            "coordinates": {
+                "lat": 12.475735,
+                "lon": 41.9125825
+            }
+        },
+        {
+            "name": "Pizza Art",
+            "description": "Piazza Giovenale 9",
+            "position_link": "https://tinyurl.com/y38ym3h8",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.4415085,
+                "lon": 41.9134236
+            }
+        },
+        {
+            "name": "Mister Teglia Balduina",
+            "description": "Piazza Carlo Mazzaresi 14/16",
+            "position_link": "https://tinyurl.com/y59pthds",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.441579,
+                "lon": 41.920228
+            }
+        },
+        {
+            "name": "Da Tullio Pizza",
+            "description": "Via della Balduina 211",
+            "position_link": "https://tinyurl.com/yysk2uhs",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.4384545,
+                "lon": 41.9227467
+            }
+        },
+        {
+            "name": "La Pizza Di Angelino",
+            "description": "Via Trionfale 7190",
+            "position_link": "https://tinyurl.com/y32292ko",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.4376293,
+                "lon": 41.9358505
+            }
+        },
+        {
+            "name": "Arte Bianca di Gabriele",
+            "description": "Via Sangemini 7 B/C",
+            "position_link": "https://tinyurl.com/y4egs8k4",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4379226,
+                "lon": 41.9369444
+            }
+        },
+        {
+            "name": "Sale e Ojo",
+            "description": "Via Cutigliano 69",
+            "position_link": "https://tinyurl.com/2hnor8rw",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.4610768,
+                "lon": 41.8487167
+            }
+        },
+        {
+            "name": "W300",
+            "description": "Piazza Piero Puricelli 25",
+            "position_link": "https://tinyurl.com/2m2q744t",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.4565815,
+                "lon": 41.8598207
+            }
+        },
+        {
+            "name": "Pizzeria R. Giusi",
+            "description": "Via Taurianova 65",
+            "position_link": "https://tinyurl.com/2y3xr48j",
+            "evaluation": 4.5,
+            "coordinates": {
+                "lat": 12.5581196,
+                "lon": 41.8345845
+            }
+        },
+        {
+            "name": "Pizza Gege' Appia",
+            "description": "Via Acerenza 4t",
+            "position_link": "https://tinyurl.com/22kk5h4q",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.5519645,
+                "lon": 41.8398438
+            }
+        },
+        {
+            "name": "Mercato Spinaceto",
+            "description": "Box n. 41; Viale dei Caduti per la Resistenza, 609",
+            "position_link": "https://tinyurl.com/253v9sg2",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.4419187,
+                "lon": 41.7829609
+            }
+        },
+        {
+            "name": "Pizza Gege' Eur",
+            "description": "Pizza Gege' Eur; Viale dell'Aeronautica 125",
+            "position_link": "https://tinyurl.com/27ar9g9g",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.4780023,
+                "lon": 41.8264197
+            }
+        },
+        {
+            "name": "Lievito",
+            "description": "Lievito; Viale Europa 339",
+            "position_link": "https://tinyurl.com/2ase8tpc",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4737904,
+                "lon": 41.8298237
+            }
+        },
+        {
+            "name": "Chicco di Grano",
+            "description": "Viale Ratto delle Sabine 67;",
+            "position_link": "https://tinyurl.com/2yy4zney",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.6002971,
+                "lon": 41.943851
+            }
+        },
+        {
+            "name": "Il Sagittario",
+            "description": "Viale Ratto delle Sabine 15;",
+            "position_link": "https://tinyurl.com/2ahv5fhv",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.6007464,
+                "lon": 41.9453816
+            }
+        },
+        {
+            "name": "L' Arte della Pizza",
+            "description": "Via Troilo il Grande 70;",
+            "position_link": "https://tinyurl.com/265tpk8y",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.6008039,
+                "lon": 41.9476369
+            }
+        },
+        {
+            "name": "Pizzeria Grano13 Roma",
+            "description": "Viale Vasco de Gama 11/13;",
+            "position_link": "https://tinyurl.com/2yhv9gg4",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.2784596,
+                "lon": 41.7331646
+            }
+        },
+        {
+            "name": "Pizza A Doc Number 2 Lido Di Ostia",
+            "description": "Via delle Triremi 49;",
+            "position_link": "https://tinyurl.com/2cpb9zzy",
+            "evaluation": 4.0,
+            "coordinates": {
+                "lat": 12.2651331,
+                "lon": 41.735655
+            }
+        },
+        {
+            "name": "Pizza in Piazza",
+            "description": "P.za Quarto dei Mille 7;",
+            "position_link": "https://tinyurl.com/2yoql3mt",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.2740462,
+                "lon": 41.7320612
+            }
+        },
+        {
+            "name": "Il Tempio",
+            "description": "P.le della Stazione del Lido 10;",
+            "position_link": "https://tinyurl.com/23sycgs6",
+            "evaluation": 8.25,
+            "coordinates": {
+                "lat": 12.283836,
+                "lon": 41.7321728
+            }
+        },
+        {
+            "name": "L'Ora Della Pizza",
+            "description": "Via Libero Leonardi;",
+            "position_link": "https://link.mappytube.com/KgiZIH",
+            "evaluation": 3.5,
+            "coordinates": {
+                "lat": 12.5917831,
+                "lon": 41.848957
+            }
+        },
+        {
+            "name": "Pizza Fantasy: pizzeria al taglio in teglia e pizze tonde, da asporto e domicilio",
+            "description": "Viale Antonio Ciamarra 49;",
+            "position_link": "https://link.mappytube.com/gTjblO",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.5907304,
+                "lon": 41.8486152
+            }
+        },
+        {
+            "name": "Ponte Pizza Roma",
+            "description": "Viale Antonio Ciamarra 183;",
+            "position_link": "https://link.mappytube.com/hSYq4l",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.5897328,
+                "lon": 41.8530796
+            }
+        },
+        {
+            "name": "Pizza E Tradizione",
+            "description": "Via Pietro Gasparri 90/a;",
+            "position_link": "https://link.mappytube.com/Y9Z7AC",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.414279,
+                "lon": 41.9242334
+            }
+        },
+        {
+            "name": "Da Egidio 1970 | Pizza Rustica a Primavalle",
+            "description": "Via Pasquale II 47;",
+            "position_link": "https://link.mappytube.com/osgA3B",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.412641,
+                "lon": 41.9134711
+            }
+        },
+        {
+            "name": "Fantasy Pizza",
+            "description": "Via Giovanni Boldini 9",
+            "position_link": "https://link.mappytube.com/0Xdub8",
+            "evaluation": 4.75,
+            "coordinates": {
+                "lat": 12.3646216,
+                "lon": 41.782544
+            }
+        },
+        {
+            "name": "Pizza120 by Paganelli Alvaro",
+            "description": "Via di Acilia 120",
+            "position_link": "https://link.mappytube.com/C24sZU",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.3669147,
+                "lon": 41.7802544
+            }
+        },
+        {
+            "name": "Voglia di pizza",
+            "description": "Via Amedeo Bocchi 332",
+            "position_link": "https://link.mappytube.com/fYauox",
+            "evaluation": 8.25,
+            "coordinates": {
+                "lat": 12.3493175,
+                "lon": 41.7782444
+            }
+        }
+    ],
+    "Fritti Criminali": [
+        {
+            "name": "Venanzio Suppl\u00ec Roma",
+            "description": "Via di San Francesco a Rip",
+            "position_link": "https://tinyurl.com/yxkhku7x",
+            "evaluation": null,
+            "coordinates": {
+                "lat": 12.471738,
+                "lon": 41.887157
+            }
+        },
+        {
+            "name": "La Casa del Suppl\u00ec - Re di Roma Pizza",
+            "description": "Piazza dei Re di Roma 2",
+            "position_link": "https://tinyurl.com/y2zrmhgo",
+            "evaluation": null,
+            "coordinates": {
+                "lat": 12.51333,
+                "lon": 41.881439
+            }
+        },
+        {
+            "name": "Panzerotti & Friends",
+            "description": "Via Appia Nuova 559/D",
+            "position_link": "https://tinyurl.com/y4b4m7om",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.528819,
+                "lon": 41.870239
+            }
+        },
+        {
+            "name": "Bonci Pizzarium",
+            "description": "Via della Meloria 43",
+            "position_link": "https://tinyurl.com/y5e5xn2d",
+            "evaluation": 9.5,
+            "coordinates": {
+                "lat": 12.446686,
+                "lon": 41.906703
+            }
+        },
+        {
+            "name": "I Gemelli della Pinsa",
+            "description": "Piazza Vincenzo Mangano 4/5",
+            "position_link": "https://tinyurl.com/yy3d2cwv",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.566362,
+                "lon": 41.900548
+            }
+        },
+        {
+            "name": "Dar Filettaro a Santa Barbara",
+            "description": "Largo dei Librari 88",
+            "position_link": "https://tinyurl.com/yxq3hw6a",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.473686,
+                "lon": 41.89469
+            }
+        },
+        {
+            "name": "Supplizio",
+            "description": "Via dei Banchi Vecchi 143",
+            "position_link": "https://tinyurl.com/2cd268sp",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.467911,
+                "lon": 41.897487
+            }
+        },
+        {
+            "name": "Alari Roma",
+            "description": "Via Portuense, 106/D",
+            "position_link": "https://tinyurl.com/28z5mej8",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4671375,
+                "lon": 41.8757001
+            }
+        },
+        {
+            "name": "Trapizzino | Testaccio",
+            "description": "Via Giovanni Branca, 88 (catena)",
+            "position_link": "https://tinyurl.com/2789wcyp",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4736352,
+                "lon": 41.8796102
+            }
+        },
+        {
+            "name": "I Fritti De Sora Milvia",
+            "description": "Via Cassia 4",
+            "position_link": "https://tinyurl.com/26vgdhbx",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.4660435,
+                "lon": 41.9379701
+            }
+        },
+        {
+            "name": "L\u2019asporto di 180grammi",
+            "description": "Via Tor de' Schiavi 53",
+            "position_link": "https://tinyurl.com/25ngjucl",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.5639523,
+                "lon": 41.87798
+            }
+        },
+        {
+            "name": "Sbanco",
+            "description": "Via Siria 1",
+            "position_link": "https://tinyurl.com/29bhp4fd",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 12.510995,
+                "lon": 41.875468
+            }
+        }
+    ],
+    "Tramezzini Criminali": [
+        {
+            "name": "Il Re del Tramezzino",
+            "description": "Via Mecenate 18/a",
+            "position_link": "https://tinyurl.com/y64o3g72",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.498759,
+                "lon": 41.891406
+            }
+        },
+        {
+            "name": "La Fonte del Tramezzino",
+            "description": "Via Cesare Baronio 71/73",
+            "position_link": "https://tinyurl.com/y5xx5kjd",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.521059,
+                "lon": 41.873166
+            }
+        },
+        {
+            "name": "Pasticceria Linari",
+            "description": "Via Nicola Zabaglia 9",
+            "position_link": "https://tinyurl.com/y5voyj59",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.47482,
+                "lon": 41.879318
+            }
+        },
+        {
+            "name": "Coffee House - Maurizio Lausi",
+            "description": "Via Marmorata 59",
+            "position_link": "https://tinyurl.com/y24fpxwg",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.478458,
+                "lon": 41.87935
+            }
+        },
+        {
+            "name": "Pasticceria Barberini",
+            "description": "Via Marmorata 41",
+            "position_link": "https://tinyurl.com/y3l6qnno",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.478733,
+                "lon": 41.878979
+            }
+        },
+        {
+            "name": "Pasticceria Caffetteria Luperini Rosena",
+            "description": "Via Val d'Ossola 54",
+            "position_link": "https://tinyurl.com/yxrkyvfx",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.52905,
+                "lon": 41.935297
+            }
+        },
+        {
+            "name": "Corsetti",
+            "description": "Piazza Roberto Malatesta 21",
+            "position_link": "https://tinyurl.com/y25byo4f",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 12.540337,
+                "lon": 41.886912
+            }
+        },
+        {
+            "name": "La Casina del Caff\u00e8 - Mercato Trionfale",
+            "description": "Via Andrea Doria",
+            "position_link": "https://tinyurl.com/y6dv8prg",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.45261,
+                "lon": 41.909596
+            }
+        },
+        {
+            "name": "Conca D'oro Roma",
+            "description": "Viale America 25/27/29",
+            "position_link": "https://tinyurl.com/y6bt7rvf",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.4623662,
+                "lon": 41.8315255
+            }
+        },
+        {
+            "name": "Bar Tomassini",
+            "description": "Via Leonardo Umile 88",
+            "position_link": "https://tinyurl.com/y4qejou9",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4446224,
+                "lon": 41.8078781
+            }
+        },
+        {
+            "name": "Vigna Stelluti Pasticceria Bar",
+            "description": "Largo di Vigna Stelluti 4",
+            "position_link": "https://tinyurl.com/y52srfzv",
+            "evaluation": 1.0,
+            "coordinates": {
+                "lat": 12.4665605,
+                "lon": 41.9473437
+            }
+        },
+        {
+            "name": "Cafeteria Spinelli",
+            "description": "Viale Pinturicchio 180",
+            "position_link": "https://tinyurl.com/y6s5r5qt",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.4627483,
+                "lon": 41.9288503
+            }
+        },
+        {
+            "name": "Caffe' Stella Ruschena",
+            "description": "Via Cesare Fracassini 2",
+            "position_link": "https://tinyurl.com/y2awm3k5",
+            "evaluation": 0.0,
+            "coordinates": {
+                "lat": 12.4707101,
+                "lon": 41.9238797
+            }
+        },
+        {
+            "name": "Caff\u00e8 del Parco",
+            "description": "Via Tino Buazzelli 3;",
+            "position_link": "https://link.mappytube.com/obhrg0",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.5687996,
+                "lon": 41.94406
+            }
+        },
+        {
+            "name": "Dani Bar",
+            "description": "Via Pollenza 10;",
+            "position_link": "https://link.mappytube.com/0fn8ay",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.57541,
+                "lon": 41.9412355
+            }
+        }
+    ],
+    "Maritozzi Criminali": [
+        {
+            "name": "Il Maritozzaro",
+            "description": "Via Ettore Rolli 50",
+            "position_link": "https://tinyurl.com/y542znax",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.467288,
+                "lon": 41.873207
+            }
+        },
+        {
+            "name": "Cristalli di Zucchero",
+            "description": "Via di Val Tellina 114",
+            "position_link": "https://tinyurl.com/y4ebpkaa",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.446694,
+                "lon": 41.869324
+            }
+        },
+        {
+            "name": "Pasticceria Bar Romoli",
+            "description": "Viale Eritrea 142",
+            "position_link": "https://tinyurl.com/yxjf8qxq",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.516196,
+                "lon": 41.928485
+            }
+        },
+        {
+            "name": "Regoli Pasticceria",
+            "description": "Via dello Statuto 60",
+            "position_link": "https://tinyurl.com/y53lds7h",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 12.500949,
+                "lon": 41.894817
+            }
+        },
+        {
+            "name": "Panificio Bonci Roma",
+            "description": "Via Trionfale 36",
+            "position_link": "https://tinyurl.com/y6yhx3le",
+            "evaluation": 9.5,
+            "coordinates": {
+                "lat": 12.453661,
+                "lon": 41.911562
+            }
+        },
+        {
+            "name": "Monte Gennaro Caff\u00e8",
+            "description": "Piazza Monte Gennaro 30\n",
+            "position_link": "https://tinyurl.com/y36dkmff",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.538253,
+                "lon": 41.9454934
+            }
+        },
+        {
+            "name": "Lo Zio d'America",
+            "description": "Via Ugo Ojetti 2/6A",
+            "position_link": "https://tinyurl.com/y4b4zz34",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.5480626,
+                "lon": 41.9436545
+            }
+        },
+        {
+            "name": "Lo Spuntino Ristobar",
+            "description": "Via Cassia 927 G",
+            "position_link": "https://tinyurl.com/y5e4uxds",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.4332929,
+                "lon": 41.9714562
+            }
+        },
+        {
+            "name": "Wine Bar De' Penitenzieri",
+            "description": "Via dei Penitenzieri, 16/16A/16B/17",
+            "position_link": "https://tinyurl.com/y3n4bsdc",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4608059,
+                "lon": 41.9012103
+            }
+        },
+        {
+            "name": "L'angolo del Tramezzino",
+            "description": "Via Livorno 89/c",
+            "position_link": "https://tinyurl.com/y3s942a6",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.5257832,
+                "lon": 41.9166486
+            }
+        }
+    ],
+    "Forni Criminali": [
+        {
+            "name": "L'Antica Panetteria",
+            "description": "Via di Villa Chigi 56",
+            "position_link": "https://tinyurl.com/y5qqbq9n",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.514358,
+                "lon": 41.934888
+            }
+        },
+        {
+            "name": "Specialit\u00e0 Del Forno E Della Tavola",
+            "description": "Via Stimigliano 8",
+            "position_link": "https://tinyurl.com/y2eb4jnl",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.512064,
+                "lon": 41.934473
+            }
+        },
+        {
+            "name": "Il Gusto del Pane",
+            "description": "Viale Eritrea 55",
+            "position_link": "https://tinyurl.com/y57utbwc",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.515631,
+                "lon": 41.926408
+            }
+        },
+        {
+            "name": "Pane e Pazienza",
+            "description": "Via Portuense 429A/B",
+            "position_link": "https://tinyurl.com/yxc27k7e",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.453955,
+                "lon": 41.862713
+            }
+        },
+        {
+            "name": "Albanesi",
+            "description": "Via Gerolamo Cardano 9",
+            "position_link": "https://tinyurl.com/yxuunyhp",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 12.46868,
+                "lon": 41.863412
+            }
+        },
+        {
+            "name": "Vapoforno Frillocchi",
+            "description": "Via Giuseppe Arimondi 36/40",
+            "position_link": "https://tinyurl.com/y56hu37q",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.538503,
+                "lon": 41.896784
+            }
+        },
+        {
+            "name": "Lo Sfizio",
+            "description": "Viale Telese 34",
+            "position_link": "https://tinyurl.com/y44csb2y",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.547642,
+                "lon": 41.892202
+            }
+        },
+        {
+            "name": "Il Fornaio Di Tor Tre Teste",
+            "description": "Via Prenestina 684/a",
+            "position_link": "https://tinyurl.com/y6c44mxe",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.585779,
+                "lon": 41.893594
+            }
+        },
+        {
+            "name": "Farinando Roma",
+            "description": "Via Luca della Robbia 30-34",
+            "position_link": "https://tinyurl.com/y3jqrew5",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.477851,
+                "lon": 41.878937
+            }
+        },
+        {
+            "name": "Forno Magic Roma",
+            "description": "Via Giovanni Battista Bodoni 31",
+            "position_link": "https://tinyurl.com/y39hay5h",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 12.476163,
+                "lon": 41.87966
+            }
+        },
+        {
+            "name": "Panificio Passi",
+            "description": "Via Mastro Giorgio 87",
+            "position_link": "https://tinyurl.com/y5drdzhy",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.476273,
+                "lon": 41.880252
+            }
+        },
+        {
+            "name": "Forno Dolce Forno Roma",
+            "description": "Piazza Bologna 15",
+            "position_link": "https://tinyurl.com/yxgprwyp",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.520535,
+                "lon": 41.912762
+            }
+        },
+        {
+            "name": "Forno Lucarelli Roma",
+            "description": "Via Stamira 37",
+            "position_link": "https://tinyurl.com/yxbl2p4v",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.523284,
+                "lon": 41.912864
+            }
+        },
+        {
+            "name": "Panis 1890",
+            "description": "Via Tagliamento 62",
+            "position_link": "https://tinyurl.com/yygcxkpk",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.504541,
+                "lon": 41.921022
+            }
+        },
+        {
+            "name": "Bakery M",
+            "description": "Viale Libia 207",
+            "position_link": "https://tinyurl.com/y5tykp68",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.519835,
+                "lon": 41.932509
+            }
+        },
+        {
+            "name": "Grezzo",
+            "description": "Via Taurasia 15",
+            "position_link": "https://tinyurl.com/yxo9dsc8",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.502664,
+                "lon": 41.879963
+            }
+        },
+        {
+            "name": "I Vecchi Sapori",
+            "description": "Via Gallia 18 / 20",
+            "position_link": "https://tinyurl.com/y345fd7f",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.501334,
+                "lon": 41.881471
+            }
+        },
+        {
+            "name": "Forno Di Giannantonio",
+            "description": "Via Ceneda 23",
+            "position_link": "https://tinyurl.com/y4wyb6ua",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.512062,
+                "lon": 41.88024
+            }
+        },
+        {
+            "name": "Dolce e Salato",
+            "description": "Via Veglia 12",
+            "position_link": "https://tinyurl.com/yy99jjhk",
+            "evaluation": 8.25,
+            "coordinates": {
+                "lat": 12.528561,
+                "lon": 41.945058
+            }
+        },
+        {
+            "name": "Forno Quattro Venti",
+            "description": "Viale dei Quattro Venti 23",
+            "position_link": "https://tinyurl.com/2eyscbk8",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4587958,
+                "lon": 41.8838304
+            }
+        },
+        {
+            "name": "Panificio Beti",
+            "description": "Via del Vascello 46",
+            "position_link": "https://tinyurl.com/2kjuf4zk",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.4598389,
+                "lon": 41.8844583
+            }
+        },
+        {
+            "name": "Cose Buone dal Forno - Trevisiol",
+            "description": "Via di Val Tellina 66",
+            "position_link": "https://tinyurl.com/2zmfn7ds",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4479212,
+                "lon": 41.867616
+            }
+        },
+        {
+            "name": "Compagnia del Pane Roma",
+            "description": "Viale dei Colli Portuensi 515",
+            "position_link": "https://tinyurl.com/2qtdjux9",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4436111,
+                "lon": 41.8616667
+            }
+        },
+        {
+            "name": "Nonno Lino",
+            "description": "Via della Magliana 213",
+            "position_link": "https://tinyurl.com/2gat37q3",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.4587013,
+                "lon": 41.8491451
+            }
+        },
+        {
+            "name": "Panificio Mare'",
+            "description": "Via Anna Maria Taigi 6;",
+            "position_link": "https://tinyurl.com/2b4yw4bv",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4920563,
+                "lon": 41.85866
+            }
+        },
+        {
+            "name": "La Fornarina",
+            "description": "Piazza Oderico da Pordenone 4;",
+            "position_link": "https://tinyurl.com/25k9ldec",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4939789,
+                "lon": 41.860391
+            }
+        },
+        {
+            "name": "Pane Garbato",
+            "description": "Circonvallazione Ostiense 158;",
+            "position_link": "https://tinyurl.com/2ysracoo",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.4867886,
+                "lon": 41.8670368
+            }
+        },
+        {
+            "name": "Mancini il Forno (Via Niccodemi Talenti)",
+            "description": "Via Dario Niccodemi 12-14-16;",
+            "position_link": "https://tinyurl.com/258y6br4",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.5476723,
+                "lon": 41.9520542
+            }
+        },
+        {
+            "name": "Faripan Srl",
+            "description": "Via Annunzio Cervi 12;",
+            "position_link": "https://tinyurl.com/23y56oxn",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.5466954,
+                "lon": 41.9517517
+            }
+        },
+        {
+            "name": "Forno Malatesta",
+            "description": "Via Roberto Malatesta 316;",
+            "position_link": "https://tinyurl.com/2cwrsesh",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.5418553,
+                "lon": 41.8870909
+            }
+        },
+        {
+            "name": "Bakery M Caff\u00e8",
+            "description": "Via Casilina 358;",
+            "position_link": "https://tinyurl.com/27clbub2",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.5407131,
+                "lon": 41.8805617
+            }
+        },
+        {
+            "name": "Fatti di Farina Old Bakery Roma",
+            "description": "Via Galeazzo Alessi 245;",
+            "position_link": "https://tinyurl.com/2b43mvxn",
+            "evaluation": 9.5,
+            "coordinates": {
+                "lat": 12.5412985,
+                "lon": 41.8794132
+            }
+        },
+        {
+            "name": "Panificio Sara",
+            "description": "Via Aosta 35;",
+            "position_link": "https://link.mappytube.com/ZirGz5",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.5144141,
+                "lon": 41.8833403
+            }
+        },
+        {
+            "name": "Forno Ciabattini Roma",
+            "description": "Via di S. Croce in Gerusalemme 23;",
+            "position_link": "https://link.mappytube.com/x9RmHZ",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.5133208,
+                "lon": 41.8893479
+            }
+        },
+        {
+            "name": "Gran Forno Procaccini Roma",
+            "description": "Via Crema 13/15;",
+            "position_link": "https://link.mappytube.com/jK8DT8",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.5224583,
+                "lon": 41.8837126
+            }
+        },
+        {
+            "name": "Ambrosini Umberto",
+            "description": "Piazza Rosolino Pilo 12;",
+            "position_link": "https://link.mappytube.com/7PaQzi",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.460481,
+                "lon": 41.8815735
+            }
+        },
+        {
+            "name": "Prelibato",
+            "description": "Viale di Villa Pamphili 214;",
+            "position_link": "https://link.mappytube.com/by14xh",
+            "evaluation": 4.75,
+            "coordinates": {
+                "lat": 12.4579137,
+                "lon": 41.8774469
+            }
+        },
+        {
+            "name": "Euroforno",
+            "description": "Via Tarquinio Prisco 22;",
+            "position_link": "https://link.mappytube.com/CZhvmT",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.5245534,
+                "lon": 41.8768216
+            }
+        },
+        {
+            "name": "Pane ciociaro cotto a legna di Sanna Paolo",
+            "description": "Via Cesare Baronio 1;",
+            "position_link": "https://link.mappytube.com/xevKYn",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.5227778,
+                "lon": 41.8745828
+            }
+        },
+        {
+            "name": "Cuore di Grano",
+            "description": "Via Mario Menghini 68;",
+            "position_link": "https://link.mappytube.com/otYTSJ",
+            "evaluation": 10.0,
+            "coordinates": {
+                "lat": 12.527077,
+                "lon": 41.8685359
+            }
+        }
+    ],
+    "Kebab Criminali": [
+        {
+            "name": "Al Basha er Kebbabaro",
+            "description": "Via Val di Cogne 46/48",
+            "position_link": "https://tinyurl.com/y6tg3422",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.527703,
+                "lon": 41.939805
+            }
+        },
+        {
+            "name": "Istanbul kebab",
+            "description": "Via Nomentana 15",
+            "position_link": "https://tinyurl.com/y6kgx8ft",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.529945,
+                "lon": 41.933917
+            }
+        },
+        {
+            "name": "Fior di Pizza - Pizzeria Tavola Calda",
+            "description": "Corso Sempione 25/27",
+            "position_link": "https://tinyurl.com/y5eyfwz9",
+            "evaluation": 3.0,
+            "coordinates": {
+                "lat": 12.534821,
+                "lon": 41.935645
+            }
+        },
+        {
+            "name": "Al\u00ec Bab\u00e0 Roma",
+            "description": "Via Carroceto 96",
+            "position_link": "https://tinyurl.com/yybearuy",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.537304,
+                "lon": 41.867078
+            }
+        },
+        {
+            "name": "Pizzeria Kebab Roma",
+            "description": "Via Laurentina 595",
+            "position_link": "https://tinyurl.com/y69b64h9",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.479821,
+                "lon": 41.822649
+            }
+        },
+        {
+            "name": "Kebab",
+            "description": "Via Augusto Valenziani 14",
+            "position_link": "https://tinyurl.com/yxt2morm",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.499083,
+                "lon": 41.910126
+            }
+        },
+        {
+            "name": "Shawarma Station",
+            "description": "Via Merulana 271",
+            "position_link": "https://tinyurl.com/y3xcq966",
+            "evaluation": 7.25,
+            "coordinates": {
+                "lat": 12.499397,
+                "lon": 41.896138
+            }
+        },
+        {
+            "name": "Kebab Siria",
+            "description": "Via Stimigliano 1A",
+            "position_link": "https://tinyurl.com/y4ehvsfh",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.511745,
+                "lon": 41.934712
+            }
+        },
+        {
+            "name": "Istanbul Kebab",
+            "description": "Viale Giustiniano Imperatore 29",
+            "position_link": "https://tinyurl.com/y6kesvxr",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.479003,
+                "lon": 41.8569229
+            }
+        },
+        {
+            "name": "Caf\u00e8 Istanbul Kebab",
+            "description": "Via Gerolamo Cardano 182",
+            "position_link": "https://tinyurl.com/y68ep3u8",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.46437,
+                "lon": 41.8624483
+            }
+        },
+        {
+            "name": "Kebab station",
+            "description": "Circonvallazione Gianicolense 2",
+            "position_link": "https://tinyurl.com/yyp3tosg",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.4654586,
+                "lon": 41.8737543
+            }
+        },
+        {
+            "name": "Pizza Nader",
+            "description": "Via Alberto Ascari 196",
+            "position_link": "https://tinyurl.com/y2edhwpn",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.5038675,
+                "lon": 41.8347454
+            }
+        },
+        {
+            "name": "istanbul kebab",
+            "description": "Via Tuscolana 773",
+            "position_link": "https://tinyurl.com/y3mz2k2r",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 12.5566029,
+                "lon": 41.8602812
+            }
+        },
+        {
+            "name": "Kebabone",
+            "description": "Via di Acqua Bullicante 243",
+            "position_link": "https://tinyurl.com/y4r9xfng",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.5425071,
+                "lon": 41.8875737
+            }
+        },
+        {
+            "name": "Kebab maroc",
+            "description": "Via di Tor Sapienza 4",
+            "position_link": "https://tinyurl.com/y5zez66r",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.5898092,
+                "lon": 41.9035876
+            }
+        }
+    ],
+    "Gelati Criminali": [
+        {
+            "name": "Cremeria Alpi Garbatella",
+            "description": "Via Padre Reginaldo Giuliani 16",
+            "position_link": "https://tinyurl.com/y242fvsc",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.493008,
+                "lon": 41.866469
+            }
+        },
+        {
+            "name": "Gelateria Artigianale - Il Pellicano",
+            "description": "Piazza Eugenio Biffi 10",
+            "position_link": "https://tinyurl.com/y2xvu9qs",
+            "evaluation": 5.75,
+            "coordinates": {
+                "lat": 12.489878,
+                "lon": 41.866768
+            }
+        },
+        {
+            "name": "Gelato Baciato",
+            "description": "Largo delle Sette Chiese 12",
+            "position_link": "https://tinyurl.com/y6lj85kf",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.486106,
+                "lon": 41.860717
+            }
+        },
+        {
+            "name": "Gelateria La Romana",
+            "description": "Via Ostiense 48",
+            "position_link": "https://tinyurl.com/yyl3gpza",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.479862,
+                "lon": 41.872158
+            }
+        },
+        {
+            "name": "Lubrano",
+            "description": "Via dei Castani 68c",
+            "position_link": "https://tinyurl.com/yypvn239",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.5668729,
+                "lon": 41.881898
+            }
+        },
+        {
+            "name": "Grost\u00e8 Gelateria Artigianale",
+            "description": "Via dei Castani 238",
+            "position_link": "https://tinyurl.com/y4gwznu3",
+            "evaluation": 6.25,
+            "coordinates": {
+                "lat": 12.565692,
+                "lon": 41.888183
+            }
+        },
+        {
+            "name": "Buono Cos\u00ec Gelateria Naturale Roma",
+            "description": "Piazza dei Gerani 30",
+            "position_link": "https://tinyurl.com/y4dzcua7",
+            "evaluation": 9.5,
+            "coordinates": {
+                "lat": 12.5675979,
+                "lon": 41.8854068
+            }
+        },
+        {
+            "name": "Gelateria Tony",
+            "description": "Viale dei Colli Portuensi 335",
+            "position_link": "https://tinyurl.com/y4f5k5gt",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4443745,
+                "lon": 41.8665042
+            }
+        },
+        {
+            "name": "Mucca Bianca Gelateria",
+            "description": "Via Adolfo Gandiglio 121",
+            "position_link": "https://tinyurl.com/y6xk88z2",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.4428117,
+                "lon": 41.8630104
+            }
+        },
+        {
+            "name": "Stefano Ferrara Gelato Lab",
+            "description": "Via Silvestri 224",
+            "position_link": "https://tinyurl.com/yyu4qdos",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.4303634,
+                "lon": 41.8772214
+            }
+        },
+        {
+            "name": "La Gourmandise",
+            "description": "Via Felice Cavallotti 36b",
+            "position_link": "https://tinyurl.com/yxpofmmz",
+            "evaluation": 9.5,
+            "coordinates": {
+                "lat": 12.4622543,
+                "lon": 41.878961
+            }
+        },
+        {
+            "name": "Torc\u00e8",
+            "description": "Torc\u00e8; Viale Aventino 59",
+            "position_link": "https://tinyurl.com/2xuowqyd",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 12.4857652,
+                "lon": 41.8814305
+            }
+        },
+        {
+            "name": "Gelateria Panna & Co - Gelato Naturale",
+            "description": "Gelateria Panna & Co - Gelato Naturale; via Marmorata 115",
+            "position_link": "https://tinyurl.com/273gbkar",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.4775984,
+                "lon": 41.8804726
+            }
+        },
+        {
+            "name": "Giolitti",
+            "description": "Giolitti; Via Amerigo Vespucci 35",
+            "position_link": "https://tinyurl.com/28k7da22",
+            "evaluation": 4.5,
+            "coordinates": {
+                "lat": 12.475828,
+                "lon": 41.881833
+            }
+        }
+    ],
+    "Panini Criminali": [
+        {
+            "name": "McDonald's Roma Termini Forum",
+            "description": "Catena in tutta Roma",
+            "position_link": null,
+            "evaluation": 2.0,
+            "coordinates": {
+                "lat": 12.4466774,
+                "lon": 41.8850207
+            }
+        },
+        {
+            "name": "Burger King Tiburtina",
+            "description": "Catena in tutta Roma",
+            "position_link": null,
+            "evaluation": 2.0,
+            "coordinates": {
+                "lat": 12.4427673,
+                "lon": 41.8849353
+            }
+        },
+        {
+            "name": "Bfr Gianicolense",
+            "description": "Circonvallazione Gianicolense 390",
+            "position_link": "https://tinyurl.com/yxzrwfld",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4429225,
+                "lon": 41.8773743
+            }
+        },
+        {
+            "name": "Ciccio's Food Marconi",
+            "description": "Via Antonio Pacinotti 21",
+            "position_link": "https://tinyurl.com/y5gorp8l",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4679726,
+                "lon": 41.8711938
+            }
+        },
+        {
+            "name": "Mi'Ndujo - Ponte Milvio",
+            "description": "Piazzale di Ponte Milvio 3",
+            "position_link": "https://tinyurl.com/225ngpg7",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4657754,
+                "lon": 41.9367692
+            }
+        },
+        {
+            "name": "King Panino",
+            "description": "Largo Maresciallo Diaz 20",
+            "position_link": "https://tinyurl.com/24famjxo",
+            "evaluation": 5.0,
+            "coordinates": {
+                "lat": 12.4654812,
+                "lon": 41.9365731
+            }
+        },
+        {
+            "name": "Roma Beer Company",
+            "description": "Piazzale di Ponte Milvio 40/42",
+            "position_link": "https://tinyurl.com/2c6r9ktn",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.4666862,
+                "lon": 41.9373664
+            }
+        },
+        {
+            "name": "Burgers-Macelleria Cucchi dal 1967(centocelle)",
+            "description": "Via dei Castani 236/a",
+            "position_link": "https://tinyurl.com/29am7lpw",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.5657861,
+                "lon": 41.8880741
+            }
+        },
+        {
+            "name": "Legs",
+            "description": "Via delle Rose 54",
+            "position_link": "https://tinyurl.com/2y3oaw6z",
+            "evaluation": 5.5,
+            "coordinates": {
+                "lat": 12.5632835,
+                "lon": 41.8897146
+            }
+        },
+        {
+            "name": "Banana Food & Game Paninoteca",
+            "description": "Via degli Olivi 48/B",
+            "position_link": "https://tinyurl.com/2cq4fqte",
+            "evaluation": 10.0,
+            "coordinates": {
+                "lat": 12.5665929,
+                "lon": 41.8867592
+            }
+        },
+        {
+            "name": "Nonna Rosetta",
+            "description": "Via Luigi Capuana 6;",
+            "position_link": "https://tinyurl.com/22ohmkds",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.5476295,
+                "lon": 41.9446102
+            }
+        },
+        {
+            "name": "I Panizzeri",
+            "description": "Via Carlo Ludovico Bragaglia 102;",
+            "position_link": "https://tinyurl.com/2y4cf42o",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.5367542,
+                "lon": 41.9677978
+            }
+        },
+        {
+            "name": "The Butcher Shop",
+            "description": "Via Nomentana 647;",
+            "position_link": "https://tinyurl.com/2bxgprsj",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.5363499,
+                "lon": 41.9354459
+            }
+        },
+        {
+            "name": "California Cookhouse",
+            "description": "Viale Carnaro 13 c/d;",
+            "position_link": "https://tinyurl.com/2xm8pkul",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 12.5329194,
+                "lon": 41.9385487
+            }
+        },
+        {
+            "name": "Birretta wine and food - Hamburgeria",
+            "description": "Via Simone de Saint Bon 69-73;",
+            "position_link": "https://tinyurl.com/23beo4rb",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4563726,
+                "lon": 41.9124159
+            }
+        },
+        {
+            "name": "200 Gradi",
+            "description": "Piazza del Risorgimento 3;",
+            "position_link": "https://tinyurl.com/28n29ls3",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4565817,
+                "lon": 41.9064553
+            }
+        },
+        {
+            "name": "Panino Divino",
+            "description": "Via dei Gracchi 11a;",
+            "position_link": "https://tinyurl.com/27zbbq7e",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.4583961,
+                "lon": 41.90692
+            }
+        },
+        {
+            "name": "Burgez",
+            "description": "Via Candia 6;",
+            "position_link": "https://tinyurl.com/253azwwq",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 12.4548855,
+                "lon": 41.9087185
+            }
+        },
+        {
+            "name": "Ninkasi",
+            "description": "Via Acireale 22;",
+            "position_link": "https://tinyurl.com/279763o6",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.5188916,
+                "lon": 41.8882221
+            }
+        },
+        {
+            "name": "Franz Burger",
+            "description": "Via la Spezia 127;",
+            "position_link": "https://tinyurl.com/2yyekojf",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.5197281,
+                "lon": 41.8871522
+            }
+        },
+        {
+            "name": "Ninkasi",
+            "description": "Via Acireale 22;",
+            "position_link": "https://link.mappytube.com/fvoLdw",
+            "evaluation": 7.75,
+            "coordinates": {
+                "lat": 12.5188916,
+                "lon": 41.8882221
+            }
+        },
+        {
+            "name": "Franz Burger",
+            "description": "Via la Spezia 127;",
+            "position_link": "https://link.mappytube.com/NztFdi",
+            "evaluation": 8.75,
+            "coordinates": {
+                "lat": 12.5197281,
+                "lon": 41.8871522
+            }
+        },
+        {
+            "name": "Magic Bun",
+            "description": "Via Bartolomeo Cristofori, 21",
+            "position_link": "https://link.mappytube.com/EVVymN",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.4654917,
+                "lon": 41.8673939
+            }
+        },
+        {
+            "name": "Via Corinto, 56",
+            "description": "Via Corinto, 56",
+            "position_link": "https://link.mappytube.com/6vhIDK",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 12.4754513,
+                "lon": 41.8539502
+            }
+        },
+        {
+            "name": "Burger Wave Roma",
+            "description": "Via Chiabrera, 207",
+            "position_link": "https://link.mappytube.com/wfRRTG",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.478924,
+                "lon": 41.851815
+            }
+        }
+    ],
+    "Franchino on Tour Criminale": [
+        {
+            "name": "Il Bufalo Trippone",
+            "description": "Schiacciata",
+            "position_link": "https://tinyurl.com/2adnz5z7",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 11.2584839,
+                "lon": 43.7698364
+            }
+        },
+        {
+            "name": "Lo Schiacciavino",
+            "description": "Schiacciata",
+            "position_link": "https://tinyurl.com/29an6n7g",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 11.261053,
+                "lon": 43.7694944
+            }
+        },
+        {
+            "name": "La Fettunta",
+            "description": "Schiacciata",
+            "position_link": "https://tinyurl.com/26khkozl",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 11.2574861,
+                "lon": 43.7684555
+            }
+        },
+        {
+            "name": "All\u2019Antico Vinaio",
+            "description": "Schiacciata",
+            "position_link": "https://tinyurl.com/29rs2o7t",
+            "evaluation": 6.5,
+            "coordinates": {
+                "lat": 11.2574377,
+                "lon": 43.7684851
+            }
+        },
+        {
+            "name": "SAPORI TOSCANI STREET FOOD",
+            "description": "Schiacciata",
+            "position_link": "https://tinyurl.com/2yaklkrr",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 11.2608328,
+                "lon": 43.7713944
+            }
+        },
+        {
+            "name": "La Cucina del Perugino",
+            "description": "Corso Cavour 110",
+            "position_link": "https://tinyurl.com/24jrc68z",
+            "evaluation": 4.5,
+            "coordinates": {
+                "lat": 12.3914579,
+                "lon": 43.1064728
+            }
+        },
+        {
+            "name": "Testone - Via Settevalli",
+            "description": "Torta al testo",
+            "position_link": "https://tinyurl.com/22quzfgj",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.3638087,
+                "lon": 43.0764774
+            }
+        },
+        {
+            "name": "Cukuc",
+            "description": "Torta al testo",
+            "position_link": "https://tinyurl.com/27n3rbqt",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 12.3647987,
+                "lon": 43.0757375
+            }
+        },
+        {
+            "name": "Faliero Torta De La Maria",
+            "description": "Torta al testo",
+            "position_link": "https://tinyurl.com/24wv8d5y",
+            "evaluation": 7.5,
+            "coordinates": {
+                "lat": 12.1860008,
+                "lon": 43.0871069
+            }
+        },
+        {
+            "name": "Pizzeria Pellone",
+            "description": "Pizza a portafoglio\nVia Nazionale 93\n",
+            "position_link": "https://tinyurl.com/25qpmt8b\n",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 14.2741284,
+                "lon": 40.8561618
+            }
+        },
+        {
+            "name": "Di Matteo",
+            "description": "Pizza a portafoglio\nVia dei Tribunali 94\n",
+            "position_link": "https://tinyurl.com/297vgg4b",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 14.2579677,
+                "lon": 40.8512512
+            }
+        },
+        {
+            "name": "Pizzeria I Decumani",
+            "description": "Pizza a portafoglio\nVia dei Tribunali 58/60/61",
+            "position_link": "https://tinyurl.com/229w7r5c",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 14.2568155,
+                "lon": 40.850894
+            }
+        },
+        {
+            "name": "Antica Pizza Fritta da Zia Esterina Sorbillo",
+            "description": "Pizza fritta \nPiazza Trieste e Trento 53\n",
+            "position_link": "https://tinyurl.com/2pambda3",
+            "evaluation": 6.75,
+            "coordinates": {
+                "lat": 14.2482712,
+                "lon": 40.8374941
+            }
+        },
+        {
+            "name": "Fiorenzano pizzeria trattoria",
+            "description": "Pizza fritta \nPiazza Trieste e Trento 58\n",
+            "position_link": "https://tinyurl.com/2ocqp4t6",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 14.2482845,
+                "lon": 40.837647
+            }
+        },
+        {
+            "name": "La Vera Pizza Fritta da Gennaro",
+            "description": "Pizza fritta \nVia Giuseppe Simonelli 58\n",
+            "position_link": "https://tinyurl.com/2hamur4g",
+            "evaluation": 8.5,
+            "coordinates": {
+                "lat": 14.2482318,
+                "lon": 40.8440605
+            }
+        },
+        {
+            "name": "Pintauro",
+            "description": "Sfogliatelle; Via Toledo 275",
+            "position_link": "https://tinyurl.com/2b7g4uvr",
+            "evaluation": 9.0,
+            "coordinates": {
+                "lat": 14.2483,
+                "lon": 40.8393062
+            }
+        },
+        {
+            "name": "Pasticceria Giovanni Scaturchio",
+            "description": "Sfogliatelle; P.za S. Domenico Maggiore 19",
+            "position_link": "https://tinyurl.com/24o4lzad",
+            "evaluation": 9.25,
+            "coordinates": {
+                "lat": 14.2549272,
+                "lon": 40.8482509
+            }
+        },
+        {
+            "name": "Carraturo",
+            "description": "Sfogliatelle; Piazzetta Nilo 6",
+            "position_link": "https://tinyurl.com/25pedkb6",
+            "evaluation": 8.0,
+            "coordinates": {
+                "lat": 14.2556432,
+                "lon": 40.8485608
+            }
+        }
+    ]
+}

@@ -1,0 +1,5139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa StreetFood Criminale - Franchino er Criminale</name>
+    <description><![CDATA[La mappa aggiornata con voti di tutti i locali visitati da Franchino er Criminale. CONDIVIDILA :)<br><br>https://link.mappytube.com/franchinomap]]></description>
+    <Style id="icon-1899-DB4436-labelson">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Pizze a Taglio Criminali</name>
+      <Placemark>
+        <name>Agostino</name>
+        <description><![CDATA[descrizione: Corso Trieste 66/70<br>link diretto alla posizione:: https://tinyurl.com/y452rvur<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Corso Trieste 66/70</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y452rvur</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.508648,41.919841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza dal 1960</name>
+        <description><![CDATA[descrizione: Via Arezzo 23<br>link diretto alla posizione:: https://tinyurl.com/yxnyolts<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Arezzo 23</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxnyolts</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.518437,41.911117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Ternana</name>
+        <description><![CDATA[descrizione: Via Alessandria 170<br>link diretto alla posizione:: https://tinyurl.com/y28gcovy<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Alessandria 170</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y28gcovy</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.504834,41.91325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rosticceria Pizzeria Al Buchetto</name>
+        <description><![CDATA[descrizione: Via Salaria 240<br>link diretto alla posizione:: https://tinyurl.com/y23bkzy7<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Salaria 240</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y23bkzy7</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.498241,41.919171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Giustina</name>
+        <description><![CDATA[descrizione: Viale della Primavera 221<br>link diretto alla posizione:: https://tinyurl.com/y62voo52<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale della Primavera 221</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y62voo52</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.560921,41.881619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza e Fichi</name>
+        <description><![CDATA[descrizione: Via Veroli 31<br>link diretto alla posizione:: https://tinyurl.com/y4alpxu4<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Veroli 31</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4alpxu4</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.559001,41.891677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Angelo Pizza</name>
+        <description><![CDATA[descrizione: Viale della Serenissima 14<br>link diretto alla posizione:: https://tinyurl.com/y5uqwh88<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale della Serenissima 14</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5uqwh88</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.559245,41.895326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Non Ci Resta Che Pizza</name>
+        <description><![CDATA[descrizione: Via delle Meduse 160, Fiumicino<br>link diretto alla posizione:: https://tinyurl.com/yxqu2aj7<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via delle Meduse 160, Fiumicino</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxqu2aj7</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.230732,41.765423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza al Porto</name>
+        <description><![CDATA[descrizione: Via della Torre Clementina 242<br>link diretto alla posizione:: https://tinyurl.com/y6j8b2xg<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Torre Clementina 242</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6j8b2xg</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.224559,41.771478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sancho Dal 1969</name>
+        <description><![CDATA[descrizione: Via della Torre Clementina 142<br>link diretto alla posizione:: https://tinyurl.com/y2pxygrn<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Torre Clementina 142</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2pxygrn</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.22911,41.77136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Ternano</name>
+        <description><![CDATA[descrizione: Via di Valle Melaina 137<br>link diretto alla posizione:: https://tinyurl.com/yxdrjc9e<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Valle Melaina 137</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxdrjc9e</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.526072,41.949898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Rustica Girarrosto e...</name>
+        <description><![CDATA[descrizione: Via di Valle Melaina 18<br>link diretto alla posizione:: https://tinyurl.com/y6ham7ma<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Valle Melaina 18</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6ham7ma</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.525741,41.946991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Muretto</name>
+        <description><![CDATA[descrizione: Via Monte Canda 2<br>link diretto alla posizione:: https://tinyurl.com/yyrwovzp<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Monte Canda 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yyrwovzp</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.533879,41.948068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mattarello d'Oro]]></name>
+        <description><![CDATA[descrizione: Via della Bufalotta 292<br>link diretto alla posizione:: https://tinyurl.com/y465734y<br>voto: 8.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Bufalotta 292</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y465734y</value>
+          </Data>
+          <Data name="voto">
+            <value>8.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.543332,41.952221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Cacciatore</name>
+        <description><![CDATA[descrizione: Via Conca d'Oro 340<br>link diretto alla posizione:: https://tinyurl.com/y4l5bspx<br>voto: 4.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Via Conca d'Oro 340]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4l5bspx</value>
+          </Data>
+          <Data name="voto">
+            <value>4.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.517785,41.944706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Gemelli</name>
+        <description><![CDATA[descrizione: Largo Beato Placido Riccardi 4<br>link diretto alla posizione:: https://tinyurl.com/y37sfwkl<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo Beato Placido Riccardi 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y37sfwkl</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.476744,41.855565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strapizzami</name>
+        <description><![CDATA[descrizione: Via Gaspare Gozzi 19<br>link diretto alla posizione:: https://tinyurl.com/y2gs8bdg<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gaspare Gozzi 19</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2gs8bdg</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.478794,41.856144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quattro Stagioni</name>
+        <description><![CDATA[descrizione: Via Giuseppe Bagnera 65<br>link diretto alla posizione:: https://tinyurl.com/y25ne7et<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giuseppe Bagnera 65</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y25ne7et</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4669,41.863561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mondo Pizza</name>
+        <description><![CDATA[descrizione: Via Francesco Grimaldi 129/131<br>link diretto alla posizione:: https://tinyurl.com/y2msa8f9<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Francesco Grimaldi 129/131</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2msa8f9</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.466218,41.865008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperatori dal 1972</name>
+        <description><![CDATA[descrizione: Via Gerolamo Cardano 66<br>link diretto alla posizione:: https://tinyurl.com/y23wrr4v<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gerolamo Cardano 66</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y23wrr4v</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.467427,41.863304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Fantasy</name>
+        <description><![CDATA[descrizione: Via Enrico Fermi 42<br>link diretto alla posizione:: https://tinyurl.com/y6gbrrx7<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Enrico Fermi 42</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6gbrrx7</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.470752,41.864222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Disneypizza</name>
+        <description><![CDATA[descrizione: Circovallazione Gianicolense 141/C<br>link diretto alla posizione:: https://tinyurl.com/y3ofmfye<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circovallazione Gianicolense 141/C</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3ofmfye</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.447973,41.873359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Barrilli</name>
+        <description><![CDATA[descrizione: Via Anton Giulio Barrilli 50/L<br>link diretto alla posizione:: https://tinyurl.com/y2cy392y<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Anton Giulio Barrilli 50/L</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2cy392y</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.46083,41.880299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria da Simone</name>
+        <description><![CDATA[descrizione: Via Giacinto Carini 48<br>link diretto alla posizione:: https://tinyurl.com/y3ltqbjh<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giacinto Carini 48</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3ltqbjh</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.460765,41.884861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Eligio Fattori</name>
+        <description><![CDATA[descrizione: Viale di Villa Pamphili 46A<br>link diretto alla posizione:: https://tinyurl.com/y5e6qyrf<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale di Villa Pamphili 46A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5e6qyrf</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.456646,41.882657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Squisipizza</name>
+        <description><![CDATA[descrizione: Via del Torraccio di Torrenova 225<br>link diretto alla posizione:: https://tinyurl.com/y5fg7kyu<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via del Torraccio di Torrenova 225</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5fg7kyu</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.619338,41.873392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Io e Valter</name>
+        <description><![CDATA[descrizione: Via Michele Buonori 19, Centro Commerciale Le Torri<br>link diretto alla posizione:: https://tinyurl.com/y6dbqsfr<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Michele Buonori 19, Centro Commerciale Le Torri</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6dbqsfr</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.631433,41.867824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria al 136</name>
+        <description><![CDATA[descrizione: Via Paolo Ferdinando Quaglia 136<br>link diretto alla posizione:: https://tinyurl.com/y4jb7ouv<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Paolo Ferdinando Quaglia 136</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4jb7ouv</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.641835,41.868628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Grand Gourmet</name>
+        <description><![CDATA[descrizione: Circonvallazione Clodia 165/B<br>link diretto alla posizione:: https://tinyurl.com/y4yb2xpj<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circonvallazione Clodia 165/B</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4yb2xpj</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.457496,41.920888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Popeye Pizza</name>
+        <description><![CDATA[descrizione: Via della Giuliana 53/55<br>link diretto alla posizione:: https://tinyurl.com/y4bkjej7<br>voto: 5.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Giuliana 53/55</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4bkjej7</value>
+          </Data>
+          <Data name="voto">
+            <value>5.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.454164,41.912677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eroi Della Pizza</name>
+        <description><![CDATA[descrizione: Piazzale degli Eroi 4<br>link diretto alla posizione:: https://tinyurl.com/y5vpquub<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazzale degli Eroi 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5vpquub</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.449339,41.908855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mamma Pizza</name>
+        <description><![CDATA[descrizione: Viale Palmiro Togliatti 1489A<br>link diretto alla posizione:: https://tinyurl.com/y57pj9n6<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Palmiro Togliatti 1489A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y57pj9n6</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.570764,41.912559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiella</name>
+        <description><![CDATA[descrizione: Via Vito Giuseppe Galati 52<br>link diretto alla posizione:: https://tinyurl.com/y5pzmjra<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Vito Giuseppe Galati 52</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5pzmjra</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.569008,41.910768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pezzo</name>
+        <description><![CDATA[descrizione: Via Collatina 84A<br>link diretto alla posizione:: https://tinyurl.com/y4tdmonb<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Collatina 84A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4tdmonb</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.563797,41.898648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno De Carolis</name>
+        <description><![CDATA[descrizione: Via del Trullo 280<br>link diretto alla posizione:: https://tinyurl.com/y4pwgv3f<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via del Trullo 280</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4pwgv3f</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.436136,41.844306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Rosticceria Da Checco</name>
+        <description><![CDATA[descrizione: Via Monte delle Capre 10<br>link diretto alla posizione:: https://tinyurl.com/yxu7ndlw<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Monte delle Capre 10</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxu7ndlw</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.435493,41.844747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Rustica di Giovanni Filomena</name>
+        <description><![CDATA[descrizione: Via Giovanni Porzio 66<br>link diretto alla posizione:: https://tinyurl.com/y6rnocx2<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giovanni Porzio 66</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6rnocx2</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.441762,41.843533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colle del Sole Pizza Rustica</name>
+        <description><![CDATA[descrizione: Via Fulda 47<br>link diretto alla posizione:: https://tinyurl.com/yy97r7pz<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Fulda 47</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yy97r7pz</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.430864,41.836667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Gianni al Mattone</name>
+        <description><![CDATA[descrizione: Via dei Monti di Primavalle 169<br>link diretto alla posizione:: https://tinyurl.com/y5mzll9u<br>voto: 10]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Monti di Primavalle 169</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5mzll9u</value>
+          </Data>
+          <Data name="voto">
+            <value>10</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.413756,41.908564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria da Pasquale</name>
+        <description><![CDATA[descrizione: Largo Pier Francesco Scarampi 8<br>link diretto alla posizione:: https://tinyurl.com/y6ke7tnr<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo Pier Francesco Scarampi 8</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6ke7tnr</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.42385,41.904732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Art</name>
+        <description><![CDATA[descrizione: Via dei Monti di Creta 9<br>link diretto alla posizione:: https://tinyurl.com/y37wxn4p<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Monti di Creta 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y37wxn4p</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.427372,41.901622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria da Simone Malatesta</name>
+        <description><![CDATA[descrizione: Via Roberto Malatesta 2<br>link diretto alla posizione:: https://tinyurl.com/y574cxjf<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Roberto Malatesta 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y574cxjf</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.53544,41.887378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Teglia</name>
+        <description><![CDATA[descrizione: Via Gabrino Fondulo 119<br>link diretto alla posizione:: https://tinyurl.com/y44wa8dn<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gabrino Fondulo 119</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y44wa8dn</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.54011,41.886588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Daniela al Pigneto</name>
+        <description><![CDATA[descrizione: Via del Pigneto 171<br>link diretto alla posizione:: https://tinyurl.com/y4nrpmoy<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via del Pigneto 171</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4nrpmoy</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.529158,41.888426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alberto dal 1968</name>
+        <description><![CDATA[descrizione: Circonvallazione Ostiense 225<br>link diretto alla posizione:: https://tinyurl.com/y6tsfkcg<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circonvallazione Ostiense 225</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6tsfkcg</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.490768,41.867445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Luigi</name>
+        <description><![CDATA[descrizione: Via Federico Nansen 6<br>link diretto alla posizione:: https://tinyurl.com/yy6d3bhb<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Federico Nansen 6</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yy6d3bhb</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.481845,41.870965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stellina Garbatella</name>
+        <description><![CDATA[descrizione: Piazza Augusto Albini 35/36<br>link diretto alla posizione:: https://tinyurl.com/y5nj8do2<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Augusto Albini 35/36</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5nj8do2</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.483949,41.864406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bottega Popolare</name>
+        <description><![CDATA[descrizione: Via di San Nicola de' Cesarini 5<br>link diretto alla posizione:: https://tinyurl.com/y4fs96lb<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Via di San Nicola de' Cesarini 5]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4fs96lb</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.477389,41.895552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bona - Pizza romana in teglia</name>
+        <description><![CDATA[descrizione: Corso Vittorio Emanuele II 8<br>link diretto alla posizione:: https://tinyurl.com/y6fxkh3y<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Corso Vittorio Emanuele II 8</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6fxkh3y</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.478612,41.895844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Minerva</name>
+        <description><![CDATA[descrizione: Via della Minerva 4<br>link diretto alla posizione:: https://tinyurl.com/y2rrpx58<br>voto: 0]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Minerva 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2rrpx58</value>
+          </Data>
+          <Data name="voto">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.477364,41.898721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[King's Sandwich]]></name>
+        <description><![CDATA[descrizione: Via di Torre Argentina 82<br>link diretto alla posizione:: https://tinyurl.com/y5ygm6ue<br>voto: 1]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Torre Argentina 82</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5ygm6ue</value>
+          </Data>
+          <Data name="voto">
+            <value>1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.47635,41.897516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Florida</name>
+        <description><![CDATA[descrizione: Via Florida 25<br>link diretto alla posizione:: https://tinyurl.com/y5dgqyyx<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Florida 25</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5dgqyyx</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.476738,41.894775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria da Santino</name>
+        <description><![CDATA[descrizione: Via Teodoro Mommsen 25<br>link diretto alla posizione:: https://tinyurl.com/y4tq6jmk<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Teodoro Mommsen 25</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4tq6jmk</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5271472,41.867603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voglia di Pizza da Baffo Roma</name>
+        <description><![CDATA[descrizione: Via Mario Menghini 7<br>link diretto alla posizione:: https://tinyurl.com/y2npgmy5<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Mario Menghini 7</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2npgmy5</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5285683,41.869565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PizzaDì Roma</name>
+        <description><![CDATA[descrizione: Largo dei Colli Albani 21<br>link diretto alla posizione:: https://tinyurl.com/yxr6yfyc<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo dei Colli Albani 21</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxr6yfyc</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5297655,41.8698163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Da Rufino</name>
+        <description><![CDATA[descrizione: Via Muzio Scevola 13<br>link diretto alla posizione:: https://tinyurl.com/y27fub5o<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Muzio Scevola 13</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y27fub5o</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.528842,41.8730142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Gabry di Mirasoli Remo Roma</name>
+        <description><![CDATA[descrizione: Via Santa Maria Ausiliatrice 13<br>link diretto alla posizione:: https://tinyurl.com/y62nyaxk<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Santa Maria Ausiliatrice 13</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y62nyaxk</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5293323,41.873668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luciani Gabriele</name>
+        <description><![CDATA[descrizione: Via Lucio Mummio 9<br>link diretto alla posizione:: https://tinyurl.com/y6j5oa7n<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Lucio Mummio 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6j5oa7n</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.563558,41.8620016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alasia Pizzeria</name>
+        <description><![CDATA[descrizione: Via Tarquinio Collatino 193<br>link diretto alla posizione:: https://tinyurl.com/y5s5gmxz<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Tarquinio Collatino 193</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5s5gmxz</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5656628,41.8610107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza a Domicilio | A Casa Mia</name>
+        <description><![CDATA[descrizione: Viale Marco Fulvio Nobiliore 15<br>link diretto alla posizione:: https://tinyurl.com/y6tf8oyb<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Marco Fulvio Nobiliore 15</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6tf8oyb</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5627822,41.8570988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Bottega del Pizzolaio - Tuscolana</name>
+        <description><![CDATA[descrizione: Via Sestio Calvino 70/72<br>link diretto alla posizione:: https://tinyurl.com/y5fo7wrg<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Sestio Calvino 70/72</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5fo7wrg</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5647148,41.8534075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Pino E Nando</name>
+        <description><![CDATA[descrizione: Via Gasperina 176<br>link diretto alla posizione:: https://tinyurl.com/y4vjbvr3<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gasperina 176</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4vjbvr3</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5994207,41.8323505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ippo Pizza</name>
+        <description><![CDATA[descrizione: Viale di Tor di Quinto 17<br>link diretto alla posizione:: https://tinyurl.com/y38tamz4<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale di Tor di Quinto 17</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y38tamz4</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4672497,41.9372052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SEMENTI LA PIZZA</name>
+        <description><![CDATA[descrizione: Piazzale di Ponte Milvio 18<br>link diretto alla posizione:: https://tinyurl.com/y2pmctaq<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazzale di Ponte Milvio 18</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2pmctaq</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4656372,41.9375679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria il derby</name>
+        <description><![CDATA[descrizione: Piazza Antonio Mancini 1<br>link diretto alla posizione:: https://tinyurl.com/y3smoblh<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Antonio Mancini 1</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3smoblh</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4653435,41.9309296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Rustica</name>
+        <description><![CDATA[descrizione: Via Flaminia 24<br>link diretto alla posizione:: https://tinyurl.com/yy6qjv74<br>voto: 8.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Flaminia 24</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yy6qjv74</value>
+          </Data>
+          <Data name="voto">
+            <value>8.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.475735,41.9125825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Art</name>
+        <description><![CDATA[descrizione: Piazza Giovenale 9<br>link diretto alla posizione:: https://tinyurl.com/y38ym3h8<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Giovenale 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y38ym3h8</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4415085,41.9134236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mister Teglia Balduina</name>
+        <description><![CDATA[descrizione: Piazza Carlo Mazzaresi 14/16<br>link diretto alla posizione:: https://tinyurl.com/y59pthds<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Carlo Mazzaresi 14/16</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y59pthds</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.441579,41.920228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Tullio Pizza</name>
+        <description><![CDATA[descrizione: Via della Balduina 211<br>link diretto alla posizione:: https://tinyurl.com/yysk2uhs<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Balduina 211</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yysk2uhs</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4384545,41.9227467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Pizza Di Angelino</name>
+        <description><![CDATA[descrizione: Via Trionfale 7190<br>link diretto alla posizione:: https://tinyurl.com/y32292ko<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Trionfale 7190</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y32292ko</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4376293,41.9358505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arte Bianca di Gabriele</name>
+        <description><![CDATA[descrizione: Via Sangemini 7 B/C<br>link diretto alla posizione:: https://tinyurl.com/y4egs8k4<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Sangemini 7 B/C</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4egs8k4</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4379226,41.9369444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sale e Ojo</name>
+        <description><![CDATA[descrizione: Via Cutigliano 69<br>link diretto alla posizione:: https://tinyurl.com/2hnor8rw<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cutigliano 69</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2hnor8rw</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4610768,41.8487167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W300</name>
+        <description><![CDATA[descrizione: Piazza Piero Puricelli 25<br>link diretto alla posizione:: https://tinyurl.com/2m2q744t<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Piero Puricelli 25</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2m2q744t</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4565815,41.8598207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria R. Giusi</name>
+        <description><![CDATA[descrizione: Via Taurianova 65<br>link diretto alla posizione:: https://tinyurl.com/2y3xr48j<br>voto: 4.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Taurianova 65</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2y3xr48j</value>
+          </Data>
+          <Data name="voto">
+            <value>4.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5581196,41.8345845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pizza Gege' Appia]]></name>
+        <description><![CDATA[descrizione: Via Acerenza 4t<br>link diretto alla posizione:: https://tinyurl.com/22kk5h4q<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Acerenza 4t</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/22kk5h4q</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5519645,41.8398438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercato Spinaceto</name>
+        <description><![CDATA[descrizione: Box n. 41; Viale dei Caduti per la Resistenza, 609 <br>link diretto alla posizione:: https://tinyurl.com/253v9sg2<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Box n. 41; Viale dei Caduti per la Resistenza, 609 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/253v9sg2</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4419187,41.7829609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pizza Gege' Eur]]></name>
+        <description><![CDATA[descrizione: Pizza Gege' Eur; Viale dell'Aeronautica 125 <br>link diretto alla posizione:: https://tinyurl.com/27ar9g9g<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Pizza Gege' Eur; Viale dell'Aeronautica 125 ]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/27ar9g9g</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4780023,41.8264197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lievito</name>
+        <description><![CDATA[descrizione: Lievito; Viale Europa 339 <br>link diretto alla posizione:: https://tinyurl.com/2ase8tpc<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Lievito; Viale Europa 339 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2ase8tpc</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4737904,41.8298237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chicco di Grano</name>
+        <description><![CDATA[descrizione: Viale Ratto delle Sabine 67; <br>link diretto alla posizione:: https://tinyurl.com/2yy4zney<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Ratto delle Sabine 67; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2yy4zney</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.6002971,41.943851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Sagittario</name>
+        <description><![CDATA[descrizione: Viale Ratto delle Sabine 15; <br>link diretto alla posizione:: https://tinyurl.com/2ahv5fhv<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Ratto delle Sabine 15; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2ahv5fhv</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.6007464,41.9453816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L' Arte della Pizza]]></name>
+        <description><![CDATA[descrizione: Via Troilo il Grande 70; <br>link diretto alla posizione:: https://tinyurl.com/265tpk8y<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Troilo il Grande 70; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/265tpk8y</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.6008039,41.9476369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Grano13 Roma</name>
+        <description><![CDATA[descrizione: Viale Vasco de Gama 11/13; <br>link diretto alla posizione:: https://tinyurl.com/2yhv9gg4<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Vasco de Gama 11/13; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2yhv9gg4</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.2784596,41.7331646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza A Doc Number 2 Lido Di Ostia</name>
+        <description><![CDATA[descrizione: Via delle Triremi 49; <br>link diretto alla posizione:: https://tinyurl.com/2cpb9zzy<br>voto: 4]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via delle Triremi 49; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2cpb9zzy</value>
+          </Data>
+          <Data name="voto">
+            <value>4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.2651331,41.735655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza in Piazza</name>
+        <description><![CDATA[descrizione: P.za Quarto dei Mille 7; <br>link diretto alla posizione:: https://tinyurl.com/2yoql3mt<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>P.za Quarto dei Mille 7; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2yoql3mt</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.2740462,41.7320612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Tempio</name>
+        <description><![CDATA[descrizione: P.le della Stazione del Lido 10; <br>link diretto alla posizione:: https://tinyurl.com/23sycgs6<br>voto: 8.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>P.le della Stazione del Lido 10; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/23sycgs6</value>
+          </Data>
+          <Data name="voto">
+            <value>8.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.283836,41.7321728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L'Ora Della Pizza]]></name>
+        <description><![CDATA[descrizione: Via Libero Leonardi; <br>link diretto alla posizione:: https://link.mappytube.com/KgiZIH<br>voto: 3.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Libero Leonardi; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/KgiZIH</value>
+          </Data>
+          <Data name="voto">
+            <value>3.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5917831,41.848957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Fantasy: pizzeria al taglio in teglia e pizze tonde, da asporto e domicilio</name>
+        <description><![CDATA[descrizione: Viale Antonio Ciamarra 49; <br>link diretto alla posizione:: https://link.mappytube.com/gTjblO<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Antonio Ciamarra 49; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/gTjblO</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5907304,41.8486152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte Pizza Roma</name>
+        <description><![CDATA[descrizione: Viale Antonio Ciamarra 183; <br>link diretto alla posizione:: https://link.mappytube.com/hSYq4l<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Antonio Ciamarra 183; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/hSYq4l</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5897328,41.8530796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza E Tradizione</name>
+        <description><![CDATA[descrizione: Via Pietro Gasparri 90/a; <br>link diretto alla posizione:: https://link.mappytube.com/Y9Z7AC<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Pietro Gasparri 90/a; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/Y9Z7AC</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.414279,41.9242334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Egidio 1970 | Pizza Rustica a Primavalle</name>
+        <description><![CDATA[descrizione: Via Pasquale II 47; <br>link diretto alla posizione:: https://link.mappytube.com/osgA3B<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Pasquale II 47; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/osgA3B</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.412641,41.9134711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fantasy Pizza</name>
+        <description><![CDATA[descrizione: Via Giovanni Boldini 9<br>link diretto alla posizione:: https://link.mappytube.com/0Xdub8<br>voto: 4.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giovanni Boldini 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/0Xdub8</value>
+          </Data>
+          <Data name="voto">
+            <value>4.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3646216,41.782544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza120 by Paganelli Alvaro</name>
+        <description><![CDATA[descrizione: Via di Acilia 120<br>link diretto alla posizione:: https://link.mappytube.com/C24sZU<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Acilia 120</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/C24sZU</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3669147,41.7802544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voglia di pizza</name>
+        <description><![CDATA[descrizione: Via Amedeo Bocchi 332<br>link diretto alla posizione:: https://link.mappytube.com/fYauox<br>voto: 8.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Amedeo Bocchi 332</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/fYauox</value>
+          </Data>
+          <Data name="voto">
+            <value>8.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3493175,41.7782444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Fritti Criminali</name>
+      <Placemark>
+        <name>Venanzio Supplì Roma</name>
+        <description><![CDATA[descrizione: Via di San Francesco a Rip<br>link diretto alla posizione:: https://tinyurl.com/yxkhku7x<br>voto: ]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di San Francesco a Rip</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxkhku7x</value>
+          </Data>
+          <Data name="voto">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.471738,41.887157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Casa del Supplì - Re di Roma Pizza</name>
+        <description><![CDATA[descrizione: Piazza dei Re di Roma 2<br>link diretto alla posizione:: https://tinyurl.com/y2zrmhgo<br>voto: ]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza dei Re di Roma 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2zrmhgo</value>
+          </Data>
+          <Data name="voto">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.51333,41.881439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Panzerotti & Friends]]></name>
+        <description><![CDATA[descrizione: Via Appia Nuova 559/D<br>link diretto alla posizione:: https://tinyurl.com/y4b4m7om<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Appia Nuova 559/D</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4b4m7om</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.528819,41.870239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonci Pizzarium</name>
+        <description><![CDATA[descrizione: Via della Meloria 43<br>link diretto alla posizione:: https://tinyurl.com/y5e5xn2d<br>voto: 9.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Meloria 43</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5e5xn2d</value>
+          </Data>
+          <Data name="voto">
+            <value>9.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.446686,41.906703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Gemelli della Pinsa</name>
+        <description><![CDATA[descrizione: Piazza Vincenzo Mangano 4/5<br>link diretto alla posizione:: https://tinyurl.com/yy3d2cwv<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Vincenzo Mangano 4/5</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yy3d2cwv</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.566362,41.900548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dar Filettaro a Santa Barbara</name>
+        <description><![CDATA[descrizione: Largo dei Librari 88<br>link diretto alla posizione:: https://tinyurl.com/yxq3hw6a<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo dei Librari 88</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxq3hw6a</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.473686,41.89469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Supplizio</name>
+        <description><![CDATA[descrizione: Via dei Banchi Vecchi 143<br>link diretto alla posizione:: https://tinyurl.com/2cd268sp<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Banchi Vecchi 143</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2cd268sp</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.467911,41.897487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alari Roma</name>
+        <description><![CDATA[descrizione: Via Portuense, 106/D<br>link diretto alla posizione:: https://tinyurl.com/28z5mej8<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Portuense, 106/D</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/28z5mej8</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4671375,41.8757001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trapizzino | Testaccio</name>
+        <description><![CDATA[descrizione: Via Giovanni Branca, 88 (catena)<br>link diretto alla posizione:: https://tinyurl.com/2789wcyp<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giovanni Branca, 88 (catena)</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2789wcyp</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4736352,41.8796102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Fritti De Sora Milvia</name>
+        <description><![CDATA[descrizione: Via Cassia 4<br>link diretto alla posizione:: https://tinyurl.com/26vgdhbx<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cassia 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/26vgdhbx</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4660435,41.9379701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L’asporto di 180grammi</name>
+        <description><![CDATA[descrizione: Via Tor de' Schiavi 53<br>link diretto alla posizione:: https://tinyurl.com/25ngjucl<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Via Tor de' Schiavi 53]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/25ngjucl</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5639523,41.87798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sbanco</name>
+        <description><![CDATA[descrizione: Via Siria 1<br>link diretto alla posizione:: https://tinyurl.com/29bhp4fd<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Siria 1</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/29bhp4fd</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.510995,41.875468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Tramezzini Criminali</name>
+      <Placemark>
+        <name>Il Re del Tramezzino</name>
+        <description><![CDATA[descrizione: Via Mecenate 18/a<br>link diretto alla posizione:: https://tinyurl.com/y64o3g72<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Mecenate 18/a</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y64o3g72</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.498759,41.891406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Fonte del Tramezzino</name>
+        <description><![CDATA[descrizione: Via Cesare Baronio 71/73<br>link diretto alla posizione:: https://tinyurl.com/y5xx5kjd<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cesare Baronio 71/73</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5xx5kjd</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.521059,41.873166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasticceria Linari</name>
+        <description><![CDATA[descrizione: Via Nicola Zabaglia 9<br>link diretto alla posizione:: https://tinyurl.com/y5voyj59<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Nicola Zabaglia 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5voyj59</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.47482,41.879318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffee House - Maurizio Lausi</name>
+        <description><![CDATA[descrizione: Via Marmorata 59<br>link diretto alla posizione:: https://tinyurl.com/y24fpxwg<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Marmorata 59</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y24fpxwg</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.478458,41.87935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasticceria Barberini</name>
+        <description><![CDATA[descrizione: Via Marmorata 41<br>link diretto alla posizione:: https://tinyurl.com/y3l6qnno<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Marmorata 41</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3l6qnno</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.478733,41.878979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasticceria Caffetteria Luperini Rosena</name>
+        <description><![CDATA[descrizione: Via Val d'Ossola 54<br>link diretto alla posizione:: https://tinyurl.com/yxrkyvfx<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Via Val d'Ossola 54]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxrkyvfx</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.52905,41.935297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corsetti</name>
+        <description><![CDATA[descrizione: Piazza Roberto Malatesta 21<br>link diretto alla posizione:: https://tinyurl.com/y25byo4f<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Roberto Malatesta 21</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y25byo4f</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.540337,41.886912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Casina del Caffè - Mercato Trionfale</name>
+        <description><![CDATA[descrizione: Via Andrea Doria<br>link diretto alla posizione:: https://tinyurl.com/y6dv8prg<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Andrea Doria</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6dv8prg</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.45261,41.909596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Conca D'oro Roma]]></name>
+        <description><![CDATA[descrizione: Viale America 25/27/29<br>link diretto alla posizione:: https://tinyurl.com/y6bt7rvf<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale America 25/27/29</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6bt7rvf</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4623662,41.8315255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Tomassini</name>
+        <description><![CDATA[descrizione: Via Leonardo Umile 88<br>link diretto alla posizione:: https://tinyurl.com/y4qejou9<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Leonardo Umile 88</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4qejou9</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4446224,41.8078781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vigna Stelluti Pasticceria Bar</name>
+        <description><![CDATA[descrizione: Largo di Vigna Stelluti 4<br>link diretto alla posizione:: https://tinyurl.com/y52srfzv<br>voto: 1]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo di Vigna Stelluti 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y52srfzv</value>
+          </Data>
+          <Data name="voto">
+            <value>1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4665605,41.9473437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafeteria Spinelli</name>
+        <description><![CDATA[descrizione: Viale Pinturicchio 180<br>link diretto alla posizione:: https://tinyurl.com/y6s5r5qt<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Pinturicchio 180</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6s5r5qt</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4627483,41.9288503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Caffe' Stella Ruschena]]></name>
+        <description><![CDATA[descrizione: Via Cesare Fracassini 2<br>link diretto alla posizione:: https://tinyurl.com/y2awm3k5<br>voto: 0]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cesare Fracassini 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2awm3k5</value>
+          </Data>
+          <Data name="voto">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4707101,41.9238797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caffè del Parco</name>
+        <description><![CDATA[descrizione: Via Tino Buazzelli 3; <br>link diretto alla posizione:: https://link.mappytube.com/obhrg0<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Tino Buazzelli 3; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/obhrg0</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5687996,41.94406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dani Bar</name>
+        <description><![CDATA[descrizione: Via Pollenza 10; <br>link diretto alla posizione:: https://link.mappytube.com/0fn8ay<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Pollenza 10; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/0fn8ay</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.57541,41.9412355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Maritozzi Criminali</name>
+      <Placemark>
+        <name>Il Maritozzaro</name>
+        <description><![CDATA[descrizione: Via Ettore Rolli 50<br>link diretto alla posizione:: https://tinyurl.com/y542znax<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ettore Rolli 50</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y542znax</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.467288,41.873207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cristalli di Zucchero</name>
+        <description><![CDATA[descrizione: Via di Val Tellina 114<br>link diretto alla posizione:: https://tinyurl.com/y4ebpkaa<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Val Tellina 114</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4ebpkaa</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.446694,41.869324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasticceria Bar Romoli</name>
+        <description><![CDATA[descrizione: Viale Eritrea 142<br>link diretto alla posizione:: https://tinyurl.com/yxjf8qxq<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Eritrea 142</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxjf8qxq</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.516196,41.928485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Regoli Pasticceria</name>
+        <description><![CDATA[descrizione: Via dello Statuto 60<br>link diretto alla posizione:: https://tinyurl.com/y53lds7h<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dello Statuto 60</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y53lds7h</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.500949,41.894817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Bonci Roma</name>
+        <description><![CDATA[descrizione: Via Trionfale 36<br>link diretto alla posizione:: https://tinyurl.com/y6yhx3le<br>voto: 9.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Trionfale 36</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6yhx3le</value>
+          </Data>
+          <Data name="voto">
+            <value>9.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.453661,41.911562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte Gennaro Caffè</name>
+        <description><![CDATA[descrizione: Piazza Monte Gennaro 30<br><br>link diretto alla posizione:: https://tinyurl.com/y36dkmff<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Monte Gennaro 30
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y36dkmff</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.538253,41.9454934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lo Zio d'America]]></name>
+        <description><![CDATA[descrizione: Via Ugo Ojetti 2/6A<br>link diretto alla posizione:: https://tinyurl.com/y4b4zz34<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ugo Ojetti 2/6A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4b4zz34</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5480626,41.9436545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo Spuntino Ristobar</name>
+        <description><![CDATA[descrizione: Via Cassia 927 G<br>link diretto alla posizione:: https://tinyurl.com/y5e4uxds<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cassia 927 G</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5e4uxds</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4332929,41.9714562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wine Bar De' Penitenzieri]]></name>
+        <description><![CDATA[descrizione: Via dei Penitenzieri, 16/16A/16B/17<br>link diretto alla posizione:: https://tinyurl.com/y3n4bsdc<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Penitenzieri, 16/16A/16B/17</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3n4bsdc</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4608059,41.9012103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L'angolo del Tramezzino]]></name>
+        <description><![CDATA[descrizione: Via Livorno 89/c<br>link diretto alla posizione:: https://tinyurl.com/y3s942a6<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Livorno 89/c</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3s942a6</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5257832,41.9166486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Forni Criminali</name>
+      <Placemark>
+        <name><![CDATA[L'Antica Panetteria]]></name>
+        <description><![CDATA[descrizione: Via di Villa Chigi 56<br>link diretto alla posizione:: https://tinyurl.com/y5qqbq9n<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Villa Chigi 56</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5qqbq9n</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.514358,41.934888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Specialità Del Forno E Della Tavola</name>
+        <description><![CDATA[descrizione: Via Stimigliano 8<br>link diretto alla posizione:: https://tinyurl.com/y2eb4jnl<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Stimigliano 8</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2eb4jnl</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.512064,41.934473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Gusto del Pane</name>
+        <description><![CDATA[descrizione: Viale Eritrea 55<br>link diretto alla posizione:: https://tinyurl.com/y57utbwc<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Eritrea 55</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y57utbwc</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.515631,41.926408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pane e Pazienza</name>
+        <description><![CDATA[descrizione: Via Portuense 429A/B<br>link diretto alla posizione:: https://tinyurl.com/yxc27k7e<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Portuense 429A/B</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxc27k7e</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.453955,41.862713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albanesi</name>
+        <description><![CDATA[descrizione: Via Gerolamo Cardano 9<br>link diretto alla posizione:: https://tinyurl.com/yxuunyhp<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gerolamo Cardano 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxuunyhp</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.46868,41.863412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vapoforno Frillocchi</name>
+        <description><![CDATA[descrizione: Via Giuseppe Arimondi 36/40<br>link diretto alla posizione:: https://tinyurl.com/y56hu37q<br>voto: 7.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giuseppe Arimondi 36/40</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y56hu37q</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.538503,41.896784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo Sfizio</name>
+        <description><![CDATA[descrizione: Viale Telese 34<br>link diretto alla posizione:: https://tinyurl.com/y44csb2y<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Telese 34</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y44csb2y</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.547642,41.892202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Fornaio Di Tor Tre Teste</name>
+        <description><![CDATA[descrizione: Via Prenestina 684/a<br>link diretto alla posizione:: https://tinyurl.com/y6c44mxe<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Prenestina 684/a</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6c44mxe</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.585779,41.893594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farinando Roma</name>
+        <description><![CDATA[descrizione: Via Luca della Robbia 30-34<br>link diretto alla posizione:: https://tinyurl.com/y3jqrew5<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Luca della Robbia 30-34</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3jqrew5</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.477851,41.878937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Magic Roma</name>
+        <description><![CDATA[descrizione: Via Giovanni Battista Bodoni 31<br>link diretto alla posizione:: https://tinyurl.com/y39hay5h<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Giovanni Battista Bodoni 31</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y39hay5h</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.476163,41.87966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Passi</name>
+        <description><![CDATA[descrizione: Via Mastro Giorgio 87<br>link diretto alla posizione:: https://tinyurl.com/y5drdzhy<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Mastro Giorgio 87</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5drdzhy</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.476273,41.880252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Dolce Forno Roma</name>
+        <description><![CDATA[descrizione: Piazza Bologna 15<br>link diretto alla posizione:: https://tinyurl.com/yxgprwyp<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Bologna 15</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxgprwyp</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.520535,41.912762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Lucarelli Roma</name>
+        <description><![CDATA[descrizione: Via Stamira 37<br>link diretto alla posizione:: https://tinyurl.com/yxbl2p4v<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Stamira 37</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxbl2p4v</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.523284,41.912864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panis 1890</name>
+        <description><![CDATA[descrizione: Via Tagliamento 62<br>link diretto alla posizione:: https://tinyurl.com/yygcxkpk<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Tagliamento 62</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yygcxkpk</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.504541,41.921022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakery M</name>
+        <description><![CDATA[descrizione: Viale Libia 207<br>link diretto alla posizione:: https://tinyurl.com/y5tykp68<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Libia 207</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5tykp68</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.519835,41.932509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grezzo</name>
+        <description><![CDATA[descrizione: Via Taurasia 15<br>link diretto alla posizione:: https://tinyurl.com/yxo9dsc8<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Taurasia 15</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxo9dsc8</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.502664,41.879963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Vecchi Sapori</name>
+        <description><![CDATA[descrizione: Via Gallia 18 / 20<br>link diretto alla posizione:: https://tinyurl.com/y345fd7f<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gallia 18 / 20</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y345fd7f</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.501334,41.881471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Di Giannantonio</name>
+        <description><![CDATA[descrizione: Via Ceneda 23<br>link diretto alla posizione:: https://tinyurl.com/y4wyb6ua<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ceneda 23</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4wyb6ua</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.512062,41.88024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dolce e Salato</name>
+        <description><![CDATA[descrizione: Via Veglia 12<br>link diretto alla posizione:: https://tinyurl.com/yy99jjhk<br>voto: 8.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Veglia 12</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yy99jjhk</value>
+          </Data>
+          <Data name="voto">
+            <value>8.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.528561,41.945058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Quattro Venti</name>
+        <description><![CDATA[descrizione: Viale dei Quattro Venti 23<br>link diretto alla posizione:: https://tinyurl.com/2eyscbk8<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale dei Quattro Venti 23</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2eyscbk8</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4587958,41.8838304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Beti</name>
+        <description><![CDATA[descrizione: Via del Vascello 46<br>link diretto alla posizione:: https://tinyurl.com/2kjuf4zk<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via del Vascello 46</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2kjuf4zk</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4598389,41.8844583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cose Buone dal Forno - Trevisiol</name>
+        <description><![CDATA[descrizione: Via di Val Tellina 66<br>link diretto alla posizione:: https://tinyurl.com/2zmfn7ds<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Val Tellina 66</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2zmfn7ds</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4479212,41.867616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Compagnia del Pane Roma</name>
+        <description><![CDATA[descrizione: Viale dei Colli Portuensi 515<br>link diretto alla posizione:: https://tinyurl.com/2qtdjux9<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale dei Colli Portuensi 515</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2qtdjux9</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4436111,41.8616667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nonno Lino</name>
+        <description><![CDATA[descrizione: Via della Magliana 213<br>link diretto alla posizione:: https://tinyurl.com/2gat37q3<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via della Magliana 213</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2gat37q3</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4587013,41.8491451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Panificio Mare']]></name>
+        <description><![CDATA[descrizione: Via Anna Maria Taigi 6; <br>link diretto alla posizione:: https://tinyurl.com/2b4yw4bv<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Anna Maria Taigi 6; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2b4yw4bv</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4920563,41.85866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Fornarina</name>
+        <description><![CDATA[descrizione: Piazza Oderico da Pordenone 4; <br>link diretto alla posizione:: https://tinyurl.com/25k9ldec<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Oderico da Pordenone 4; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/25k9ldec</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4939789,41.860391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pane Garbato</name>
+        <description><![CDATA[descrizione: Circonvallazione Ostiense 158; <br>link diretto alla posizione:: https://tinyurl.com/2ysracoo<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circonvallazione Ostiense 158; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2ysracoo</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4867886,41.8670368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mancini il Forno (Via Niccodemi Talenti)</name>
+        <description><![CDATA[descrizione: Via Dario Niccodemi 12-14-16; <br>link diretto alla posizione:: https://tinyurl.com/258y6br4<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Dario Niccodemi 12-14-16; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/258y6br4</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5476723,41.9520542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faripan Srl</name>
+        <description><![CDATA[descrizione: Via Annunzio Cervi 12; <br>link diretto alla posizione:: https://tinyurl.com/23y56oxn<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Annunzio Cervi 12; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/23y56oxn</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5466954,41.9517517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Malatesta</name>
+        <description><![CDATA[descrizione: Via Roberto Malatesta 316; <br>link diretto alla posizione:: https://tinyurl.com/2cwrsesh<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Roberto Malatesta 316; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2cwrsesh</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5418553,41.8870909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakery M Caffè</name>
+        <description><![CDATA[descrizione: Via Casilina 358; <br>link diretto alla posizione:: https://tinyurl.com/27clbub2<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Casilina 358; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/27clbub2</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5407131,41.8805617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fatti di Farina Old Bakery Roma</name>
+        <description><![CDATA[descrizione: Via Galeazzo Alessi 245; <br>link diretto alla posizione:: https://tinyurl.com/2b43mvxn<br>voto: 9.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Galeazzo Alessi 245; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2b43mvxn</value>
+          </Data>
+          <Data name="voto">
+            <value>9.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5412985,41.8794132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Sara</name>
+        <description><![CDATA[descrizione: Via Aosta 35; <br>link diretto alla posizione:: https://link.mappytube.com/ZirGz5<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Aosta 35; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/ZirGz5</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5144141,41.8833403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Ciabattini Roma</name>
+        <description><![CDATA[descrizione: Via di S. Croce in Gerusalemme 23; <br>link diretto alla posizione:: https://link.mappytube.com/x9RmHZ<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di S. Croce in Gerusalemme 23; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/x9RmHZ</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5133208,41.8893479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gran Forno Procaccini Roma</name>
+        <description><![CDATA[descrizione: Via Crema 13/15; <br>link diretto alla posizione:: https://link.mappytube.com/jK8DT8<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Crema 13/15; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/jK8DT8</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5224583,41.8837126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambrosini Umberto</name>
+        <description><![CDATA[descrizione: Piazza Rosolino Pilo 12; <br>link diretto alla posizione:: https://link.mappytube.com/7PaQzi<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Rosolino Pilo 12; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/7PaQzi</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.460481,41.8815735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prelibato</name>
+        <description><![CDATA[descrizione: Viale di Villa Pamphili 214; <br>link diretto alla posizione:: https://link.mappytube.com/by14xh<br>voto: 4.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale di Villa Pamphili 214; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/by14xh</value>
+          </Data>
+          <Data name="voto">
+            <value>4.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4579137,41.8774469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Euroforno</name>
+        <description><![CDATA[descrizione: Via Tarquinio Prisco 22; <br>link diretto alla posizione:: https://link.mappytube.com/CZhvmT<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Tarquinio Prisco 22; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/CZhvmT</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5245534,41.8768216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pane ciociaro cotto a legna di Sanna Paolo</name>
+        <description><![CDATA[descrizione: Via Cesare Baronio 1; <br>link diretto alla posizione:: https://link.mappytube.com/xevKYn<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cesare Baronio 1; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/xevKYn</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5227778,41.8745828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuore di Grano</name>
+        <description><![CDATA[descrizione: Via Mario Menghini 68; <br>link diretto alla posizione:: https://link.mappytube.com/otYTSJ<br>voto: 10]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Mario Menghini 68; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/otYTSJ</value>
+          </Data>
+          <Data name="voto">
+            <value>10</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.527077,41.8685359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kebab Criminali</name>
+      <Placemark>
+        <name>Al Basha er Kebbabaro</name>
+        <description><![CDATA[descrizione: Via Val di Cogne 46/48<br>link diretto alla posizione:: https://tinyurl.com/y6tg3422<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Val di Cogne 46/48</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6tg3422</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.527703,41.939805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Istanbul kebab</name>
+        <description><![CDATA[descrizione: Via Nomentana 15<br>link diretto alla posizione:: https://tinyurl.com/y6kgx8ft<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Nomentana 15</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6kgx8ft</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.529945,41.933917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fior di Pizza - Pizzeria Tavola Calda</name>
+        <description><![CDATA[descrizione: Corso Sempione 25/27<br>link diretto alla posizione:: https://tinyurl.com/y5eyfwz9<br>voto: 3]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Corso Sempione 25/27</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5eyfwz9</value>
+          </Data>
+          <Data name="voto">
+            <value>3</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.534821,41.935645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alì Babà Roma</name>
+        <description><![CDATA[descrizione: Via Carroceto 96<br>link diretto alla posizione:: https://tinyurl.com/yybearuy<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Carroceto 96</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yybearuy</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.537304,41.867078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Kebab Roma</name>
+        <description><![CDATA[descrizione: Via Laurentina 595<br>link diretto alla posizione:: https://tinyurl.com/y69b64h9<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Laurentina 595</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y69b64h9</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.479821,41.822649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kebab</name>
+        <description><![CDATA[descrizione: Via Augusto Valenziani 14<br>link diretto alla posizione:: https://tinyurl.com/yxt2morm<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Augusto Valenziani 14</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxt2morm</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.499083,41.910126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shawarma Station</name>
+        <description><![CDATA[descrizione: Via Merulana 271<br>link diretto alla posizione:: https://tinyurl.com/y3xcq966<br>voto: 7.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Merulana 271</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3xcq966</value>
+          </Data>
+          <Data name="voto">
+            <value>7.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.499397,41.896138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kebab Siria</name>
+        <description><![CDATA[descrizione: Via Stimigliano 1A<br>link diretto alla posizione:: https://tinyurl.com/y4ehvsfh<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Stimigliano 1A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4ehvsfh</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.511745,41.934712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Istanbul Kebab</name>
+        <description><![CDATA[descrizione: Viale Giustiniano Imperatore 29<br>link diretto alla posizione:: https://tinyurl.com/y6kesvxr<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Giustiniano Imperatore 29</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6kesvxr</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.479003,41.8569229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafè Istanbul Kebab</name>
+        <description><![CDATA[descrizione: Via Gerolamo Cardano 182<br>link diretto alla posizione:: https://tinyurl.com/y68ep3u8<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Gerolamo Cardano 182</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y68ep3u8</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.46437,41.8624483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kebab station</name>
+        <description><![CDATA[descrizione: Circonvallazione Gianicolense 2<br>link diretto alla posizione:: https://tinyurl.com/yyp3tosg<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circonvallazione Gianicolense 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yyp3tosg</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4654586,41.8737543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Nader</name>
+        <description><![CDATA[descrizione: Via Alberto Ascari 196<br>link diretto alla posizione:: https://tinyurl.com/y2edhwpn<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Alberto Ascari 196</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2edhwpn</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5038675,41.8347454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>istanbul kebab</name>
+        <description><![CDATA[descrizione: Via Tuscolana 773<br>link diretto alla posizione:: https://tinyurl.com/y3mz2k2r<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Tuscolana 773</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y3mz2k2r</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5566029,41.8602812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kebabone</name>
+        <description><![CDATA[descrizione: Via di Acqua Bullicante 243<br>link diretto alla posizione:: https://tinyurl.com/y4r9xfng<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Acqua Bullicante 243</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4r9xfng</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5425071,41.8875737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kebab maroc</name>
+        <description><![CDATA[descrizione: Via di Tor Sapienza 4<br>link diretto alla posizione:: https://tinyurl.com/y5zez66r<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Tor Sapienza 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5zez66r</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5898092,41.9035876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Gelati Criminali</name>
+      <Placemark>
+        <name>Cremeria Alpi Garbatella</name>
+        <description><![CDATA[descrizione: Via Padre Reginaldo Giuliani 16<br>link diretto alla posizione:: https://tinyurl.com/y242fvsc<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Padre Reginaldo Giuliani 16</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y242fvsc</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.493008,41.866469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gelateria Artigianale - Il Pellicano</name>
+        <description><![CDATA[descrizione: Piazza Eugenio Biffi 10<br>link diretto alla posizione:: https://tinyurl.com/y2xvu9qs<br>voto: 5.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Eugenio Biffi 10</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y2xvu9qs</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.489878,41.866768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gelato Baciato</name>
+        <description><![CDATA[descrizione: Largo delle Sette Chiese 12<br>link diretto alla posizione:: https://tinyurl.com/y6lj85kf<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo delle Sette Chiese 12</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6lj85kf</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.486106,41.860717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gelateria La Romana</name>
+        <description><![CDATA[descrizione: Via Ostiense 48<br>link diretto alla posizione:: https://tinyurl.com/yyl3gpza<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ostiense 48</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yyl3gpza</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.479862,41.872158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lubrano</name>
+        <description><![CDATA[descrizione: Via dei Castani 68c<br>link diretto alla posizione:: https://tinyurl.com/yypvn239<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Castani 68c</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yypvn239</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5668729,41.881898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grostè Gelateria Artigianale</name>
+        <description><![CDATA[descrizione: Via dei Castani 238<br>link diretto alla posizione:: https://tinyurl.com/y4gwznu3<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Castani 238</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4gwznu3</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.565692,41.888183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buono Così Gelateria Naturale Roma</name>
+        <description><![CDATA[descrizione: Piazza dei Gerani 30<br>link diretto alla posizione:: https://tinyurl.com/y4dzcua7<br>voto: 9.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza dei Gerani 30</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4dzcua7</value>
+          </Data>
+          <Data name="voto">
+            <value>9.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5675979,41.8854068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gelateria Tony</name>
+        <description><![CDATA[descrizione: Viale dei Colli Portuensi 335<br>link diretto alla posizione:: https://tinyurl.com/y4f5k5gt<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale dei Colli Portuensi 335</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y4f5k5gt</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4443745,41.8665042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mucca Bianca Gelateria</name>
+        <description><![CDATA[descrizione: Via Adolfo Gandiglio 121<br>link diretto alla posizione:: https://tinyurl.com/y6xk88z2<br>voto: 5.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Adolfo Gandiglio 121</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y6xk88z2</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4428117,41.8630104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stefano Ferrara Gelato Lab</name>
+        <description><![CDATA[descrizione: Via Silvestri 224<br>link diretto alla posizione:: https://tinyurl.com/yyu4qdos<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Silvestri 224</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yyu4qdos</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4303634,41.8772214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Gourmandise</name>
+        <description><![CDATA[descrizione: Via Felice Cavallotti 36b<br>link diretto alla posizione:: https://tinyurl.com/yxpofmmz<br>voto: 9.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Felice Cavallotti 36b</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxpofmmz</value>
+          </Data>
+          <Data name="voto">
+            <value>9.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4622543,41.878961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torcè</name>
+        <description><![CDATA[descrizione: Torcè; Viale Aventino 59 <br>link diretto alla posizione:: https://tinyurl.com/2xuowqyd<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Torcè; Viale Aventino 59 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2xuowqyd</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4857652,41.8814305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gelateria Panna & Co - Gelato Naturale]]></name>
+        <description><![CDATA[descrizione: Gelateria Panna & Co - Gelato Naturale; via Marmorata 115 <br>link diretto alla posizione:: https://tinyurl.com/273gbkar<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value><![CDATA[Gelateria Panna & Co - Gelato Naturale; via Marmorata 115 ]]></value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/273gbkar</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4775984,41.8804726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giolitti</name>
+        <description><![CDATA[descrizione: Giolitti; Via Amerigo Vespucci 35 <br>link diretto alla posizione:: https://tinyurl.com/28k7da22<br>voto: 4.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Giolitti; Via Amerigo Vespucci 35 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/28k7da22</value>
+          </Data>
+          <Data name="voto">
+            <value>4.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.475828,41.881833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Panini Criminali</name>
+      <Placemark>
+        <name><![CDATA[McDonald's Roma Termini Forum]]></name>
+        <description><![CDATA[descrizione: Catena in tutta Roma<br>link diretto alla posizione:: <br>voto: 2]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Catena in tutta Roma</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value/>
+          </Data>
+          <Data name="voto">
+            <value>2.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4466774,41.8850207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burger King Tiburtina</name>
+        <description><![CDATA[descrizione: Catena in tutta Roma<br>link diretto alla posizione:: <br>voto: 2]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Catena in tutta Roma</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value/>
+          </Data>
+          <Data name="voto">
+            <value>2.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4427673,41.8849353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bfr Gianicolense</name>
+        <description><![CDATA[descrizione: Circonvallazione Gianicolense 390<br>link diretto alla posizione:: https://tinyurl.com/yxzrwfld<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Circonvallazione Gianicolense 390</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/yxzrwfld</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4429225,41.8773743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ciccio's Food Marconi]]></name>
+        <description><![CDATA[descrizione: Via Antonio Pacinotti 21<br>link diretto alla posizione:: https://tinyurl.com/y5gorp8l<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Antonio Pacinotti 21</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/y5gorp8l</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4679726,41.8711938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mi'Ndujo - Ponte Milvio]]></name>
+        <description><![CDATA[descrizione: Piazzale di Ponte Milvio 3<br>link diretto alla posizione:: https://tinyurl.com/225ngpg7<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazzale di Ponte Milvio 3</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/225ngpg7</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4657754,41.9367692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Panino</name>
+        <description><![CDATA[descrizione: Largo Maresciallo Diaz 20<br>link diretto alla posizione:: https://tinyurl.com/24famjxo<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Largo Maresciallo Diaz 20</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/24famjxo</value>
+          </Data>
+          <Data name="voto">
+            <value>5.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4654812,41.9365731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roma Beer Company</name>
+        <description><![CDATA[descrizione: Piazzale di Ponte Milvio 40/42<br>link diretto alla posizione:: https://tinyurl.com/2c6r9ktn<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazzale di Ponte Milvio 40/42</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2c6r9ktn</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4666862,41.9373664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgers-Macelleria Cucchi dal 1967(centocelle)</name>
+        <description><![CDATA[descrizione: Via dei Castani 236/a<br>link diretto alla posizione:: https://tinyurl.com/29am7lpw<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Castani 236/a</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/29am7lpw</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5657861,41.8880741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Legs</name>
+        <description><![CDATA[descrizione: Via delle Rose 54<br>link diretto alla posizione:: https://tinyurl.com/2y3oaw6z<br>voto: 5,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via delle Rose 54</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2y3oaw6z</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5632835,41.8897146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Banana Food & Game Paninoteca]]></name>
+        <description><![CDATA[descrizione: Via degli Olivi 48/B<br>link diretto alla posizione:: https://tinyurl.com/2cq4fqte<br>voto: 10]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via degli Olivi 48/B</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2cq4fqte</value>
+          </Data>
+          <Data name="voto">
+            <value>10.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5665929,41.8867592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nonna Rosetta</name>
+        <description><![CDATA[descrizione: Via Luigi Capuana 6; <br>link diretto alla posizione:: https://tinyurl.com/22ohmkds<br>voto: 6,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Luigi Capuana 6; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/22ohmkds</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5476295,41.9446102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Panizzeri</name>
+        <description><![CDATA[descrizione: Via Carlo Ludovico Bragaglia 102; <br>link diretto alla posizione:: https://tinyurl.com/2y4cf42o<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Carlo Ludovico Bragaglia 102; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2y4cf42o</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5367542,41.9677978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Butcher Shop</name>
+        <description><![CDATA[descrizione: Via Nomentana 647; <br>link diretto alla posizione:: https://tinyurl.com/2bxgprsj<br>voto: 7,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Nomentana 647; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2bxgprsj</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5363499,41.9354459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>California Cookhouse</name>
+        <description><![CDATA[descrizione: Viale Carnaro 13 c/d; <br>link diretto alla posizione:: https://tinyurl.com/2xm8pkul<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Carnaro 13 c/d; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2xm8pkul</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5329194,41.9385487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Birretta wine and food - Hamburgeria</name>
+        <description><![CDATA[descrizione: Via Simone de Saint Bon 69-73; <br>link diretto alla posizione:: https://tinyurl.com/23beo4rb<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Simone de Saint Bon 69-73; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/23beo4rb</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4563726,41.9124159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>200 Gradi</name>
+        <description><![CDATA[descrizione: Piazza del Risorgimento 3; <br>link diretto alla posizione:: https://tinyurl.com/28n29ls3<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza del Risorgimento 3; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/28n29ls3</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4565817,41.9064553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panino Divino</name>
+        <description><![CDATA[descrizione: Via dei Gracchi 11a; <br>link diretto alla posizione:: https://tinyurl.com/27zbbq7e<br>voto: 6,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Gracchi 11a; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/27zbbq7e</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4583961,41.90692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgez</name>
+        <description><![CDATA[descrizione: Via Candia 6; <br>link diretto alla posizione:: https://tinyurl.com/253azwwq<br>voto: 6,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Candia 6; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/253azwwq</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4548855,41.9087185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ninkasi</name>
+        <description><![CDATA[descrizione: Via Acireale 22; <br>link diretto alla posizione:: https://tinyurl.com/279763o6<br>voto: 7,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Acireale 22; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/279763o6</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5188916,41.8882221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franz Burger</name>
+        <description><![CDATA[descrizione: Via la Spezia 127; <br>link diretto alla posizione:: https://tinyurl.com/2yyekojf<br>voto: 8,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via la Spezia 127; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2yyekojf</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5197281,41.8871522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ninkasi</name>
+        <description><![CDATA[descrizione: Via Acireale 22; <br>link diretto alla posizione:: https://link.mappytube.com/fvoLdw<br>voto: 7,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Acireale 22; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/fvoLdw</value>
+          </Data>
+          <Data name="voto">
+            <value>7.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5188916,41.8882221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franz Burger</name>
+        <description><![CDATA[descrizione: Via la Spezia 127; <br>link diretto alla posizione:: https://link.mappytube.com/NztFdi<br>voto: 8,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via la Spezia 127; </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/NztFdi</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5197281,41.8871522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magic Bun</name>
+        <description><![CDATA[descrizione: Via Bartolomeo Cristofori, 21<br>link diretto alla posizione:: https://link.mappytube.com/EVVymN<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Bartolomeo Cristofori, 21</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/EVVymN</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4654917,41.8673939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Corinto, 56</name>
+        <description><![CDATA[descrizione: Via Corinto, 56<br>link diretto alla posizione:: https://link.mappytube.com/6vhIDK<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Corinto, 56</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/6vhIDK</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4754513,41.8539502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burger Wave Roma</name>
+        <description><![CDATA[descrizione: Via Chiabrera, 207<br>link diretto alla posizione:: https://link.mappytube.com/wfRRTG<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Chiabrera, 207</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/wfRRTG</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.478924,41.851815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Franchino on Tour Criminale</name>
+      <Placemark>
+        <name>Il Bufalo Trippone</name>
+        <description><![CDATA[descrizione: Schiacciata<br>link diretto alla posizione:: https://tinyurl.com/2adnz5z7<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Schiacciata</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2adnz5z7</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.2584839,43.7698364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo Schiacciavino</name>
+        <description><![CDATA[descrizione: Schiacciata<br>link diretto alla posizione:: https://tinyurl.com/29an6n7g<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Schiacciata</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/29an6n7g</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.261053,43.7694944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Fettunta</name>
+        <description><![CDATA[descrizione: Schiacciata<br>link diretto alla posizione:: https://tinyurl.com/26khkozl<br>voto: 6,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Schiacciata</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/26khkozl</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.2574861,43.7684555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>All’Antico Vinaio</name>
+        <description><![CDATA[descrizione: Schiacciata<br>link diretto alla posizione:: https://tinyurl.com/29rs2o7t<br>voto: 6,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Schiacciata</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/29rs2o7t</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.2574377,43.7684851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAPORI TOSCANI STREET FOOD</name>
+        <description><![CDATA[descrizione: Schiacciata<br>link diretto alla posizione:: https://tinyurl.com/2yaklkrr<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Schiacciata</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2yaklkrr</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            11.2608328,43.7713944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cucina del Perugino</name>
+        <description><![CDATA[descrizione: Corso Cavour 110<br>link diretto alla posizione:: https://tinyurl.com/24jrc68z<br>voto: 4,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Corso Cavour 110</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/24jrc68z</value>
+          </Data>
+          <Data name="voto">
+            <value>4.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3914579,43.1064728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Testone - Via Settevalli</name>
+        <description><![CDATA[descrizione: Torta al testo<br>link diretto alla posizione:: https://tinyurl.com/22quzfgj<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Torta al testo</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/22quzfgj</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3638087,43.0764774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cukuc</name>
+        <description><![CDATA[descrizione: Torta al testo<br>link diretto alla posizione:: https://tinyurl.com/27n3rbqt<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Torta al testo</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/27n3rbqt</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.3647987,43.0757375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faliero Torta De La Maria</name>
+        <description><![CDATA[descrizione: Torta al testo<br>link diretto alla posizione:: https://tinyurl.com/24wv8d5y<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Torta al testo</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/24wv8d5y</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1860008,43.0871069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria Pellone</name>
+        <description><![CDATA[descrizione: Pizza a portafoglio<br>Via Nazionale 93<br><br>link diretto alla posizione:: https://tinyurl.com/25qpmt8b<br><br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza a portafoglio
+Via Nazionale 93
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/25qpmt8b
+</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2741284,40.8561618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Di Matteo</name>
+        <description><![CDATA[descrizione: Pizza a portafoglio<br>Via dei Tribunali 94<br><br>link diretto alla posizione:: https://tinyurl.com/297vgg4b<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza a portafoglio
+Via dei Tribunali 94
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/297vgg4b</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2579677,40.8512512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria I Decumani</name>
+        <description><![CDATA[descrizione: Pizza a portafoglio<br>Via dei Tribunali 58/60/61<br>link diretto alla posizione:: https://tinyurl.com/229w7r5c<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza a portafoglio
+Via dei Tribunali 58/60/61</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/229w7r5c</value>
+          </Data>
+          <Data name="voto">
+            <value>9.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2568155,40.850894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antica Pizza Fritta da Zia Esterina Sorbillo</name>
+        <description><![CDATA[descrizione: Pizza fritta <br>Piazza Trieste e Trento 53 <br><br>link diretto alla posizione:: https://tinyurl.com/2pambda3<br>voto: 6,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza fritta 
+Piazza Trieste e Trento 53 
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2pambda3</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2482712,40.8374941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fiorenzano pizzeria trattoria</name>
+        <description><![CDATA[descrizione: Pizza fritta <br>Piazza Trieste e Trento 58 <br><br>link diretto alla posizione:: https://tinyurl.com/2ocqp4t6<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza fritta 
+Piazza Trieste e Trento 58 
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2ocqp4t6</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2482845,40.837647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Vera Pizza Fritta da Gennaro</name>
+        <description><![CDATA[descrizione: Pizza fritta <br>Via Giuseppe Simonelli 58 <br><br>link diretto alla posizione:: https://tinyurl.com/2hamur4g<br>voto: 8,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Pizza fritta 
+Via Giuseppe Simonelli 58 
+</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2hamur4g</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2482318,40.8440605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pintauro</name>
+        <description><![CDATA[descrizione: Sfogliatelle; Via Toledo 275 <br>link diretto alla posizione:: https://tinyurl.com/2b7g4uvr<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Sfogliatelle; Via Toledo 275 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/2b7g4uvr</value>
+          </Data>
+          <Data name="voto">
+            <value>9.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2483,40.8393062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasticceria Giovanni Scaturchio</name>
+        <description><![CDATA[descrizione: Sfogliatelle; P.za S. Domenico Maggiore 19 <br>link diretto alla posizione:: https://tinyurl.com/24o4lzad<br>voto: 9,25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Sfogliatelle; P.za S. Domenico Maggiore 19 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/24o4lzad</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2549272,40.8482509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carraturo</name>
+        <description><![CDATA[descrizione: Sfogliatelle; Piazzetta Nilo 6 <br>link diretto alla posizione:: https://tinyurl.com/25pedkb6<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Sfogliatelle; Piazzetta Nilo 6 </value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://tinyurl.com/25pedkb6</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2556432,40.8485608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
