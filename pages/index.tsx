@@ -1,13 +1,13 @@
-import type { NextPage } from 'next'
-import {ChakraProvider} from "@chakra-ui/react";
+import type { NextPage } from "next";
+import { ChakraProvider } from "@chakra-ui/react";
+import { MappaCriminale } from "../src/components/MappaCriminale";
 
 const Home: NextPage = () => {
   return (
-      <ChakraProvider>
-        <div>hello world!</div>
-      </ChakraProvider>
+    <ChakraProvider>
+      <MappaCriminale />
+    </ChakraProvider>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;

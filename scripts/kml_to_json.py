@@ -21,10 +21,10 @@ for child in document:
             position_link = extended_data[1][0].text
             evaluation = float(extended_data[2][0].text) if extended_data[2][0].text else None
             coordinates = list(place_children[4])[0].text
-            lat, lon, z = map(lambda x: float(x), coordinates.replace('\n', '').split(','))
+            lng,lat, z = map(lambda x: float(x), coordinates.replace('\n', '').split(','))
             mappa_criminale[folder_name].append(
                 {"name": place_name, "description": description, "position_link": position_link,
-                 "evaluation": evaluation, "coordinates": {"lat": lat, "lon": lon}})
+                 "evaluation": evaluation, "coordinates": {"lat": lat, "lng": lng}})
         print(f"{folder_name}: {len(mappa_criminale[folder_name])} places")
 
 with open('data.json', 'w+') as f:
