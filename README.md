@@ -5,11 +5,13 @@ This is a little tribute to [Franchino Er Criminale](https://www.youtube.com/c/F
 
 ### How is it made?
 **main technologies**
+- [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [react-google-map](https://github.com/google-map-react/google-map-react)
+- [fp-ts](https://github.com/gcanti/fp-ts)
 - [Python](/scripts/kml_to_json.py) to convert KML into JSON 
 
-### Why does it use React17? 
+### Why does it use React 17? 
 this is because of **[this](https://github.com/google-map-react/google-map-react/issues/1117)** bug on [react-google-map](https://github.com/google-map-react/google-map-react) that 
 causes markers flickering when scrolling the map 
 

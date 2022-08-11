@@ -15,9 +15,9 @@ for child in document:
         mappa_criminale[folder_name] = []
         for place in folder_children[1:]:
             place_children = list(place)
-            place_name = place_children[0].text
+            place_name = place_children[0].text.replace('ì','i').replace(' ', '')
             extended_data = list(place_children[3])
-            description = extended_data[0][0].text.replace(' ', '')
+            description = extended_data[0][0].text.replace(' ', '').replace('ì','i')
             position_link = extended_data[1][0].text
             evaluation = float(extended_data[2][0].text) if extended_data[2][0].text else None
             coordinates = list(place_children[4])[0].text

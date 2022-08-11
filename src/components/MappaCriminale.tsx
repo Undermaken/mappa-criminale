@@ -1,16 +1,15 @@
-import { Avatar, Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import GoogleMapReact from "google-map-react";
+import { Place } from "../types/place";
+import { MarkerCriminale } from "./MarkerCriminale";
 
-type MarkerProps = {
-  lat: number;
-  lng: number;
-  text: string;
-};
-const Marker = ({ text }: MarkerProps) => {
-  return <Avatar name={text} src="https://bit.ly/dan-abramov" />;
-};
+const tripsCriminali: Record<
+  string,
+  Place[]
+> = require("./../../scripts/data.json");
 
 export const MappaCriminale = () => {
+  const selecteKey = "Pizze a Taglio Criminali";
   const defaultProps = {
     center: {
       lat: 41.919841,
@@ -19,7 +18,7 @@ export const MappaCriminale = () => {
     zoom: 11
   };
   return (
-    <Box h={"100vh"} w={"100%"} backgroundColor={"red"}>
+    <Box h={"100vh"} w={"100%"}>
       <GoogleMapReact
         bootstrapURLKeys={{
           key: process.env.NEXT_PUBLIC_GMAPS_API_KEY as string
@@ -27,12 +26,13 @@ export const MappaCriminale = () => {
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        <Marker
-          key={123}
-          lat={defaultProps.center.lat}
-          lng={defaultProps.center.lng}
-          text={"text"}
-        />
+        {tripsCriminali[selecteKey].map((p, idx) => (
+          <MarkerCriminale
+            key={`${selecteKey}.${idx}`}
+            place={p}
+            {...p.coordinates}
+          />
+        ))}
       </GoogleMapReact>
     </Box>
   );
