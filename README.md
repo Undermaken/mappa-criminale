@@ -5,7 +5,7 @@ This is a little tribute to [Franchino Er Criminale](https://www.youtube.com/c/F
 
 ### How is it made?
 **main technologies**
-- NextJS
+- [NextJS](https://nextjs.org/)
 - [react-google-map](https://github.com/google-map-react/google-map-react)
 - [Python](/scripts/kml_to_json.py) to convert KML into JSON 
 
@@ -14,12 +14,14 @@ this is because of **[this](https://github.com/google-map-react/google-map-react
 causes markers flickering when scrolling the map 
 
 ### Setup & Run
-install all dependencies
+install all dependencies<br/>
 `yarn install`
 
+run the app<br/>
 `yarn build; yarn start`
+
 open you browser on [http://localhost:3000/](http://localhost:3000/)
 
-if you want to run it in development mode (hot reload)
+if you want to run it in development mode (hot reload)<br/>
 `yarn dev;`
 
