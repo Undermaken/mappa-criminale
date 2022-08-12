@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import GoogleMapReact from "google-map-react";
 import { Place } from "../types/place";
-import { MarkerCriminale } from "./MarkerCriminale";
+import { MarkerMemo } from "./MarkerCriminale";
 
 const tripsCriminali: Record<
   string,
@@ -9,7 +9,7 @@ const tripsCriminali: Record<
 > = require("./../../scripts/data.json");
 
 export const MappaCriminale = () => {
-  const selectedKey = "Gelati Criminali";
+  const selectedKey = "Pizze a Taglio Criminali";
   const defaultProps = {
     center: {
       lat: 41.919841,
@@ -27,7 +27,7 @@ export const MappaCriminale = () => {
         defaultZoom={defaultProps.zoom}
       >
         {tripsCriminali[selectedKey].map((p, idx) => (
-          <MarkerCriminale
+          <MarkerMemo
             key={`${selectedKey}.${idx}`}
             place={p}
             {...p.coordinates}

@@ -5,6 +5,6 @@ export type Place = {
   };
   name: string;
   description: string;
-  position_link: string;
+  position_link?: string;
   evaluation?: number;
 };
