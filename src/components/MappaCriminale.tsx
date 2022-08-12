@@ -9,7 +9,7 @@ const tripsCriminali: Record<
 > = require("./../../scripts/data.json");
 
 export const MappaCriminale = () => {
-  const selecteKey = "Pizze a Taglio Criminali";
+  const selectedKey = "Gelati Criminali";
   const defaultProps = {
     center: {
       lat: 41.919841,
@@ -26,9 +26,9 @@ export const MappaCriminale = () => {
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        {tripsCriminali[selecteKey].map((p, idx) => (
+        {tripsCriminali[selectedKey].map((p, idx) => (
           <MarkerCriminale
-            key={`${selecteKey}.${idx}`}
+            key={`${selectedKey}.${idx}`}
             place={p}
             {...p.coordinates}
           />

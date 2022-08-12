@@ -1,22 +1,26 @@
-import { Avatar, AvatarBadge } from "@chakra-ui/react";
+import {
+  Avatar,
+  CircularProgress,
+  CircularProgressLabel,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  Text
+} from "@chakra-ui/react";
 import { Place } from "../types/place";
+import { useMemo } from "react";
 
-const colorEvalutationRanges: Array<[[number, number], string]> = [
-  [[0, 3], "#ff0000"],
-  [[3, 5], "#ff8000"],
-  [[5, 6], "#e6ff00"],
-  [[6, 7], "#2fff00"],
-  [[7, 8], "#00a6ff"],
-  [[8, 9], "#0022ff"],
-  [[9, 10], "#e600ff"]
-];
+const getColorByEvaluation = (evaluation: number): string => {
+  const strength = ((10 - evaluation) / 10) * 255;
+  return `rgb(${strength},${strength},255)`;
+};
 
-const fallbackColor = "white";
-const getColorByEvaluation = (evaluation: number): string =>
-  colorEvalutationRanges.find(
-    rangeColor =>
-      evaluation > rangeColor[0][0] && evaluation <= rangeColor[0][1]
-  )?.[1] ?? fallbackColor;
+const useMemoColorByEvaluation = (evaluation: number) =>
+  useMemo(() => getColorByEvaluation(evaluation), [evaluation]);
 
 export const MarkerCriminale = ({
   place
@@ -26,13 +30,33 @@ export const MarkerCriminale = ({
   lng: number;
 }) => {
   const { name, evaluation } = place;
+  const bgColor = useMemoColorByEvaluation(evaluation ?? 0);
+  const evaluationRpr = place.evaluation?.toFixed(1) ?? "n/a";
   return (
-    <Avatar
-      onClick={() => console.log(place)}
-      name={name}
-      size="sm"
-      color={"black"}
-      bgColor={evaluation ? getColorByEvaluation(evaluation) : fallbackColor}
-    />
+    <Popover>
+      <PopoverTrigger>
+        <Avatar
+          onClick={() => console.log(place)}
+          name={evaluationRpr}
+          getInitials={s => s}
+          showBorder={true}
+          borderColor={"#24cad0"}
+          size="sm"
+          // since white bg if for low scores, invert the text color
+          color={(place.evaluation ?? 0) < 3 ? "black" : "white"}
+          bgColor={bgColor}
+        />
+      </PopoverTrigger>
+      <PopoverContent fontSize={"md"}>
+        <PopoverArrow />
+        <PopoverCloseButton />
+        <PopoverHeader>{name}</PopoverHeader>
+        <PopoverBody>
+          <CircularProgress value={(evaluation ?? 0) * 100} color="green.400">
+            <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
+          </CircularProgress>
+        </PopoverBody>
+      </PopoverContent>
+    </Popover>
   );
 };
