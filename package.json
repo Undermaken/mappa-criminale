@@ -15,6 +15,7 @@
     "fp-ts": "^2.12.2",
     "framer-motion": "^6",
     "google-map-react": "^2.2.0",
+    "jotai": "^1.7.8",
     "next": "12.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

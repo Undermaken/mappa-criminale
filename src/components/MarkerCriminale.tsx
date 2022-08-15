@@ -19,6 +19,7 @@ import React, { useMemo } from "react";
 
 const getColorByEvaluation = (evaluation: number): string => {
   const strength = ((10 - evaluation) / 10) * 255;
+  // basically blue, where intensity depends on score
   return `rgb(${strength},${strength},255)`;
 };
 
@@ -39,7 +40,6 @@ const MarkerCriminale = ({
     <Popover>
       <PopoverTrigger>
         <Avatar
-          onClick={() => console.log(place)}
           name={evaluationRpr}
           getInitials={s => s}
           showBorder={true}
@@ -54,22 +54,26 @@ const MarkerCriminale = ({
         <PopoverArrow />
         <PopoverCloseButton />
         <PopoverHeader>
-          <Text fontWeight={"bold"}>{name}</Text>
-        </PopoverHeader>
-        <PopoverBody>
           <HStack>
-            <CircularProgress value={(evaluation ?? 0) * 10} color="green.400">
+            <CircularProgress
+              value={(evaluation ?? 0) * 10}
+              color="green.400"
+              size={"42px"}
+            >
               <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
             </CircularProgress>
-            <VStack fontSize={14} alignItems={"flex-start"}>
-              <Text>{description}</Text>
-              {position_link && (
-                <Link color="teal.600" href={position_link} isExternal>
-                  link diretto
-                </Link>
-              )}
-            </VStack>
+            <Text fontWeight={"bold"}>{name}</Text>
           </HStack>
+        </PopoverHeader>
+        <PopoverBody>
+          <VStack fontSize={14} alignItems={"flex-start"}>
+            <Text>{description}</Text>
+            {position_link && (
+              <Link color="teal.600" href={position_link} isExternal>
+                link diretto
+              </Link>
+            )}
+          </VStack>
         </PopoverBody>
       </PopoverContent>
     </Popover>
