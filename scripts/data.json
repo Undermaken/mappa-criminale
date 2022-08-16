@@ -1707,6 +1707,36 @@
                 "lat": 41.8685359,
                 "lng": 12.527077
             }
+        },
+        {
+            "name": "Forno Nonno Franco",
+            "description": "Via Ruggero Fauro 2",
+            "position_link": "https://link.mappytube.com/ZCqH04",
+            "evaluation": 7.0,
+            "coordinates": {
+                "lat": 41.9259861,
+                "lng": 12.4893625
+            }
+        },
+        {
+            "name": "Panificio Mosca",
+            "description": "Via Candia 16",
+            "position_link": "https://link.mappytube.com/FXVptU",
+            "evaluation": 6.0,
+            "coordinates": {
+                "lat": 41.9085824,
+                "lng": 12.4543316
+            }
+        },
+        {
+            "name": "Lo Sfilatino - pane,pizza e dolci",
+            "description": "Via Raffaele Caverni 12",
+            "position_link": "https://link.mappytube.com/2oLbeQ",
+            "evaluation": 4.75,
+            "coordinates": {
+                "lat": 41.9132549,
+                "lng": 12.4513243
+            }
         }
     ],
     "Kebab Criminali": [

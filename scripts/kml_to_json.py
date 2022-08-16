@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
-
+from os.path import abspath
+print(f"reading {abspath('data.kml')} KML file...")
 tree = ET.parse('data.kml')
 document = list(tree.getroot())[0]
 
@@ -25,7 +26,8 @@ for child in document:
             mappa_criminale[folder_name].append(
                 {"name": place_name, "description": description, "position_link": position_link,
                  "evaluation": evaluation, "coordinates": {"lat": lat, "lng": lng}})
-        print(f"{folder_name}: {len(mappa_criminale[folder_name])} places")
+        print(f"processing '{folder_name}': {len(mappa_criminale[folder_name])} places")
 
 with open('data.json', 'w+') as f:
     json.dump(mappa_criminale, f, indent=4)
+    print(f"dumped data into {abspath('data.json')} JSON file")

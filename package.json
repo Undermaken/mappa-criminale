@@ -12,6 +12,8 @@
     "@chakra-ui/react": "1.8.8",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@fontsource/open-sans": "^4.5.11",
+    "@fontsource/raleway": "^4.5.10",
     "fp-ts": "^2.12.2",
     "framer-motion": "^6",
     "google-map-react": "^2.2.0",
@@ -23,11 +25,15 @@
   "devDependencies": {
     "@types/google-map-react": "^2.1.7",
     "@types/node": "18.6.5",
-    "@types/react": "17.0.43",
-    "@types/react-dom": "18.0.6",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
     "eslint": "8.21.0",
     "eslint-config-next": "12.1.2",
     "prettier": "^2.7.1",
     "typescript": "4.7.4"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
   }
 }

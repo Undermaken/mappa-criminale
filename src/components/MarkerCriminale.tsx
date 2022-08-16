@@ -35,7 +35,19 @@ const MarkerCriminale = ({
 }) => {
   const { name, description, evaluation, position_link } = place;
   const bgColor = useMemoColorByEvaluation(evaluation ?? 0);
-  const evaluationRpr = place.evaluation?.toFixed(1) ?? "n/a";
+  const evaluationRpr = place.evaluation
+    ? parseFloat(place.evaluation.toFixed(1)).toString()
+    : "n/a";
+  // starting from 7, on each point, increase by a constant of 1.2
+  // 7 -> 2
+  // 8 -> 4
+  // 9 -> 6
+  // 10 -> 8
+  const sizeIncr = Math.round(
+    evaluation ? Math.max(evaluation - 6, 0) * 0.8 : 0
+  );
+  // avatar size must be even
+  const sizeIncrEven = sizeIncr % 2 === 0 ? sizeIncr : sizeIncr + 1;
   return (
     <Popover>
       <PopoverTrigger>
@@ -44,7 +56,9 @@ const MarkerCriminale = ({
           getInitials={s => s}
           showBorder={true}
           borderColor={"#24cad0"}
-          size="sm"
+          w={8 + sizeIncrEven}
+          h={8 + sizeIncrEven}
+          size={"sm"}
           // since white bg if for low scores, invert the text color
           color={(place.evaluation ?? 0) < 3 ? "black" : "white"}
           bgColor={bgColor}

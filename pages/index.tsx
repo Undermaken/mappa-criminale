@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, theme } from "@chakra-ui/react";
 import { MappaCriminale } from "../src/components/MappaCriminale";
 
 const Home: NextPage = () => {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <MappaCriminale />
     </ChakraProvider>
   );

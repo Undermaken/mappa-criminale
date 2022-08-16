@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Mappa StreetFood Criminale - Franchino er Criminale</name>
-    <description><![CDATA[La mappa aggiornata con voti di tutti i locali visitati da Franchino er Criminale. CONDIVIDILA :)<br><br>https://link.mappytube.com/franchinomap]]></description>
+    <description><![CDATA[La mappa con tutti i locali visitati da Franchino er Criminale. Seguici o scrivici su https://link.mappytube.com/instagram <br><br>CONDIVIDILA :)<br>https://link.mappytube.com/franchinomap]]></description>
     <Style id="icon-1899-DB4436-labelson">
       <IconStyle>
         <color>ff3644db</color>
@@ -3595,6 +3595,69 @@
         <Point>
           <coordinates>
             12.527077,41.8685359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forno Nonno Franco</name>
+        <description><![CDATA[descrizione: Via Ruggero Fauro 2<br>link diretto alla posizione:: https://link.mappytube.com/ZCqH04<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ruggero Fauro 2</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/ZCqH04</value>
+          </Data>
+          <Data name="voto">
+            <value>7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4893625,41.9259861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Mosca</name>
+        <description><![CDATA[descrizione: Via Candia 16<br>link diretto alla posizione:: https://link.mappytube.com/FXVptU<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Candia 16</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/FXVptU</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4543316,41.9085824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo Sfilatino - pane,pizza e dolci</name>
+        <description><![CDATA[descrizione: Via Raffaele Caverni 12<br>link diretto alla posizione:: https://link.mappytube.com/2oLbeQ<br>voto: 4.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Raffaele Caverni 12</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/2oLbeQ</value>
+          </Data>
+          <Data name="voto">
+            <value>4.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4513243,41.9132549,0
           </coordinates>
         </Point>
       </Placemark>

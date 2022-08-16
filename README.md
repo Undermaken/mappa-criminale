@@ -5,25 +5,27 @@ This is a little tribute to [Franchino Er Criminale](https://www.youtube.com/c/F
 
 ### How is it made?
 **main technologies**
-- [Typescript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [react-google-map](https://github.com/google-map-react/google-map-react)
-- [fp-ts](https://github.com/gcanti/fp-ts)
-- [Python](/scripts/kml_to_json.py) to convert KML into JSON 
+- Language [Typescript](https://www.typescriptlang.org/)
+- Framework [NextJS](https://nextjs.org/)
+- UI kit [Chakra](https://chakra-ui.com/)
+- Notable components [react-google-map](https://github.com/google-map-react/google-map-react)
+- State management [Jotai](https://jotai.org/)
+- Functional Programming enabler [fp-ts](https://github.com/gcanti/fp-ts)
+- Scripting [Python](/scripts/kml_to_json.py) to convert KML into JSON 
 
 ### Why does it use React 17? 
 this is because of **[this](https://github.com/google-map-react/google-map-react/issues/1117)** bug on [react-google-map](https://github.com/google-map-react/google-map-react) that 
 causes markers flickering when scrolling the map 
 
 ### Setup & Run
-install all dependencies<br/>
-`yarn install`
-
-run the app<br/>
-`yarn build; yarn start`
-
-open you browser on [http://localhost:3000/](http://localhost:3000/)
+1. install all dependencies<br/>
+   `yarn install`
+2. generate data<br/>
+   `cd scripts;python kml_to_json.py`
+3. run the app<br/>
+   `yarn build; yarn start`
+4. open you browser on [http://localhost:3000/](http://localhost:3000/)
 
 if you want to run it in development mode (hot reload)<br/>
-`yarn dev;`
+`yarn dev`
 
