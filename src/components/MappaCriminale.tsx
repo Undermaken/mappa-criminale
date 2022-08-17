@@ -1,4 +1,11 @@
-import { Avatar, Box, HStack, Text, useMediaQuery } from "@chakra-ui/react";
+import {
+  Avatar,
+  Box,
+  HStack,
+  Text,
+  useMediaQuery,
+  VStack
+} from "@chakra-ui/react";
 import GoogleMapReact from "google-map-react";
 import { Place } from "../types/place";
 import { MarkerMemo } from "./MarkerCriminale";
@@ -26,9 +33,15 @@ export const MappaCriminale = () => {
   const selectedTourKey = selectedTour ?? tours[0].key;
   const center = tripsCriminali[selectedTourKey][0].coordinates;
   const [isMobile] = useMediaQuery("(max-width: 768px)");
+  const places = tripsCriminali[selectedTourKey].filter(
+    p =>
+      p.evaluation &&
+      p.evaluation >= evalutationRange.min &&
+      p.evaluation <= evalutationRange.max
+  );
   return (
     <>
-      <Box h={"100vh"} w={"100%"}>
+      <Box h={isMobile ? "96vh" : "100vh"} w={"100%"}>
         <GoogleMapReact
           style={{ zIndex: 0 }}
           options={{
@@ -45,20 +58,13 @@ export const MappaCriminale = () => {
           center={center}
           defaultZoom={11}
         >
-          {tripsCriminali[selectedTourKey]
-            .filter(
-              p =>
-                p.evaluation &&
-                p.evaluation >= evalutationRange.min &&
-                p.evaluation <= evalutationRange.max
-            )
-            .map((p, idx) => (
-              <MarkerMemo
-                key={`${selectedTourKey}.${idx}`}
-                place={p}
-                {...p.coordinates}
-              />
-            ))}
+          {places.map((p, idx) => (
+            <MarkerMemo
+              key={`${selectedTourKey}.${idx}`}
+              place={p}
+              {...p.coordinates}
+            />
+          ))}
         </GoogleMapReact>
         <Box
           style={{ zIndex: 1, position: "absolute", left: 4 }}
@@ -78,11 +84,16 @@ export const MappaCriminale = () => {
               p={1}
               borderColor={"blue.700"}
             />
-            <Text p={2} bgColor={"whiteAlpha.900"} borderRadius={4}>
-              {`${selectedTourKey} (${
-                tours.find(t => t.key === selectedTourKey)?.count ?? ""
-              })`}
-            </Text>
+            <Box p={2} bgColor={"whiteAlpha.900"} borderRadius={4}>
+              <VStack alignItems={"flex-start"} spacing={1}>
+                <Text fontWeight={"semibold"}>
+                  {selectedTourKey} - {isMobile ? "SI" : "NO"}
+                </Text>
+                <Text
+                  fontSize={"sm"}
+                >{`fascia voto da ${evalutationRange.min} a ${evalutationRange.max}: ${places.length} risultati`}</Text>
+              </VStack>
+            </Box>
           </HStack>
           <DrawerMenu
             onClose={() => setMenuOpen(false)}

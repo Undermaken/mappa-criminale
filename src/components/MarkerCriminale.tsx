@@ -48,6 +48,7 @@ const MarkerCriminale = ({
   );
   // avatar size must be even
   const sizeIncrEven = sizeIncr % 2 === 0 ? sizeIncr : sizeIncr + 1;
+
   return (
     <Popover>
       <PopoverTrigger>

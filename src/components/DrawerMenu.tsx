@@ -30,10 +30,10 @@ export const DrawerMenu = ({ onClose, onSelectedTour, tours }: Props) => {
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader>Seleziona il tour criminale</DrawerHeader>
+        <DrawerHeader>Tour criminale</DrawerHeader>
 
         <DrawerBody>
-          <VStack>
+          <VStack spacing={4}>
             <Select
               placeholder="Tour Criminale"
               onChange={({ target }) => onSelectedTour(target.value)}
@@ -46,11 +46,8 @@ export const DrawerMenu = ({ onClose, onSelectedTour, tours }: Props) => {
                 >{`${t.key} (${t.count})`}</option>
               ))}
             </Select>
-            <Text>Scegli un intervallo di voto</Text>
+            <Text fontWeight={"semibold"}>Scegli un intervallo di voto</Text>
             <EvaluationRangeSlider />
-            <Text>
-              {evalutationRange.min} - {evalutationRange.max}
-            </Text>
           </VStack>
         </DrawerBody>
 
