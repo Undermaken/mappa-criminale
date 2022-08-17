@@ -6,9 +6,17 @@ import {
   DrawerHeader,
   DrawerOverlay
 } from "@chakra-ui/modal";
-import { Button, Drawer, Select, VStack, Text, HStack } from "@chakra-ui/react";
-import { useAtomValue } from "jotai";
-import { evalutationRangeAtom, menuOpenAtom } from "../state/menu";
+import {
+  Button,
+  Drawer,
+  Select,
+  VStack,
+  Text,
+  HStack,
+  Box
+} from "@chakra-ui/react";
+import { useAtomValue, useSetAtom } from "jotai";
+import { menuOpenAtom } from "../state/menu";
 import { selectedTourAtom } from "../state/map";
 import { EvaluationRangeSlider } from "./EvaluationRangeSlider";
 import { MadeWithLove } from "./MadeWithLove";
@@ -22,9 +30,8 @@ type Props = Readonly<{
   }>;
 }>;
 
-export const DrawerMenu = ({ onClose, onSelectedTour, tours }: Props) => {
+export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
   const isOpen = useAtomValue(menuOpenAtom);
-  const evalutationRange = useAtomValue(evalutationRangeAtom);
   const selectedTour = useAtomValue(selectedTourAtom);
   return (
     <Drawer isOpen={isOpen} placement="right" onClose={onClose} size={"xs"}>
@@ -53,11 +60,19 @@ export const DrawerMenu = ({ onClose, onSelectedTour, tours }: Props) => {
         </DrawerBody>
 
         <DrawerFooter>
-          <HStack>
-            <MadeWithLove />
-            <Button colorScheme="blue" onClick={onClose}>
-              Chiudi
-            </Button>
+          <HStack flex={1}>
+            {process.env.NEXT_PUBLIC_BYE_ME_A_COFFEE && (
+              <MadeWithLove
+                buyMeACoffeeUrl={
+                  process.env.NEXT_PUBLIC_BYE_ME_A_COFFEE as string
+                }
+              />
+            )}
+            <Box display={"flex"} justifyContent={"flex-end"} flex={1}>
+              <Button colorScheme="blue" onClick={onClose}>
+                Chiudi
+              </Button>
+            </Box>
           </HStack>
         </DrawerFooter>
       </DrawerContent>

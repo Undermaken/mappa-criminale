@@ -1,21 +1,10 @@
-import {
-  Avatar,
-  CircularProgress,
-  CircularProgressLabel,
-  HStack,
-  Link,
-  Popover,
-  PopoverArrow,
-  PopoverBody,
-  PopoverCloseButton,
-  PopoverContent,
-  PopoverHeader,
-  PopoverTrigger,
-  Text,
-  VStack
-} from "@chakra-ui/react";
+import { Avatar } from "@chakra-ui/react";
 import { Place } from "../types/place";
+
 import React, { useMemo } from "react";
+import { useSetAtom } from "jotai";
+import { selectedPlaceAtom } from "../state/map";
+import { getEvaluationRpr } from "../utils/evaluation";
 
 const getColorByEvaluation = (evaluation: number): string => {
   const strength = ((10 - evaluation) / 10) * 255;
@@ -33,11 +22,10 @@ const MarkerCriminale = ({
   lat: number;
   lng: number;
 }) => {
-  const { name, description, evaluation, position_link } = place;
+  const { evaluation } = place;
+  const setSelectedPlace = useSetAtom(selectedPlaceAtom);
   const bgColor = useMemoColorByEvaluation(evaluation ?? 0);
-  const evaluationRpr = place.evaluation
-    ? parseFloat(place.evaluation.toFixed(1)).toString()
-    : "n/a";
+  const evaluationRpr = getEvaluationRpr(place.evaluation);
   // starting from 7, on each point, increase by a constant of 1.2
   // 7 -> 2
   // 8 -> 4
@@ -50,48 +38,19 @@ const MarkerCriminale = ({
   const sizeIncrEven = sizeIncr % 2 === 0 ? sizeIncr : sizeIncr + 1;
 
   return (
-    <Popover>
-      <PopoverTrigger>
-        <Avatar
-          name={evaluationRpr}
-          getInitials={s => s}
-          showBorder={true}
-          borderColor={"#24cad0"}
-          w={8 + sizeIncrEven}
-          h={8 + sizeIncrEven}
-          size={"sm"}
-          // since white bg if for low scores, invert the text color
-          color={(place.evaluation ?? 0) < 3 ? "black" : "white"}
-          bgColor={bgColor}
-        />
-      </PopoverTrigger>
-      <PopoverContent fontSize={"md"}>
-        <PopoverArrow />
-        <PopoverCloseButton />
-        <PopoverHeader>
-          <HStack>
-            <CircularProgress
-              value={(evaluation ?? 0) * 10}
-              color="green.400"
-              size={"42px"}
-            >
-              <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
-            </CircularProgress>
-            <Text fontWeight={"bold"}>{name}</Text>
-          </HStack>
-        </PopoverHeader>
-        <PopoverBody>
-          <VStack fontSize={14} alignItems={"flex-start"}>
-            <Text>{description}</Text>
-            {position_link && (
-              <Link color="teal.600" href={position_link} isExternal>
-                link diretto
-              </Link>
-            )}
-          </VStack>
-        </PopoverBody>
-      </PopoverContent>
-    </Popover>
+    <Avatar
+      onClick={() => setSelectedPlace(place)}
+      name={evaluationRpr}
+      getInitials={s => s}
+      showBorder={true}
+      borderColor={"#24cad0"}
+      w={8 + sizeIncrEven}
+      h={8 + sizeIncrEven}
+      size={"sm"}
+      // since white bg if for low scores, invert the text color
+      color={(place.evaluation ?? 0) < 3 ? "black" : "white"}
+      bgColor={bgColor}
+    />
   );
 };
 

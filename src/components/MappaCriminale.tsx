@@ -1,19 +1,16 @@
-import {
-  Avatar,
-  Box,
-  HStack,
-  Text,
-  useMediaQuery,
-  VStack
-} from "@chakra-ui/react";
-import GoogleMapReact from "google-map-react";
+import { Box, useMediaQuery } from "@chakra-ui/react";
+import GoogleMapReact, { Coords } from "google-map-react";
 import { Place } from "../types/place";
 import { MarkerMemo } from "./MarkerCriminale";
-import { DrawerMenu } from "./DrawerMenu";
+import { RightDrawer } from "./RightDrawer";
 import { record as R, function as F } from "fp-ts";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { evalutationRangeAtom, menuOpenAtom } from "../state/menu";
-import { selectedTourAtom } from "../state/map";
+import { selectedPlaceAtom, selectedTourAtom } from "../state/map";
+import { FranchinoFab } from "./FranchinoFab";
+import { BottomDrawer } from "./BottomDrawer";
+import { useEffect, useState } from "react";
+import { type } from "os";
 
 const tripsCriminali: Record<
   string,
@@ -21,27 +18,39 @@ const tripsCriminali: Record<
 > = require("./../../scripts/data.json");
 
 export const MappaCriminale = () => {
-  const setMenuOpen = useSetAtom(menuOpenAtom);
-  const evalutationRange = useAtomValue(evalutationRangeAtom);
+  const evaluationRange = useAtomValue(evalutationRangeAtom);
+  const [center, setCenter] = useState<Coords | undefined>();
   const [selectedTour, setSelectedTour] = useAtom(selectedTourAtom);
+  const selectedPlace = useAtomValue(selectedPlaceAtom);
+  const setMenuOpen = useSetAtom(menuOpenAtom);
   const tours = F.pipe(tripsCriminali, R.toArray, tc =>
     tc.map(kv => ({
       key: kv[0],
       count: kv[1].length
     }))
   ).sort((a, b) => (a.count === b.count ? 0 : b.count - a.count));
-  const selectedTourKey = selectedTour ?? tours[0].key;
-  const center = tripsCriminali[selectedTourKey][0].coordinates;
-  const [isMobile] = useMediaQuery("(max-width: 768px)");
+  const selectedTourKey = selectedTour || tours[0].key;
   const places = tripsCriminali[selectedTourKey].filter(
     p =>
       p.evaluation &&
-      p.evaluation >= evalutationRange.min &&
-      p.evaluation <= evalutationRange.max
+      p.evaluation >= evaluationRange.min &&
+      p.evaluation <= evaluationRange.max
   );
+  useEffect(() => {
+    if (selectedPlace !== undefined) {
+      setCenter(selectedPlace.coordinates);
+    }
+  }, [selectedPlace]);
+
+  useEffect(() => {
+    if (selectedTour !== undefined) {
+      setCenter(places[0]?.coordinates);
+    }
+  }, [places, selectedTour]);
+
   return (
     <>
-      <Box h={isMobile ? "96vh" : "100vh"} w={"100%"}>
+      <Box w={"100%"} flex={1} backgroundColor={"red"}>
         <GoogleMapReact
           style={{ zIndex: 0 }}
           options={{
@@ -55,7 +64,7 @@ export const MappaCriminale = () => {
             language: "it",
             region: "it"
           }}
-          center={center}
+          center={center ?? places[0]?.coordinates}
           defaultZoom={11}
         >
           {places.map((p, idx) => (
@@ -66,45 +75,16 @@ export const MappaCriminale = () => {
             />
           ))}
         </GoogleMapReact>
-        <Box
-          style={{ zIndex: 1, position: "absolute", left: 4 }}
-          bottom={isMobile ? 16 : 8}
-        >
-          <HStack
-            style={{ cursor: "pointer" }}
-            onClick={() => {
-              setMenuOpen(pv => !pv);
-            }}
-          >
-            <Avatar
-              src={"/franchino.png"}
-              size={"lg"}
-              bgColor={"whiteAlpha.700"}
-              borderWidth={2}
-              p={1}
-              borderColor={"blue.700"}
-            />
-            <Box p={2} bgColor={"whiteAlpha.900"} borderRadius={4}>
-              <VStack alignItems={"flex-start"} spacing={1}>
-                <Text fontWeight={"semibold"}>
-                  {selectedTourKey} - {isMobile ? "SI" : "NO"}
-                </Text>
-                <Text
-                  fontSize={"sm"}
-                >{`fascia voto da ${evalutationRange.min} a ${evalutationRange.max}`}</Text>
-                <Text fontSize={"sm"}>{`${places.length} risultati`}</Text>
-              </VStack>
-            </Box>
-          </HStack>
-          <DrawerMenu
-            onClose={() => setMenuOpen(false)}
-            tours={tours}
-            onSelectedTour={mk => {
-              setSelectedTour(mk);
-              setMenuOpen(false);
-            }}
-          />
-        </Box>
+        <FranchinoFab places={places.length} selectedTour={selectedTourKey} />
+        <RightDrawer
+          onClose={() => setMenuOpen(false)}
+          tours={tours}
+          onSelectedTour={mk => {
+            setSelectedTour(mk);
+            setMenuOpen(false);
+          }}
+        />
+        <BottomDrawer />
       </Box>
     </>
   );
