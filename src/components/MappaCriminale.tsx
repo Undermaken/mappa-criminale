@@ -91,7 +91,8 @@ export const MappaCriminale = () => {
                 </Text>
                 <Text
                   fontSize={"sm"}
-                >{`fascia voto da ${evalutationRange.min} a ${evalutationRange.max}: ${places.length} risultati`}</Text>
+                >{`fascia voto da ${evalutationRange.min} a ${evalutationRange.max}`}</Text>
+                <Text fontSize={"sm"}>{`${places.length} risultati`}</Text>
               </VStack>
             </Box>
           </HStack>
