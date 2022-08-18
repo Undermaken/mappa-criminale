@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import { MappaCriminale } from "../src/components/MappaCriminale";
+import { MapCriminale } from "../src/components/MapCriminale";
 
 const Home: NextPage = () => {
-  return <MappaCriminale />;
+  return <MapCriminale />;
 };
 
 export default Home;

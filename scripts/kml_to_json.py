@@ -1,32 +1,34 @@
 import xml.etree.ElementTree as ET
 import json
+from datetime import datetime
 from os.path import abspath
+
 print(f"reading {abspath('data.kml')} KML file...")
 tree = ET.parse('data.kml')
 document = list(tree.getroot())[0]
 
-# key -> folder
-# value -> list of places
-mappa_criminale = {}
+# places -> dict -> key: 'tour name', value: list of places
+# created_at -> timestamp when this dump is created
+mappa_criminale = {"places": {}, "created_at": datetime.timestamp(datetime.now())}
 
 for child in document:
     if child.tag.endswith("Folder"):
         folder_children = list(child)
         folder_name = folder_children[0].text
-        mappa_criminale[folder_name] = []
+        mappa_criminale["places"][folder_name] = []
         for place in folder_children[1:]:
             place_children = list(place)
-            place_name = place_children[0].text.replace('ì','i').replace(' ', '')
+            place_name = place_children[0].text.replace('ì', 'i').replace(' ', '')
             extended_data = list(place_children[3])
-            description = extended_data[0][0].text.replace(' ', '').replace('ì','i')
+            description = extended_data[0][0].text.replace(' ', '').replace('ì', 'i')
             position_link = extended_data[1][0].text
             evaluation = float(extended_data[2][0].text) if extended_data[2][0].text else None
             coordinates = list(place_children[4])[0].text
-            lng,lat, z = map(lambda x: float(x), coordinates.replace('\n', '').split(','))
-            mappa_criminale[folder_name].append(
+            lng, lat, z = map(lambda x: float(x), coordinates.replace('\n', '').split(','))
+            mappa_criminale["places"][folder_name].append(
                 {"name": place_name, "description": description, "position_link": position_link,
                  "evaluation": evaluation, "coordinates": {"lat": lat, "lng": lng}})
-        print(f"processing '{folder_name}': {len(mappa_criminale[folder_name])} places")
+        print(f"processing '{folder_name}': {len(mappa_criminale['places'][folder_name])} places")
 
 with open('data.json', 'w+') as f:
     json.dump(mappa_criminale, f, indent=4)

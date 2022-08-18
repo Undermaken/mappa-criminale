@@ -17,14 +17,18 @@ import {
 } from "@chakra-ui/react";
 import { useAtomValue, useSetAtom } from "jotai";
 import { menuOpenAtom } from "../state/menu";
-import { selectedTourAtom } from "../state/map";
+import {
+  selectedTourAtom,
+  selectedTourNameAtom,
+  tourCriminaliAtom
+} from "../state/map";
 import { EvaluationRangeSlider } from "./EvaluationRangeSlider";
 import { MadeWithLove } from "./MadeWithLove";
 
 type Props = Readonly<{
   onClose: () => void;
   onSelectedTour: (tour: string) => void;
-  tours: Array<{
+  tours: ReadonlyArray<{
     key: string;
     count: number;
   }>;
@@ -32,13 +36,21 @@ type Props = Readonly<{
 
 export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
   const isOpen = useAtomValue(menuOpenAtom);
+  const tourCriminali = useAtomValue(tourCriminaliAtom);
   const selectedTour = useAtomValue(selectedTourAtom);
+  const selectedTourName = useAtomValue(selectedTourNameAtom);
   return (
     <Drawer isOpen={isOpen} placement="right" onClose={onClose} size={"xs"}>
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader>Tour criminale</DrawerHeader>
+        <DrawerHeader>
+          Tour criminale
+          <Text fontWeight={"normal"} fontSize={"small"}>
+            dati aggiornati al:{" "}
+            {new Date(tourCriminali.created_at * 1000).toLocaleDateString("it")}
+          </Text>
+        </DrawerHeader>
 
         <DrawerBody>
           <VStack spacing={4}>
@@ -48,7 +60,7 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
             >
               {tours.map(t => (
                 <option
-                  selected={selectedTour === t.key}
+                  selected={selectedTourName === t.key}
                   key={t.key}
                   value={t.key}
                 >{`${t.key} (${t.count})`}</option>
@@ -56,6 +68,13 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
             </Select>
             <Text fontWeight={"semibold"}>Scegli un intervallo di voto</Text>
             <EvaluationRangeSlider />
+            <Text
+              fontWeight={"normal"}
+              style={{ marginTop: 30 }}
+              fontSize={"small"}
+            >
+              {selectedTour.places.length} risultati
+            </Text>
           </VStack>
         </DrawerBody>
 
@@ -70,7 +89,7 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
             )}
             <Box display={"flex"} justifyContent={"flex-end"} flex={1}>
               <Button colorScheme="blue" onClick={onClose}>
-                Chiudi
+                chiudi
               </Button>
             </Box>
           </HStack>

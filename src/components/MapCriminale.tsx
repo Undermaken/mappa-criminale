@@ -1,41 +1,38 @@
-import { Box, useMediaQuery } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import GoogleMapReact, { Coords } from "google-map-react";
-import { Place } from "../types/place";
 import { MarkerMemo } from "./MarkerCriminale";
 import { RightDrawer } from "./RightDrawer";
 import { record as R, function as F } from "fp-ts";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { evalutationRangeAtom, menuOpenAtom } from "../state/menu";
-import { selectedPlaceAtom, selectedTourAtom } from "../state/map";
+import { useAtomValue, useSetAtom } from "jotai";
+import { menuOpenAtom } from "../state/menu";
+import {
+  selectedPlaceAtom,
+  selectedTourAtom,
+  selectedTourNameAtom,
+  tourCriminaliAtom
+} from "../state/map";
 import { FranchinoFab } from "./FranchinoFab";
 import { BottomDrawer } from "./BottomDrawer";
 import { useEffect, useState } from "react";
-import { type } from "os";
 
-const tripsCriminali: Record<
-  string,
-  Place[]
-> = require("./../../scripts/data.json");
-
-export const MappaCriminale = () => {
-  const evaluationRange = useAtomValue(evalutationRangeAtom);
+export const MapCriminale = () => {
   const [center, setCenter] = useState<Coords | undefined>();
-  const [selectedTour, setSelectedTour] = useAtom(selectedTourAtom);
+  const setSelectedTourName = useSetAtom(selectedTourNameAtom);
+  const selectedTour = useAtomValue(selectedTourAtom);
   const selectedPlace = useAtomValue(selectedPlaceAtom);
   const setMenuOpen = useSetAtom(menuOpenAtom);
-  const tours = F.pipe(tripsCriminali, R.toArray, tc =>
-    tc.map(kv => ({
-      key: kv[0],
-      count: kv[1].length
-    }))
+  const tourCriminali = useAtomValue(tourCriminaliAtom);
+  const places = selectedTour.places;
+  const tours: ReadonlyArray<{ key: string; count: number }> = F.pipe(
+    tourCriminali.places,
+    R.toArray,
+    tc =>
+      tc.map(kv => ({
+        key: kv[0],
+        count: kv[1].length
+      }))
   ).sort((a, b) => (a.count === b.count ? 0 : b.count - a.count));
-  const selectedTourKey = selectedTour || tours[0].key;
-  const places = tripsCriminali[selectedTourKey].filter(
-    p =>
-      p.evaluation &&
-      p.evaluation >= evaluationRange.min &&
-      p.evaluation <= evaluationRange.max
-  );
+
   useEffect(() => {
     if (selectedPlace !== undefined) {
       setCenter(selectedPlace.coordinates);
@@ -44,7 +41,8 @@ export const MappaCriminale = () => {
 
   useEffect(() => {
     if (selectedTour !== undefined) {
-      setCenter(places[0]?.coordinates);
+      // I'm lazy, set the center using the first place, if it exists
+      setCenter(selectedTour.places[0]?.coordinates);
     }
   }, [places, selectedTour]);
 
@@ -64,25 +62,22 @@ export const MappaCriminale = () => {
             language: "it",
             region: "it"
           }}
-          center={center ?? places[0]?.coordinates}
+          center={center ?? selectedTour.places[0]?.coordinates}
           defaultZoom={11}
         >
           {places.map((p, idx) => (
             <MarkerMemo
-              key={`${selectedTourKey}.${idx}`}
+              key={`${selectedTour.name}.${idx}`}
               place={p}
               {...p.coordinates}
             />
           ))}
         </GoogleMapReact>
-        <FranchinoFab places={places.length} selectedTour={selectedTourKey} />
+        <FranchinoFab places={places.length} selectedTour={selectedTour.name} />
         <RightDrawer
           onClose={() => setMenuOpen(false)}
           tours={tours}
-          onSelectedTour={mk => {
-            setSelectedTour(mk);
-            setMenuOpen(false);
-          }}
+          onSelectedTour={setSelectedTourName}
         />
         <BottomDrawer />
       </Box>
