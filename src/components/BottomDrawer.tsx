@@ -32,7 +32,7 @@ export const BottomDrawer = () => {
   const evaluationRpr = getEvaluationRpr(evaluation);
   const shareData = {
     title: "Mappa Criminale",
-    text: `Ho trovato "${selectedPlace.name}" sulla Mappa Criminale https://mappa-criminale.vercel.app/`,
+    text: `Ho trovato "${selectedPlace.name}" sulla Mappa Criminale https://mappa-criminale.vercel.app/\n\n`,
     url: `https://maps.google.com/?q=${selectedPlace.coordinates.lat},${selectedPlace.coordinates.lng}`
   };
   return (
