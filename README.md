@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/822471/185595464-d40a6fde-e2c5-42bf-a0
 - Notable components [react-google-map](https://github.com/google-map-react/google-map-react)
 - State management [Jotai](https://jotai.org/)
 - Functional Programming enabler [fp-ts](https://github.com/gcanti/fp-ts)
-- Scripting [Python](/scripts/kml_to_json.py) to convert KML into JSON 
+- [Python](/scripts/kml_to_json.py) - script to convert KML into JSON 
 
 ### Why does it use React 17? 
 this is because of **[this](https://github.com/google-map-react/google-map-react/issues/1117)** bug on [react-google-map](https://github.com/google-map-react/google-map-react) that 

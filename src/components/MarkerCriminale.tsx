@@ -26,11 +26,11 @@ const MarkerCriminale = ({
   const setSelectedPlace = useSetAtom(selectedPlaceAtom);
   const bgColor = useMemoColorByEvaluation(evaluation ?? 0);
   const evaluationRpr = getEvaluationRpr(place.evaluation);
-  // starting from 7, on each point, increase by a constant of 1.2
-  // 7 -> 2
-  // 8 -> 4
-  // 9 -> 6
-  // 10 -> 8
+  // starting from 7, on each point, increase by a constant of 0.8
+  // 7 -> 0.8
+  // 8 -> 1.6
+  // 9 -> 2.4
+  // 10 -> 3.2
   const sizeIncr = Math.round(
     evaluation ? Math.max(evaluation - 6, 0) * 0.8 : 0
   );
@@ -47,7 +47,7 @@ const MarkerCriminale = ({
       w={8 + sizeIncrEven}
       h={8 + sizeIncrEven}
       size={"sm"}
-      // since white bg if for low scores, invert the text color
+      // since white bg if for low scores, invert the text color to black
       color={(place.evaluation ?? 0) < 3 ? "black" : "white"}
       bgColor={bgColor}
     />

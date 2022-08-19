@@ -1,11 +1,4 @@
-import {
-  Avatar,
-  Box,
-  HStack,
-  Text,
-  useMediaQuery,
-  VStack
-} from "@chakra-ui/react";
+import { Avatar, Box, HStack, Text, VStack } from "@chakra-ui/react";
 import { useAtomValue, useSetAtom } from "jotai";
 import { evalutationRangeAtom, menuOpenAtom } from "../state/menu";
 
