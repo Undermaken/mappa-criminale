@@ -43,7 +43,6 @@ export const BottomDrawer = () => {
       onClose={() => setSelectedPlace(undefined)}
     >
       <DrawerContent>
-        <DrawerCloseButton />
         <DrawerHeader>
           <Center>
             <HStack>

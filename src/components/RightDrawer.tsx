@@ -44,7 +44,6 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
     <Drawer isOpen={isOpen} placement="right" onClose={onClose} size={"xs"}>
       <DrawerOverlay />
       <DrawerContent>
-        <DrawerCloseButton />
         <DrawerHeader>
           Tour criminale
           <InfoAndSocial />
