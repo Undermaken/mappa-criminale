@@ -33,9 +33,10 @@ export const selectedTourAtom = atom<{ name: string; places: Place[] }>(get => {
     O.map(places =>
       places.filter(
         p =>
-          p.evaluation &&
-          p.evaluation >= evaluationRange.min &&
-          p.evaluation <= evaluationRange.max
+          p.evaluation === undefined ||
+          (p.evaluation &&
+            p.evaluation >= evaluationRange.min &&
+            p.evaluation <= evaluationRange.max)
       )
     ),
     O.getOrElse<Place[]>(() => [])

@@ -38,8 +38,8 @@ export const FranchinoFab = ({ selectedTour, places }: Props) => {
             <Text fontWeight={"semibold"}>{selectedTour}</Text>
             <Text
               fontSize={"sm"}
-            >{`fascia voto da ${evalutationRange.min} a ${evalutationRange.max}`}</Text>
-            <Text fontSize={"sm"}>{`${places} risultati`}</Text>
+            >{`intervallo voto da ${evalutationRange.min} a ${evalutationRange.max}`}</Text>
+            <Text fontSize={"xs"}>{`${places} risultati`}</Text>
           </VStack>
         </Box>
       </HStack>

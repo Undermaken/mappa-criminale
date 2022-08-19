@@ -12,10 +12,13 @@ import {
   CircularProgressLabel,
   Drawer,
   HStack,
+  Icon,
+  IconButton,
   Link,
   Text,
   VStack
 } from "@chakra-ui/react";
+import { IoIosShareAlt } from "react-icons/io";
 import { useAtom } from "jotai";
 import { selectedPlaceAtom } from "../state/map";
 import { getEvaluationRpr } from "../utils/evaluation";
@@ -27,6 +30,11 @@ export const BottomDrawer = () => {
   }
   const { evaluation, name, description, position_link } = selectedPlace;
   const evaluationRpr = getEvaluationRpr(evaluation);
+  const shareData = {
+    title: "Mappa Criminale",
+    text: "Ho trovato questo posto sulla mappa-criminale",
+    url: `https://maps.google.com/?q=${selectedPlace.coordinates.lat},${selectedPlace.coordinates.lng}`
+  };
   return (
     <Drawer
       isOpen={!!selectedPlace}
@@ -47,6 +55,16 @@ export const BottomDrawer = () => {
                 <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
               </CircularProgress>
               <Text fontWeight={"bold"}>{name}</Text>
+              {navigator.canShare && navigator.canShare(shareData) === true && (
+                <IconButton
+                  onClick={() => {
+                    void navigator.share(shareData);
+                  }}
+                  variant={"text"}
+                  aria-label={"share"}
+                  icon={<Icon as={IoIosShareAlt} />}
+                />
+              )}
             </HStack>
           </Center>
         </DrawerHeader>

@@ -11,11 +11,12 @@ import {
   Drawer,
   Select,
   VStack,
+  Link,
   Text,
   HStack,
   Box
 } from "@chakra-ui/react";
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtomValue } from "jotai";
 import { menuOpenAtom } from "../state/menu";
 import {
   selectedTourAtom,
@@ -46,18 +47,28 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
         <DrawerCloseButton />
         <DrawerHeader>
           Tour criminale
-          <Text fontWeight={"normal"} fontSize={"small"}>
-            dati aggiornati al:{" "}
-            {new Date(tourCriminali.created_at * 1000).toLocaleDateString("it")}
-          </Text>
+          <VStack alignItems={"start"} spacing={0}>
+            <Text fontSize={"xs"} fontWeight={"normal"}>
+              dati aggiornati al:{" "}
+              {new Date(tourCriminali.created_at * 1000).toLocaleDateString(
+                "it"
+              )}
+            </Text>
+            <Link
+              color={"#1076dc"}
+              fontWeight={"normal"}
+              fontSize={"xs"}
+              isExternal={true}
+              href={"https://github.com/Undermaken/mappa-criminale"}
+            >
+              questo progetto è completamente open-source
+            </Link>
+          </VStack>
         </DrawerHeader>
 
         <DrawerBody>
           <VStack spacing={4}>
-            <Select
-              placeholder="Tour Criminale"
-              onChange={({ target }) => onSelectedTour(target.value)}
-            >
+            <Select onChange={({ target }) => onSelectedTour(target.value)}>
               {tours.map(t => (
                 <option
                   selected={selectedTourName === t.key}
