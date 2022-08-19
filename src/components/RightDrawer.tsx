@@ -25,6 +25,7 @@ import {
 } from "../state/map";
 import { EvaluationRangeSlider } from "./EvaluationRangeSlider";
 import { MadeWithLove } from "./MadeWithLove";
+import { InfoAndSocial } from "./InfoAndSocial";
 
 type Props = Readonly<{
   onClose: () => void;
@@ -37,7 +38,6 @@ type Props = Readonly<{
 
 export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
   const isOpen = useAtomValue(menuOpenAtom);
-  const tourCriminali = useAtomValue(tourCriminaliAtom);
   const selectedTour = useAtomValue(selectedTourAtom);
   const selectedTourName = useAtomValue(selectedTourNameAtom);
   return (
@@ -47,23 +47,7 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
         <DrawerCloseButton />
         <DrawerHeader>
           Tour criminale
-          <VStack alignItems={"start"} spacing={0}>
-            <Text fontSize={"xs"} fontWeight={"normal"}>
-              dati aggiornati al:{" "}
-              {new Date(tourCriminali.created_at * 1000).toLocaleDateString(
-                "it"
-              )}
-            </Text>
-            <Link
-              color={"#1076dc"}
-              fontWeight={"normal"}
-              fontSize={"xs"}
-              isExternal={true}
-              href={"https://github.com/Undermaken/mappa-criminale"}
-            >
-              questo progetto è completamente open-source
-            </Link>
-          </VStack>
+          <InfoAndSocial />
         </DrawerHeader>
 
         <DrawerBody>
