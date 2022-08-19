@@ -26,11 +26,11 @@ causes markers flickering when scrolling the map
 ### Setup & Run
 1. install all dependencies<br/>
    `yarn install`
-2. generate data<br/>
+2. generate/update data<br/>
    `cd scripts;python kml_to_json.py`
 3. run the app<br/>
    `yarn build; yarn start`
-4. open you browser on [http://localhost:3000/](http://localhost:3000/)
+4. open your browser on [http://localhost:3000/](http://localhost:3000/)
 
 if you want to run it in development mode (hot reload)<br/>
 `yarn dev`
