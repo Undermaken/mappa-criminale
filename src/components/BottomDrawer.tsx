@@ -32,7 +32,7 @@ export const BottomDrawer = () => {
   const evaluationRpr = getEvaluationRpr(evaluation);
   const shareData = {
     title: "Mappa Criminale",
-    text: "Ho trovato questo posto sulla mappa-criminale",
+    text: `Ho trovato "${selectedPlace.name}" sulla Mappa Criminale https://mappa-criminale.vercel.app/`,
     url: `https://maps.google.com/?q=${selectedPlace.coordinates.lat},${selectedPlace.coordinates.lng}`
   };
   return (
@@ -55,7 +55,7 @@ export const BottomDrawer = () => {
                 <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
               </CircularProgress>
               <Text fontWeight={"bold"}>{name}</Text>
-              {navigator.canShare && navigator.canShare(shareData) === true && (
+              {navigator.canShare && navigator.canShare(shareData) && (
                 <IconButton
                   onClick={() => {
                     void navigator.share(shareData);
