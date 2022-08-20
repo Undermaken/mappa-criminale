@@ -8,7 +8,7 @@ import { getEvaluationRpr } from "../utils/evaluation";
 
 const getColorByEvaluation = (evaluation: number): string => {
   const strength = ((10 - evaluation) / 10) * 255;
-  // basically blue, where intensity depends on score
+  // basically blue, intensity depends on score
   return `rgb(${strength},${strength},255)`;
 };
 

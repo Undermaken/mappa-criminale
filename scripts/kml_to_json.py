@@ -20,11 +20,14 @@ for child in document:
             place_children = list(place)
             place_name = place_children[0].text.replace('ì', 'i').replace(' ', '')
             extended_data = list(place_children[3])
-            description = extended_data[0][0].text.replace(' ', '').replace('ì', 'i')
+            description = extended_data[0][0].text.replace(' ', '').replace('ì', 'i') if extended_data[0][0] else None
             position_link = extended_data[1][0].text
             evaluation = float(extended_data[2][0].text) if extended_data[2][0].text else None
             coordinates = list(place_children[4])[0].text
             lng, lat, z = map(lambda x: float(x), coordinates.replace('\n', '').split(','))
+            # skip these entries with no significant data
+            if [description, evaluation] == [None, None]:
+                continue
             mappa_criminale["places"][folder_name].append(
                 {"name": place_name, "description": description, "position_link": position_link,
                  "evaluation": evaluation, "coordinates": {"lat": lat, "lng": lng}})

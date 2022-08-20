@@ -1,6 +1,6 @@
 ## KML to JSON
-this script reads the .kml file downloaded from [here](https://www.google.com/maps/d/u/0/viewer?mid=1ZSDdwrK9bFAZhGJ3axA0sPeOC-AZ2Glk&shorturl=1&ll=42.3215417003941%2C12.765783050000014&z=8)
-and create a new JSON file with the same data
+this script reads the `.kml` file downloaded from [here](https://www.google.com/maps/d/u/0/viewer?mid=1ZSDdwrK9bFAZhGJ3axA0sPeOC-AZ2Glk&shorturl=1&ll=42.3215417003941%2C12.765783050000014&z=8)
+and creates a new JSON file with the same data
 
 ### setup & run
 download the KML file from the [source](https://www.google.com/maps/d/u/0/viewer?mid=1ZSDdwrK9bFAZhGJ3axA0sPeOC-AZ2Glk&shorturl=1&ll=42.3215417003941%2C12.765783050000014&z=8)

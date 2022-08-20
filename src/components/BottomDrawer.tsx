@@ -1,6 +1,5 @@
 import {
   DrawerBody,
-  DrawerCloseButton,
   DrawerContent,
   DrawerFooter,
   DrawerHeader
@@ -32,64 +31,66 @@ export const BottomDrawer = () => {
   const evaluationRpr = getEvaluationRpr(evaluation);
   const shareData = {
     title: "Mappa Criminale",
-    text: `Ho trovato "${selectedPlace.name}" sulla Mappa Criminale https://mappa-criminale.vercel.app/\n`,
+    text: `Ho trovato "${selectedPlace.name}" sulla Mappa https://mappa-criminale.vercel.app/ di Franchino Er Criminale\n`,
     url: `https://maps.google.com/?q=${selectedPlace.coordinates.lat},${selectedPlace.coordinates.lng}`
   };
   return (
-    <Drawer
-      isOpen={!!selectedPlace}
-      placement="bottom"
-      size={"xs"}
-      onClose={() => setSelectedPlace(undefined)}
-    >
-      <DrawerContent>
-        <DrawerHeader>
-          <Center>
-            <HStack>
-              <CircularProgress
-                value={(evaluation ?? 0) * 10}
-                color="green.400"
-                size={"42px"}
-              >
-                <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
-              </CircularProgress>
-              <Text fontWeight={"bold"}>{name}</Text>
-              {navigator.canShare && navigator.canShare(shareData) && (
-                <IconButton
-                  onClick={() => {
-                    void navigator.share(shareData);
-                  }}
-                  variant={"text"}
-                  aria-label={"share"}
-                  icon={<Icon as={IoIosShareAlt} />}
-                />
-              )}
-            </HStack>
-          </Center>
-        </DrawerHeader>
+    <div>
+      <Drawer
+        isOpen={!!selectedPlace}
+        placement="bottom"
+        size={"xs"}
+        onClose={() => setSelectedPlace(undefined)}
+      >
+        <DrawerContent>
+          <DrawerHeader>
+            <Center>
+              <HStack>
+                <CircularProgress
+                  value={(evaluation ?? 0) * 10}
+                  color="green.400"
+                  size={"48px"}
+                >
+                  <CircularProgressLabel>{evaluationRpr}</CircularProgressLabel>
+                </CircularProgress>
+                <Text fontWeight={"bold"}>{name}</Text>
+                {navigator.canShare && navigator.canShare(shareData) && (
+                  <IconButton
+                    onClick={() => {
+                      void navigator.share(shareData);
+                    }}
+                    variant={"text"}
+                    aria-label={"share"}
+                    icon={<Icon as={IoIosShareAlt} />}
+                  />
+                )}
+              </HStack>
+            </Center>
+          </DrawerHeader>
 
-        <DrawerBody>
-          <Center>
-            <VStack fontSize={14} alignItems={"flex-start"}>
-              <Text>{description}</Text>
-              {position_link && (
-                <Link color="teal.600" href={position_link} isExternal>
-                  link diretto
-                </Link>
-              )}
-            </VStack>
-          </Center>
-        </DrawerBody>
+          <DrawerBody>
+            <Center>
+              <VStack fontSize={14} alignItems={"flex-start"}>
+                <Text>{description}</Text>
+                {position_link && (
+                  <Link color="teal.600" href={position_link} isExternal>
+                    link diretto
+                  </Link>
+                )}
+              </VStack>
+            </Center>
+          </DrawerBody>
 
-        <DrawerFooter>
-          <Button
-            colorScheme="blue"
-            onClick={() => setSelectedPlace(undefined)}
-          >
-            Chiudi
-          </Button>
-        </DrawerFooter>
-      </DrawerContent>
-    </Drawer>
+          <DrawerFooter>
+            <Button
+              colorScheme="blue"
+              onClick={() => setSelectedPlace(undefined)}
+            >
+              Chiudi
+            </Button>
+          </DrawerFooter>
+        </DrawerContent>
+      </Drawer>
+    </div>
   );
 };

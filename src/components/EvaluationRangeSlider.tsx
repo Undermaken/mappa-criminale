@@ -4,20 +4,22 @@ import {
   RangeSliderFilledTrack,
   RangeSliderThumb,
   RangeSliderTrack,
-  Text
+  Text,
+  useRangeSlider
 } from "@chakra-ui/react";
 import { useAtom } from "jotai";
-import { evalutationRangeAtom } from "../state/menu";
+import { evaluationRangeAtom } from "../state/menu";
 import { useState } from "react";
 
 export const EvaluationRangeSlider = () => {
-  const [range, setRange] = useAtom(evalutationRangeAtom);
+  const [range, setRange] = useAtom(evaluationRangeAtom);
   const [currentRange, setCurrentRange] = useState<[number, number]>([
     range.min,
     range.max
   ]);
   return (
     <RangeSlider
+      minStepsBetweenThumbs={1}
       defaultValue={[range.min, range.max]}
       min={0}
       max={10}

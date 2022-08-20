@@ -3,12 +3,12 @@ import GoogleMapReact, { Coords } from "google-map-react";
 import { MarkerMemo } from "./MarkerCriminale";
 import { RightDrawer } from "./RightDrawer";
 import { record as R, function as F } from "fp-ts";
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { menuOpenAtom } from "../state/menu";
 import {
+  placesSelector,
   selectedPlaceAtom,
   selectedTourAtom,
-  selectedTourNameAtom,
   tourCriminaliAtom
 } from "../state/map";
 import { FranchinoFab } from "./FranchinoFab";
@@ -17,12 +17,11 @@ import { useEffect, useState } from "react";
 
 export const MapCriminale = () => {
   const [center, setCenter] = useState<Coords | undefined>();
-  const setSelectedTourName = useSetAtom(selectedTourNameAtom);
-  const selectedTour = useAtomValue(selectedTourAtom);
+  const [selectedTour, setSelectedTour] = useAtom(selectedTourAtom);
+  const selectedPlaces = useAtomValue(placesSelector);
   const selectedPlace = useAtomValue(selectedPlaceAtom);
   const setMenuOpen = useSetAtom(menuOpenAtom);
   const tourCriminali = useAtomValue(tourCriminaliAtom);
-  const places = selectedTour.places;
   const tours: ReadonlyArray<{ key: string; count: number }> = F.pipe(
     tourCriminali.places,
     R.toArray,
@@ -42,45 +41,43 @@ export const MapCriminale = () => {
   useEffect(() => {
     if (selectedTour !== undefined) {
       // I'm lazy, set the center using the first place, if it exists
+      // see https://github.com/google-map-react/google-map-react/issues/590
       setCenter(selectedTour.places[0]?.coordinates);
     }
-  }, [places, selectedTour]);
+  }, [selectedTour]);
 
   return (
-    <>
-      <Box w={"100%"} flex={1} backgroundColor={"red"}>
-        <GoogleMapReact
-          style={{ zIndex: 0 }}
-          options={{
-            mapTypeId: "roadmap",
-            gestureHandling: "greedy",
-            fullscreenControl: false,
-            zoomControl: false
-          }}
-          bootstrapURLKeys={{
-            key: process.env.NEXT_PUBLIC_GMAPS_API_KEY as string,
-            language: "it",
-            region: "it"
-          }}
-          center={center ?? selectedTour.places[0]?.coordinates}
-          defaultZoom={11}
-        >
-          {places.map((p, idx) => (
-            <MarkerMemo
-              key={`${selectedTour.name}.${idx}`}
-              place={p}
-              {...p.coordinates}
-            />
-          ))}
-        </GoogleMapReact>
-        <FranchinoFab places={places.length} selectedTour={selectedTour.name} />
-        <RightDrawer
-          onClose={() => setMenuOpen(false)}
-          tours={tours}
-          onSelectedTour={setSelectedTourName}
-        />
-        <BottomDrawer />
-      </Box>
-    </>
+    <Box w={"100%"} flex={1}>
+      <GoogleMapReact
+        style={{ zIndex: 0 }}
+        options={{
+          mapTypeId: "roadmap",
+          gestureHandling: "greedy",
+          fullscreenControl: false,
+          zoomControl: false
+        }}
+        bootstrapURLKeys={{
+          key: process.env.NEXT_PUBLIC_GMAPS_API_KEY as string,
+          language: "it",
+          region: "it"
+        }}
+        center={center ?? selectedTour?.places[0]?.coordinates}
+        defaultZoom={11}
+      >
+        {selectedPlaces.map((p, idx) => (
+          <MarkerMemo key={`marker.${idx}`} place={p} {...p.coordinates} />
+        ))}
+      </GoogleMapReact>
+      <FranchinoFab
+        places={selectedPlaces.length}
+        selectedTour={selectedTour?.name ?? ""}
+      />
+      <RightDrawer
+        onClose={() => setMenuOpen(false)}
+        tours={tours}
+        onSelectedTour={setSelectedTour}
+      />
+      <BottomDrawer />
+    </Box>
   );
 };

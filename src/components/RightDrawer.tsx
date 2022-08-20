@@ -1,6 +1,5 @@
 import {
   DrawerBody,
-  DrawerCloseButton,
   DrawerContent,
   DrawerFooter,
   DrawerHeader,
@@ -11,7 +10,6 @@ import {
   Drawer,
   Select,
   VStack,
-  Link,
   Text,
   HStack,
   Box
@@ -19,17 +17,19 @@ import {
 import { useAtomValue } from "jotai";
 import { menuOpenAtom } from "../state/menu";
 import {
+  placesSelector,
+  SelectedTour,
   selectedTourAtom,
-  selectedTourNameAtom,
   tourCriminaliAtom
 } from "../state/map";
 import { EvaluationRangeSlider } from "./EvaluationRangeSlider";
 import { MadeWithLove } from "./MadeWithLove";
 import { InfoAndSocial } from "./InfoAndSocial";
+import { PlacesList } from "./PlacesList";
 
 type Props = Readonly<{
   onClose: () => void;
-  onSelectedTour: (tour: string) => void;
+  onSelectedTour: (tour: SelectedTour) => void;
   tours: ReadonlyArray<{
     key: string;
     count: number;
@@ -38,8 +38,9 @@ type Props = Readonly<{
 
 export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
   const isOpen = useAtomValue(menuOpenAtom);
+  const tourCriminali = useAtomValue(tourCriminaliAtom);
   const selectedTour = useAtomValue(selectedTourAtom);
-  const selectedTourName = useAtomValue(selectedTourNameAtom);
+  const places = useAtomValue(placesSelector);
   return (
     <Drawer isOpen={isOpen} placement="right" onClose={onClose} size={"xs"}>
       <DrawerOverlay />
@@ -50,25 +51,62 @@ export const RightDrawer = ({ onClose, onSelectedTour, tours }: Props) => {
         </DrawerHeader>
 
         <DrawerBody>
-          <VStack spacing={4}>
-            <Select onChange={({ target }) => onSelectedTour(target.value)}>
+          <VStack
+            spacing={4}
+            style={{
+              height: "100%"
+            }}
+          >
+            <Text fontWeight={"semibold"}>scegli il tour</Text>
+            <Select
+              size={"sm"}
+              onChange={({ target }) =>
+                onSelectedTour({
+                  name: target.value,
+                  places: tourCriminali.places[target.value]
+                })
+              }
+            >
               {tours.map(t => (
                 <option
-                  selected={selectedTourName === t.key}
+                  selected={selectedTour?.name === t.key}
                   key={t.key}
                   value={t.key}
                 >{`${t.key} (${t.count})`}</option>
               ))}
             </Select>
-            <Text fontWeight={"semibold"}>Scegli un intervallo di voto</Text>
+            <Text fontWeight={"semibold"}>scegli un intervallo di voto</Text>
             <EvaluationRangeSlider />
+
             <Text
               fontWeight={"normal"}
               style={{ marginTop: 30 }}
               fontSize={"small"}
             >
-              {selectedTour.places.length} risultati
+              {places.length} risultati
             </Text>
+
+            <Box
+              display={"flex"}
+              width={"100%"}
+              sx={{
+                "&::-webkit-scrollbar": {
+                  width: "6px",
+                  borderRadius: "2px",
+                  backgroundColor: `rgba(0, 0, 0, 0.10)`
+                },
+                "&::-webkit-scrollbar-thumb": {
+                  backgroundColor: `rgba(0, 0, 0, 0.10)`
+                }
+              }}
+              style={{
+                maxHeight: "100%",
+                overflowY: "auto",
+                scrollbarColor: "#ff0000"
+              }}
+            >
+              <PlacesList />
+            </Box>
           </VStack>
         </DrawerBody>
 

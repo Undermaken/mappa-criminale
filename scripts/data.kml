@@ -1968,6 +1968,48 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Mister Teglia</name>
+        <description><![CDATA[descrizione: Via Montebuono 1<br>link diretto alla posizione:: https://link.mappytube.com/WbOjGR<br>voto: 6.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Montebuono 1</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/WbOjGR</value>
+          </Data>
+          <Data name="voto">
+            <value>6.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5125604,41.9334395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizzeria a Taglio Angelo e Simonetta</name>
+        <description><![CDATA[descrizione: Via Nomentana 581<br>link diretto alla posizione:: https://link.mappytube.com/rLBnlq<br>voto: 9.25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Nomentana 581</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/rLBnlq</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5284827,41.932672,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Fritti Criminali</name>
@@ -3661,6 +3703,27 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Panificio Mosca</name>
+        <description><![CDATA[descrizione: <br>link diretto alla posizione:: <br>voto: ]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value/>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value/>
+          </Data>
+          <Data name="voto">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4543316,41.9085824,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Kebab Criminali</name>
@@ -4273,6 +4336,48 @@
         <Point>
           <coordinates>
             12.475828,41.881833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rivareno Gelato</name>
+        <description><![CDATA[descrizione: Via Magnagrecia 25<br>link diretto alla posizione:: https://link.mappytube.com/pE2L67<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Magnagrecia 25</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/pE2L67</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5095886,41.8846257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fatamorgana Trastevere</name>
+        <description><![CDATA[descrizione: Via Roma Libera 11<br>link diretto alla posizione:: https://link.mappytube.com/ngiV0h<br>voto: 8.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Roma Libera 11</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/ngiV0h</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4691714,41.8865059,0
           </coordinates>
         </Point>
       </Placemark>

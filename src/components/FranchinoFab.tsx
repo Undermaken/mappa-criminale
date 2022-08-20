@@ -1,17 +1,19 @@
-import { Avatar, Box, HStack, Text, VStack } from "@chakra-ui/react";
+import { Avatar, Box, HStack, Icon, Text, VStack } from "@chakra-ui/react";
 import { useAtomValue, useSetAtom } from "jotai";
-import { evalutationRangeAtom, menuOpenAtom } from "../state/menu";
+import { evaluationRangeAtom, menuOpenAtom } from "../state/menu";
+import { MdOutlineModeEditOutline } from "react-icons/md";
 
 type Props = {
   selectedTour: string;
   places: number;
 };
+// floating action button
 export const FranchinoFab = ({ selectedTour, places }: Props) => {
   const setMenuOpen = useSetAtom(menuOpenAtom);
-  const evalutationRange = useAtomValue(evalutationRangeAtom);
+  const { min, max } = useAtomValue(evaluationRangeAtom);
 
   return (
-    <Box style={{ zIndex: 1, position: "absolute", left: 4 }} bottom={2}>
+    <Box style={{ zIndex: 1, position: "absolute", left: 4 }} bottom={3}>
       <HStack
         style={{ cursor: "pointer" }}
         onClick={() => {
@@ -28,10 +30,13 @@ export const FranchinoFab = ({ selectedTour, places }: Props) => {
         />
         <Box p={2} bgColor={"whiteAlpha.900"} borderRadius={4}>
           <VStack alignItems={"flex-start"} spacing={1}>
-            <Text fontWeight={"semibold"}>{selectedTour}</Text>
+            <HStack>
+              <Text fontWeight={"semibold"}>{selectedTour}</Text>
+              <Icon as={MdOutlineModeEditOutline} />
+            </HStack>
             <Text
               fontSize={"sm"}
-            >{`intervallo voto da ${evalutationRange.min} a ${evalutationRange.max}`}</Text>
+            >{`tutti i risultati con voto da ${min} a ${max}`}</Text>
             <Text fontSize={"xs"}>{`${places} risultati`}</Text>
           </VStack>
         </Box>

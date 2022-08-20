@@ -11,11 +11,14 @@ export const InfoAndSocial = () => {
       <HStack mb={1}>
         <Link
           isExternal={true}
+          _focus={{ boxShadow: "none" }}
           href={"https://www.instagram.com/franchinoercriminale/"}
         >
           <Icon as={GrInstagram} color={"#363535"} />
         </Link>
+
         <Link
+          _focus={{ boxShadow: "none" }}
           isExternal={true}
           href={"https://www.youtube.com/c/FranchinoErCriminale"}
         >
