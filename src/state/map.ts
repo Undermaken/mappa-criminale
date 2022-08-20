@@ -28,25 +28,28 @@ export const selectedTourAtom = atom<SelectedTour | undefined>(
 export const placesSelector = atom<Place[]>(get => {
   const evaluationRange = get(evaluationRangeAtom);
   const selectedTour = get(selectedTourAtom);
+  const selectedPlace = get(selectedPlaceAtom);
   return F.pipe(
     selectedTour?.places,
     O.fromNullable,
     O.map(places =>
       places.filter(
         p =>
-          p.evaluation === undefined ||
+          // remove the place selected and add it later to render over all others markers
+          (p.id !== selectedPlace?.id && p.evaluation === undefined) ||
           (p.evaluation &&
             p.evaluation >= evaluationRange.min &&
             p.evaluation <= evaluationRange.max)
       )
     ),
-    O.map(places =>
-      places.sort((a, b) =>
+    O.map(places => [
+      ...places.sort((a, b) =>
         a.evaluation === b.evaluation
           ? 0
           : (b.evaluation ?? 0) - (a.evaluation ?? 0)
-      )
-    ),
+      ),
+      ...(selectedPlace ? [selectedPlace] : [])
+    ]),
     O.getOrElse<Place[]>(() => [])
   );
 });
