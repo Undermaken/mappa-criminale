@@ -26,6 +26,7 @@ import { EvaluationRangeSlider } from "./EvaluationRangeSlider";
 import { MadeWithLove } from "./MadeWithLove";
 import { InfoAndSocial } from "./InfoAndSocial";
 import { PlacesList } from "./PlacesList";
+import { useEffect, useState } from "react";
 
 type Props = Readonly<{
   onClose: () => void;

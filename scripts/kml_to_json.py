@@ -10,7 +10,7 @@ document = list(tree.getroot())[0]
 # places -> dict -> key: 'tour name', value: list of places
 # created_at -> timestamp when this dump is created
 mappa_criminale = {"places": {}, "created_at": datetime.timestamp(datetime.now())}
-
+place_id = 1
 for child in document:
     if child.tag.endswith("Folder"):
         folder_children = list(child)
@@ -29,8 +29,9 @@ for child in document:
             if [description, evaluation] == [None, None]:
                 continue
             mappa_criminale["places"][folder_name].append(
-                {"name": place_name, "description": description, "position_link": position_link,
+                {"id": place_id, "name": place_name, "description": description, "position_link": position_link,
                  "evaluation": evaluation, "coordinates": {"lat": lat, "lng": lng}})
+            place_id += 1
         print(f"processing '{folder_name}': {len(mappa_criminale['places'][folder_name])} places")
 
 with open('data.json', 'w+') as f:

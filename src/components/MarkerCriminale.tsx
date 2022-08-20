@@ -14,14 +14,13 @@ const getColorByEvaluation = (evaluation: number): string => {
 
 const useMemoColorByEvaluation = (evaluation: number) =>
   useMemo(() => getColorByEvaluation(evaluation), [evaluation]);
-
-const MarkerCriminale = ({
-  place
-}: {
+type Props = {
   place: Place;
+  selected: boolean;
   lat: number;
   lng: number;
-}) => {
+};
+const MarkerCriminale = ({ place, selected }: Props) => {
   const { evaluation } = place;
   const setSelectedPlace = useSetAtom(selectedPlaceAtom);
   const bgColor = useMemoColorByEvaluation(evaluation ?? 0);
@@ -43,7 +42,7 @@ const MarkerCriminale = ({
       name={evaluationRpr}
       getInitials={s => s}
       showBorder={true}
-      borderColor={"#24cad0"}
+      borderColor={selected ? "#dc0b0b" : "#24cad0"}
       w={8 + sizeIncrEven}
       h={8 + sizeIncrEven}
       size={"sm"}

@@ -1,6 +1,7 @@
 import { atomWithStorage } from "jotai/utils";
+import { atom } from "jotai";
 
-export const menuOpenAtom = atomWithStorage("menuOpenAtom", false);
+export const menuOpenAtom = atom(false);
 
 export const evaluationRangeAtom = atomWithStorage("evaluationRangeAtom", {
   min: 0,

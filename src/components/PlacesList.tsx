@@ -15,11 +15,12 @@ export const PlacesList = () => {
   const setMenuOpen = useSetAtom(menuOpenAtom);
   const places = useAtomValue(placesSelector);
   const setSelectedPlace = useSetAtom(selectedPlaceAtom);
+
   return (
     <List>
       {places.map(p => (
         <ListItem
-          key={p.name}
+          key={p.id}
           onClick={() => {
             setMenuOpen(false);
             setSelectedPlace(p);

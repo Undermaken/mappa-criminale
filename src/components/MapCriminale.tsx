@@ -14,6 +14,7 @@ import {
 import { FranchinoFab } from "./FranchinoFab";
 import { BottomDrawer } from "./BottomDrawer";
 import { useEffect, useState } from "react";
+import { PlacesList } from "./PlacesList";
 
 export const MapCriminale = () => {
   const [center, setCenter] = useState<Coords | undefined>();
@@ -61,13 +62,20 @@ export const MapCriminale = () => {
           language: "it",
           region: "it"
         }}
+        zoom={selectedPlace ? 13 : 11}
         center={center ?? selectedTour?.places[0]?.coordinates}
         defaultZoom={11}
       >
         {selectedPlaces.map((p, idx) => (
-          <MarkerMemo key={`marker.${idx}`} place={p} {...p.coordinates} />
+          <MarkerMemo
+            key={`marker.${idx}`}
+            place={p}
+            {...p.coordinates}
+            selected={selectedPlace?.id === p.id}
+          />
         ))}
       </GoogleMapReact>
+
       <FranchinoFab
         places={selectedPlaces.length}
         selectedTour={selectedTour?.name ?? ""}
