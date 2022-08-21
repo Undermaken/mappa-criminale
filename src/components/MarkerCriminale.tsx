@@ -39,6 +39,7 @@ const MarkerCriminale = ({ place, selected }: Props) => {
   return (
     <Avatar
       onClick={() => setSelectedPlace(place)}
+      zIndex={selected ? 10 : undefined}
       name={evaluationRpr}
       getInitials={s => s}
       showBorder={true}
