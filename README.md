@@ -26,8 +26,8 @@ causes markers flickering when scrolling the map
 ### Setup & Run
 1. install all dependencies<br/>
    `yarn install`
-2. create .env.local file
-   1. `cp .env.example .env.local`
+2. create `.env.local` file
+   1. run `cp .env.example .env.local`
 3. edit `.env.local` key `NEXT_PUBLIC_GMAPS_API_KEY` by adding your [Google Map API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 4. generate/update data<br/>
    `cd scripts;python kml_to_json.py`
