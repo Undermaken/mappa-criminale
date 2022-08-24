@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 import GoogleMapReact, { Coords } from "google-map-react";
 import { MarkerMemo } from "./MarkerCriminale";
 import { RightDrawer } from "./RightDrawer";
@@ -14,8 +14,9 @@ import {
 import { FranchinoFab } from "./FranchinoFab";
 import { BottomDrawer } from "./BottomDrawer";
 import { useEffect, useState } from "react";
-import { PlacesList } from "./PlacesList";
+import { isStringNotNullishOrEmpty } from "../utils/string";
 
+const googleMapAPIKey = process.env.NEXT_PUBLIC_GMAPS_API_KEY;
 export const MapCriminale = () => {
   const [center, setCenter] = useState<Coords | undefined>();
   const [selectedTour, setSelectedTour] = useAtom(selectedTourAtom);
@@ -46,7 +47,13 @@ export const MapCriminale = () => {
       setCenter(selectedTour.places[0]?.coordinates);
     }
   }, [selectedTour]);
-
+  if (!isStringNotNullishOrEmpty(googleMapAPIKey)) {
+    return (
+      <Center color={"red"} w={"100%"} height={"100vh"}>
+        Please add a valid Google Maps API KEY in your .env file
+      </Center>
+    );
+  }
   return (
     <Box w={"100%"} flex={1}>
       <GoogleMapReact
@@ -58,7 +65,7 @@ export const MapCriminale = () => {
           zoomControl: false
         }}
         bootstrapURLKeys={{
-          key: process.env.NEXT_PUBLIC_GMAPS_API_KEY as string,
+          key: googleMapAPIKey,
           language: "it",
           region: "it"
         }}
