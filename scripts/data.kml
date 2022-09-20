@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Mappa StreetFood Criminale - Franchino er Criminale</name>
-    <description><![CDATA[La mappa con tutti i locali visitati da Franchino er Criminale. Seguici o scrivici su https://link.mappytube.com/instagram <br><br>CONDIVIDILA :)<br>https://link.mappytube.com/franchinomap]]></description>
+    <description><![CDATA[ATTENZIONE! Vuoi fare parte del team per aiutarci sostenere il progetto? SCRIVICI QUI: https://link.mappytube.com/instagram <br><br>CONDIVIDILA :)<br>https://link.mappytube.com/franchinomap]]></description>
     <Style id="icon-1899-DB4436-labelson">
       <IconStyle>
         <color>ff3644db</color>
@@ -2010,6 +2010,69 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Boccione Pizzeria Friggitoria Bistrot Tavola Calda</name>
+        <description><![CDATA[descrizione: Via dei Monti Tiburtini 536<br>link diretto alla posizione:: https://link.mappytube.com/UA4JcE<br>voto: 9]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Monti Tiburtini 536</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/UA4JcE</value>
+          </Data>
+          <Data name="voto">
+            <value>9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.546599,41.9157976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gli Sfizi Dell'imperatore]]></name>
+        <description><![CDATA[descrizione: Viale Giustiniano Imperatore 55<br>link diretto alla posizione:: https://link.mappytube.com/UonTxE<br>voto: 6.75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Giustiniano Imperatore 55</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/UonTxE</value>
+          </Data>
+          <Data name="voto">
+            <value>6.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.481163,41.856584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Claudio & Claudio]]></name>
+        <description><![CDATA[descrizione: Viale di Trigoria 90<br>link diretto alla posizione:: https://link.mappytube.com/0hjHZs<br>voto: 8.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale di Trigoria 90</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/0hjHZs</value>
+          </Data>
+          <Data name="voto">
+            <value>8.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4778088,41.7675398,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Fritti Criminali</name>
@@ -2583,6 +2646,90 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Monte Gennaro Caffè</name>
+        <description><![CDATA[descrizione: Piazza Monte Gennaro 30<br>link diretto alla posizione:: https://link.mappytube.com/iwdlVx<br>voto: 6.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Piazza Monte Gennaro 30</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/iwdlVx</value>
+          </Data>
+          <Data name="voto">
+            <value>6.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5380668,41.9454765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lo Zio d'America]]></name>
+        <description><![CDATA[descrizione: Via Ugo Ojetti 2/6A<br>link diretto alla posizione:: https://link.mappytube.com/FF1ela<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Ugo Ojetti 2/6A</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/FF1ela</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5480626,41.9436545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo Spuntino Ristobar</name>
+        <description><![CDATA[descrizione: Via Cassia 927 G<br>link diretto alla posizione:: https://link.mappytube.com/27ZWrF<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cassia 927 G</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/27ZWrF</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4332929,41.9714562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wine Bar De' Penitenzieri]]></name>
+        <description><![CDATA[descrizione: Via dei Penitenzieri 16/17<br>link diretto alla posizione:: https://link.mappytube.com/8jb62o<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via dei Penitenzieri 16/17</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/8jb62o</value>
+          </Data>
+          <Data name="voto">
+            <value>8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4608059,41.9012103,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Maritozzi Criminali</name>
@@ -2688,91 +2835,6 @@
         <Point>
           <coordinates>
             12.453661,41.911562,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Monte Gennaro Caffè</name>
-        <description><![CDATA[descrizione: Piazza Monte Gennaro 30<br><br>link diretto alla posizione:: https://tinyurl.com/y36dkmff<br>voto: 6.5]]></description>
-        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="descrizione">
-            <value>Piazza Monte Gennaro 30
-</value>
-          </Data>
-          <Data name="link diretto alla posizione:">
-            <value>https://tinyurl.com/y36dkmff</value>
-          </Data>
-          <Data name="voto">
-            <value>6.5</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.538253,41.9454934,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name><![CDATA[Lo Zio d'America]]></name>
-        <description><![CDATA[descrizione: Via Ugo Ojetti 2/6A<br>link diretto alla posizione:: https://tinyurl.com/y4b4zz34<br>voto: 6]]></description>
-        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="descrizione">
-            <value>Via Ugo Ojetti 2/6A</value>
-          </Data>
-          <Data name="link diretto alla posizione:">
-            <value>https://tinyurl.com/y4b4zz34</value>
-          </Data>
-          <Data name="voto">
-            <value>6</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.5480626,41.9436545,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Lo Spuntino Ristobar</name>
-        <description><![CDATA[descrizione: Via Cassia 927 G<br>link diretto alla posizione:: https://tinyurl.com/y5e4uxds<br>voto: 7.5]]></description>
-        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="descrizione">
-            <value>Via Cassia 927 G</value>
-          </Data>
-          <Data name="link diretto alla posizione:">
-            <value>https://tinyurl.com/y5e4uxds</value>
-          </Data>
-          <Data name="voto">
-            <value>7.5</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.4332929,41.9714562,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name><![CDATA[Wine Bar De' Penitenzieri]]></name>
-        <description><![CDATA[descrizione: Via dei Penitenzieri, 16/16A/16B/17<br>link diretto alla posizione:: https://tinyurl.com/y3n4bsdc<br>voto: 8]]></description>
-        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="descrizione">
-            <value>Via dei Penitenzieri, 16/16A/16B/17</value>
-          </Data>
-          <Data name="link diretto alla posizione:">
-            <value>https://tinyurl.com/y3n4bsdc</value>
-          </Data>
-          <Data name="voto">
-            <value>8</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.4608059,41.9012103,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3721,6 +3783,69 @@
         <Point>
           <coordinates>
             12.4543316,41.9085824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Panificio GI.SA. & Rossella]]></name>
+        <description><![CDATA[descrizione: Via Alessandro Mallarda 9<br>link diretto alla posizione:: https://link.mappytube.com/MCREO4<br>voto: 7.5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Alessandro Mallarda 9</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/MCREO4</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5463836,41.9196473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antico Forno Srl</name>
+        <description><![CDATA[descrizione: Via Pan 32<br>link diretto alla posizione:: https://link.mappytube.com/n4pqXW<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Pan 32</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/n4pqXW</value>
+          </Data>
+          <Data name="voto">
+            <value>6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5545932,41.9152197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panificio Salvucci</name>
+        <description><![CDATA[descrizione: Via di Pietralata 315/C; Via di Pietralata 315/C<br>link diretto alla posizione:: https://link.mappytube.com/yiHczp<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Pietralata 315/C; Via di Pietralata 315/C</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/yiHczp</value>
+          </Data>
+          <Data name="voto">
+            <value>5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5470079,41.9213585,0
           </coordinates>
         </Point>
       </Placemark>
@@ -4906,6 +5031,258 @@
         <Point>
           <coordinates>
             12.478924,41.851815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panini al 100</name>
+        <description><![CDATA[descrizione: Via di Trigoria 100<br>link diretto alla posizione:: https://link.mappytube.com/bPki6W<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Trigoria 100</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/bPki6W</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4773684,41.7664948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>America Graffiti</name>
+        <description><![CDATA[descrizione: Via Acerenza 4<br>link diretto alla posizione:: https://link.mappytube.com/1QlKYE<br>voto: 7]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Acerenza 4</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/1QlKYE</value>
+          </Data>
+          <Data name="voto">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5520659,41.8406865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KFC</name>
+        <description><![CDATA[descrizione: Via Appia Nuova 448<br>link diretto alla posizione:: https://link.mappytube.com/8L25Ss<br>voto: 5,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Appia Nuova 448</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/8L25Ss</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5225377,41.8740341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smash Tag</name>
+        <description><![CDATA[descrizione: Via Michele Di Lando 22-24<br>link diretto alla posizione:: https://link.mappytube.com/vRemrp<br>voto: 6]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Michele Di Lando 22-24</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/vRemrp</value>
+          </Data>
+          <Data name="voto">
+            <value>6.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.5222895,41.9137813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Phil's Deli - Slow Smoked Barbecue | Pastrami]]></name>
+        <description><![CDATA[descrizione: Viale del Tintoretto 420<br>link diretto alla posizione:: https://link.mappytube.com/649fgT<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale del Tintoretto 420</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/649fgT</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4971579,41.8335497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AO StreetFood Market Lab</name>
+        <description><![CDATA[descrizione: Viale Pico della Mirandola 50, Mercato della Montagnola<br>link diretto alla posizione:: https://link.mappytube.com/y040i7<br>voto: 9,25]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale Pico della Mirandola 50, Mercato della Montagnola</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/y040i7</value>
+          </Data>
+          <Data name="voto">
+            <value>9.25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4859274,41.8466688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panini al 100</name>
+        <description><![CDATA[descrizione: Via di Trigoria 100<br>link diretto alla posizione:: https://link.mappytube.com/bPki6W<br>voto: 7,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via di Trigoria 100</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/bPki6W</value>
+          </Data>
+          <Data name="voto">
+            <value>7.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4773684,41.7664948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Wild West</name>
+        <description><![CDATA[descrizione: Via Cristoforo Colombo 551<br>link diretto alla posizione:: https://link.mappytube.com/mG42bv<br>voto: 5,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Cristoforo Colombo 551</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/mG42bv</value>
+          </Data>
+          <Data name="voto">
+            <value>5.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4718064,41.8345971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnny Rockets</name>
+        <description><![CDATA[descrizione: Viale dell’Oceano Pacifico 83<br>link diretto alla posizione:: https://link.mappytube.com/ItDrSc<br>voto: 5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Viale dell’Oceano Pacifico 83</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/ItDrSc</value>
+          </Data>
+          <Data name="voto">
+            <value>5.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4596323,41.817063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SO EAT</name>
+        <description><![CDATA[descrizione: Via del Pianeta Saturno 63<br>link diretto alla posizione:: https://link.mappytube.com/ZUTIfe<br>voto: 8]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via del Pianeta Saturno 63</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/ZUTIfe</value>
+          </Data>
+          <Data name="voto">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4443308,41.8163639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saloon del Panino - Portuense</name>
+        <description><![CDATA[descrizione: Via Portuense 519<br>link diretto alla posizione:: https://link.mappytube.com/KnwXy1<br>voto: 8,75]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Portuense 519</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/KnwXy1</value>
+          </Data>
+          <Data name="voto">
+            <value>8.75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.451423,41.8597751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRASSO - Good Food</name>
+        <description><![CDATA[descrizione: Via Portuense 456<br>link diretto alla posizione:: https://link.mappytube.com/oBoxdQ<br>voto: 5,5]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="descrizione">
+            <value>Via Portuense 456</value>
+          </Data>
+          <Data name="link diretto alla posizione:">
+            <value>https://link.mappytube.com/oBoxdQ</value>
+          </Data>
+          <Data name="voto">
+            <value>5.5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.4500135,41.8591841,0
           </coordinates>
         </Point>
       </Placemark>
